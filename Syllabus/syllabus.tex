@@ -1,0 +1,274 @@
+% !TEX program = XeLaTex
+\documentclass[10pt]{article}
+%\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+
+\usepackage[margin=1.15in]{geometry}
+\usepackage{setspace, titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+%% FONTS
+\usepackage{fontspec}
+% See: https://tex.stackexchange.com/a/50593
+\setmainfont[
+BoldFont       = FiraSans-SemiBold.otf,
+ItalicFont     = FiraSans-Italic.otf,
+BoldItalicFont = FiraSans-SemiBoldItalic.otf
+]{FiraSans-Regular.otf} %
+\setmonofont[
+BoldFont       = FiraCode-Bold.ttf
+]{FiraCode-Regular.ttf}
+\usepackage{marvosym} % For cool symbols.
+\usepackage{fontawesome} % Ditto
+%\usepackage{libertine}
+
+\usepackage[normalem]{ulem} %% For strikeout font: \sout()
+
+\usepackage[dvipsnames]{xcolor}
+\definecolor{uo_green}{HTML}{154733}
+\definecolor{forest_green}{HTML}{006241}
+\definecolor{pine_green}{HTML}{007935}
+\definecolor{grass_green}{HTML}{62A70F}
+\definecolor{golden_yellow}{HTML}{FFD200}
+\definecolor{cool_gray}{HTML}{54565B}
+\definecolor{light_cool_gray}{HTML}{A8A8AA}
+
+\usepackage[colorlinks = true,
+linkcolor = pine_green,
+urlcolor  = pine_green,
+citecolor = pine_green,
+anchorcolor = black]{hyperref}
+\usepackage{graphicx}
+
+% For table formatting:
+\usepackage{array, booktabs, caption, siunitx, multirow, float}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+
+\begin{document}
+
+\title{
+	\texttt{\textbf{Introduction to Econometrics} [EC 320]}\\[1em]
+	\large Fall 2019 Syllabus
+}
+\author{\textbf{Kyle Raze} \\ Department of Economics \\ University of Oregon}
+%\date{}  % Toggle commenting to test
+\date{\vspace{-1ex}}
+
+\maketitle
+
+%\section*{Course at a glance}
+
+\begin{table}[!h]
+	\ra{1.1}
+\begin{tabular}{l @{\hspace{1.25\tabcolsep}} l l l @{\hspace{1.25\tabcolsep}} l l l @{\hspace{1.25\tabcolsep}} l @{}}
+	& \textbf{{Lecture}} & & & \textbf{{Lab}} & & & \textbf{{Materials}} \\
+	\faMapMarker & \href{https://map.uoregon.edu/1067e3edd}{Chapman 220} & & \faMapMarker &  \href{https://map.uoregon.edu/c959df181}{McKenzie 442} & & \faBook & \href{https://www.amazon.com/Mastering-Metrics-Path-Cause-Effect/dp/0691152845/}{Mastering `Metrics} \\
+	\faClockO & MW, 1200--1320 & & \faClockO & See \href{https://duckweb.uoregon.edu/pls/prod/twbkwbis.P_WWWLogin}{DuckWeb} & & \faBook & \href{http://smile.amazon.com/Introduction-Econometrics-Christopher-Dougherty/dp/0199676828/}{Introduction to Econometrics, 5\textsuperscript{th} ed. } \\
+	& & & & & & \faLaptop & \href{https://www.r-project.org/}{\textbf{\texttt{R}}} \\
+	& & & & & & \faLaptop & \href{https://www.rstudio.com}{\textbf{\texttt{RStudio}}}
+\end{tabular}
+\end{table}
+
+\begin{table}[!h]
+	\ra{1.1}
+\begin{tabular}{l @{\hspace{1.25\tabcolsep}} l @{}}
+	& \textbf{{Instructor}}\\
+	\faUser & Kyle Raze \\
+	\faGlobe & \href{https://kyleraze.com}{kyleraze.com} \\
+	\faPaperPlaneO & \href{mailto:raze@uoregon.edu}{raze@uoregon.edu} \\
+	\faMapMarker & \href{https://map.uoregon.edu/1dc7083e6}{PLC 522} \\
+	\faClockO & T 1500--1600, Th 1000--1100, or by appointment	
+\end{tabular}
+\end{table}
+
+\begin{table}[!h]
+	\ra{1.1}
+	\begin{tabular}{l @{\hspace{1.25\tabcolsep}} l l l @{\hspace{1.25\tabcolsep}} l @{}}
+		& \textbf{{GE}} & & & \textbf{{GE}} \\
+		\faUser & Youssef Ait Benasser & & \faUser & Saurabh Gupta \\
+		\faPaperPlaneO & \href{mailto:youssefa@uoregon.edu}{youssefa@uoregon.edu} & & \faPaperPlaneO & \href{mailto:saurabhg@uoregon.edu}{saurabhg@uoregon.edu} \\
+		\faMapMarker & \href{https://map.uoregon.edu/b9d2d41f7}{PLC 506} & & \faMapMarker & \href{https://map.uoregon.edu/f0c93bf39}{PLC 820} \\
+		\faClockO & M 1400--1600 & & \faClockO & T 1200-1400
+	\end{tabular}
+\end{table}
+
+\section*{Course summary}
+
+\paragraph{Description:} This course introduces the statistical techniques that help economists learn about the world using data. We will focus much of our attention on regression analysis, the workhorse of applied econometrics. Using calculus and introductory statistics, we will cultivate a working understanding of the theory underpinning regression analysis---\textit{how} it works, \textit{why} it works, and, \textit{when it can lead us astray}. We will apply the insights of theory to work with and learn from actual data using \texttt{{R}}, a statistical programming language. To the extent that you invest the requisite time and effort, you can leave this course with marketable skills in data analysis and---most importantly---a more sophisticated understanding of the notion that \textbf{correlation does not necessarily imply causation}. 
+
+\paragraph{Prerequisites:} Math 242 (Calculus) and Math 243 (Introduction to Statistics) or equivalent.
+
+\newpage
+
+\subsection*{Software}
+
+\begin{itemize}
+  \item We will use the statistical programming language \href{https://www.r-project.org/}{\textbf{\texttt{R}}}.
+  \item We will use \href{https://www.rstudio.com}{\textbf{\texttt{RStudio}}} to interact with \texttt{R}.
+\end{itemize}
+Learning \texttt{R} is challenging, but well worth the effort. \texttt{R} is a powerful and versatile tool for data analysis and visualization, which makes it popular among employers. If you dedicate the time and effort necessary to learn the language, you are likely to reap a handsome return on the job market. The SSIL lab in McKenzie has \texttt{R} and \texttt{RStudio} installed and ready for you, but I strongly recommend that you install these programs on your own computer. Don't worry, \textbf{both are free}. I also recommend that you purchase a flash drive to save your scripts, data, and assignments. Alternatively, you can use the class network drive (the ``R drive"), which is available on all university computers.
+
+If you are concerned about learning \texttt{R}---or you want to learn quicker---I recommend that you check out the following free online resources:
+\begin{itemize}
+  \item \href{https://www.datacamp.com/courses/free-introduction-to-r}{DataCamp's \textit{Introduction to R}}
+  \item \href{https://www.teamleada.com/courses/r-bootcamp}{TeamLeada's \textit{R Bootcamp}}
+  \item \href{https://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html}{Computerworld's \textit{Beginner's guide to R}}
+\end{itemize}
+The \texttt{RStudio} team has also assembled a \href{https://www.rstudio.com/online-learning/}{useful set of resources}.
+
+\subsection*{Textbooks}
+
+\paragraph{Required:} There are two required textbooks for this course:
+
+\begin{enumerate}
+	\item \href{https://www.amazon.com/Mastering-Metrics-Path-Cause-Effect/dp/0691152845/}{\textbf{Mastering `Metrics: The Path from Cause to Effect}} by Angrist and Pischke (\textbf{MM})
+	\item \href{http://smile.amazon.com/Introduction-Econometrics-Christopher-Dougherty/dp/0199676828/}{\textbf{Introduction to Econometrics}, 5\textsuperscript{th} ed.} by Christopher Dougherty (\textbf{ItE})
+\end{enumerate}
+You can purchase them at the Duckstore or your preferred online bookseller. You should complete the assigned readings from the textbooks \textit{before} lecture. Attending lecture is not a substitute for reading and comprehending the texts. Likewise, reading is not a substitute for attending lecture. The lectures and the readings are meant to \textit{complement} one another. The tentative course schedule (further below) lists the assigned readings for each topic.
+
+In addition to the textbook readings, I may occasionally assign readings from peer-reviewed studies for classroom discussion. I will post these readings on Canvas.
+
+\paragraph{Optional:} There is a wealth of free online books for learning \texttt{R}. A classic is Garrett Grolemund and Hadley Wickham's \href{http://r4ds.had.co.nz}{\textbf{\textit{R} for Data Science}}. If you have previous experience coding in \texttt{R}, you may want to check out Hadley Wickham's \href{http://adv-r.had.co.nz/}{\textbf{Advanced \textit{R}}}. If you are interested in producing beautiful and informative graphs or maps, I highly recommend Kieran Healy's \href{http://socviz.co/}{\textbf{Data Visualization: A Practical Introduction}}.
+
+\newpage
+\section*{Course Structure}
+
+\subsection*{Grading}
+
+I will award grades based on your relative performance in the class, as determined by the following weights:
+\begin{table}[!h]
+	\ra{1.2}
+	\centering
+	\begin{tabular}{@{\extracolsep{1cm}}ll@{}}
+		\textbf{Problem Sets} & 30\% \\
+		\textbf{Midterm Exam I} & 20\% \\
+		\textbf{Midterm Exam II} & 20\% \\
+		\textbf{Final Exam}   & 30\%
+	\end{tabular}
+\end{table}
+
+\subsection*{Problem Sets} 
+
+I will assign \textbf{five} biweekly problem sets throughout the quarter. Each problem set will include an analytical component and a computational component. 
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\item I will announce due dates in class. 
+	\item You will turn in an \textbf{electronic copy} of each problem set on Canvas.
+	\item Presentation matters. You can earn bonus points for producing professional work (\textit{e.g.}, clear language, typed equations, tasteful fonts, tables and graphs with informative labels, \textit{etc}.).
+	\item I will drop your lowest problem set score.
+\end{itemize}
+I encourage you to work together on the problem sets. Unless explicitly stated, \textbf{each student is required to write and submit independent answers}. I will take word-for-word copies as evidence of academic dishonesty. If you work with others, list their names at the top of your assignment. If you fail to list your collaborators, you will receive a score of zero.
+
+\subsection*{Exams} 
+
+For each exam, I will generate a randomized seating chart. During the exams, you may use a writing utensil, a non-programmable calculator, and a 3-by-5-inch notecard. As you turn in your exam, I will ask you to present your student ID. I do not give makeup exams. See the course policy on makeup assignments for more information.  
+
+\subsection*{Lab} 
+
+In your weekly lab section, you will learn to apply the concepts discussed in lecture using \texttt{R}. While the lab may include some general econometrics instruction, the main focus is on the practical application of statistical techniques and working through the computational components of the biweekly problem sets. Attending lab is crucial for learning the material and passing the course. Due to space constraints, \textbf{you must attend the lab for which you registered}.
+
+\newpage
+
+\section*{Course Policies}
+
+\subsection*{Late Policy} 
+
+I will not accept late problem sets after the due date. If you turn in a problem set on the due date, but after the deadline, I reserve the right to deduct points. If you turn it in after I post the key, you will receive a zero.
+
+\subsection*{Makeup Assignments} 
+
+I do not give makeup assignments. This blanket ban extends to exams. In extreme circumstances that lead you to miss one of the midterm exams---such as death in the family or grave illness or injury---I will consider re-weighting your grade toward the final. To qualify for re-weighting, you will need to notify me no later than two days after the exam, provide documentation that your absence was due to extreme circumstances, and complete a qualifying assignment.
+
+\subsection*{Grade Appeals} 
+
+You must submit any request for re-grading in writing within one week of the day grades are posted for the problem set or exam in question. Your request should include a cogent argument explaining why your responses warrant full credit.
+
+\subsection*{Etiquette} 
+
+Please respect those around you by turning off your phone and other potentially distracting devices. I ask that you stay for the entire lecture: getting up and leaving distracts your fellow classmates. If you must leave early, please position yourself near the door when you get to class. As a final note, a growing body of evidence suggests that \href{https://www.theverge.com/2017/11/27/16703904/laptop-learning-lecture}{using laptops in lecture reduces comprehension and recollection}. In light of this evidence, I ask that you refrain from using your laptop during lecture. As a practical matter, it is much easier to write math by hand than it is to type it. 
+
+\subsection*{Academic Integrity} 
+
+I will not tolerate cheating, plagiarism, and other violations of the \href{https://studentlife.uoregon.edu/conduct}{Student Conduct Code}. If I catch you cheating or plagiarizing on any component of this course, you will receive a failing grade for the term and I will report your offense to the university. 
+
+\subsection*{Accommodations} 
+
+Notify me if there are aspects of this course that pose disability-related barriers to your participation. If you require special accommodations for a documented disability, then you will need to provide me a letter from the \href{https://aec.uoregon.edu/}{Accessible Education Center} (AEC) that verifies your need and details the appropriate accommodations. Please make arrangements with the AEC by the end of Week 1. If your accommodations include exam proctoring at the AEC, then you are responsible for scheduling those exams with the AEC \textit{at least seven days in advance}.
+
+\newpage
+\section*{Tentative Schedule}
+
+\begin{table}[H]
+	\caption*{\large\textbf{Lectures and Exams}}
+	\centering
+  \ra{1.5}
+  \begin{tabular}{@{\extracolsep{0.5cm}} c c l l @{}}
+    \toprule
+    \textbf{Week} & \textbf{Date} & \textbf{Topic} & \textbf{Reading}  \\ \toprule
+    01 & 10/02 & Introduction & \\
+    02 & 10/07 & Statistics Review I & ItE Review \\
+    02 & 10/09 & Statistics Review II & ItE Review; MM 1 (appendix) \\
+    03 & 10/14 & The Fundamental Econometric Problem & MM 1 \\
+    03 & 10/16 & The Logic of Regression & MM 2  \\
+    04 & 10/21 & Midterm I Review & \\ \midrule
+    04 & 10/23 & \textbf{Midterm Exam I: High Concepts} (in-class) \\ \midrule
+    05 & 10/28 & Simple Linear Regression: Estimation I & ItE 1  \\
+    05 & 10/30 & Simple Linear Regression: Estimation II & ItE 1 \\
+    06 & 11/04 & Classical Assumptions & ItE 1  \\
+    06 & 11/06 & Simple Linear Regression: Inference & ItE 2 \\
+    07 & 11/11 & Multiple Linear Regression: Estimation & ItE 3, 6.2; MM 2 (appendix) \\
+    07 & 11/13 & Multiple Linear Regression: Inference & ItE 3, 6.3; MM 2 (appendix) \\
+    08 & 11/18 & Midterm II Review &   \\ \midrule
+    08 & 11/20 & \textbf{Midterm Exam II: The Weeds} (in-class) \\ \midrule
+    09 & 11/25 & Categorical Variables & ItE 5  \\
+    09 & 11/27 & Interactive Relationships & ItE 4  \\
+    10 & 12/02 & Nonlinear Relationships & ItE 4  \\
+    10 & 12/04 & Final Review &  Discussion paper (see Canvas) \\ \midrule
+    11 & 12/10 & \textbf{Final Exam} (see \href{https://registrar.uoregon.edu/calendars/examinations#complete-final-exam-schedule}{final exam schedule}) \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{center}
+	\textbf{Subject to change!}
+\end{center}
+
+\newpage
+\section*{Tentative Schedule}
+
+\begin{table}[H]
+	\caption*{\large\textbf{Labs and Problem Sets}}
+	\centering
+	\ra{1.5}
+	\begin{tabular}{@{\extracolsep{0.5cm}} c c l @{}}
+		\toprule
+		\textbf{Week} & \textbf{Date} & \textbf{Topic}  \\ \toprule
+		01 &  & Lab: Introduction to \texttt{R} and \texttt{RStudio} \\
+		02 &  & Lab: Introduction to the \texttt{tidyverse} \\ 
+		03 & 10/14 & \textbf{Problem Set 1} (due on Canvas by 5pm)  \\ \midrule
+		03 &  & Lab: Experimental vs.\ Non-Experimental Data Analysis \\ 
+		04 & 10/21 & \textbf{Problem Set 2} (due on Canvas by 5pm)  \\ \midrule
+		04 &  & Lab: Introduction to \texttt{Rmarkdown} \\ 
+		05 &  & Lab: Regression Analysis \\ 
+		06 & 11/04 & \textbf{Problem Set 3} (due on Canvas by 5pm) \\ \midrule
+		06 &  & Lab: Hypothesis Testing and Confidence Intervals \\
+		07 &  & Lab: Omitted-Variable Bias and Hypothesis Testing \\ 
+		08 & 11/18 & \textbf{Problem Set 4} (due on Canvas by 5pm)  \\ \midrule
+		08 &  & Lab: Maps with \texttt{ggplot2}! \\
+		09 &  & \textbf{No Lab}: \textit{Thanksgiving} \\ 
+		10 & 12/02 & \textbf{Problem Set 5} (due on Canvas by 5pm) \\ \midrule
+		10 &  & Lab: Marginal Effects \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{center}
+	\textbf{Subject to change!}
+\end{center}
+
+\end{document}

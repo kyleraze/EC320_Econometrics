@@ -1,0 +1,202 @@
+<!-- --- -->
+<!-- # Data -->
+
+<!-- ## Experimental data -->
+
+<!-- Data generated in controlled, laboratory settings. -->
+
+<!-- -- -->
+
+<!-- Ideal for __causal identification__, but rare in the social sciences. -->
+
+<!-- - Intractable logistical problems -->
+<!-- - Too expensive -->
+<!-- - Morally repugnant -->
+
+<!-- -- -->
+
+<!-- Experiments outside the lab: __randomized control trials__. -->
+
+<!-- --- -->
+<!-- # Data -->
+
+<!-- ## Observational data -->
+
+<!-- Data generated in non-experimental settings. -->
+
+<!-- -- -->
+
+<!-- - Surveys -->
+<!-- - Censuses -->
+<!-- - Administrative records -->
+<!-- - Environmental data -->
+<!-- - Financial and sales transactions -->
+<!-- - Social media -->
+
+<!-- -- -->
+
+<!-- Mainstay of economic research, but __poses challenges__ to causal identification. -->
+
+<!-- --- -->
+<!-- # Data -->
+
+<!-- .more-left[ -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- data(murders) -->
+<!-- murders <- select(murders, state, population, total) -->
+<!-- DT::datatable( -->
+<!--   murders, -->
+<!--   colnames = c('<span style="color: #7CAE96 !important">State</span>', '<span style="color: #7CAE96 !important">Population</span>', '<span style="color: #7CAE96 !important">Murders</span>'), -->
+<!--   fillContainer = FALSE, options = list(pageLength = 6, lengthChange = FALSE, pagingType = "simple"), escape = FALSE) %>%  -->
+<!--   DT::formatStyle('state', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('population', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('total', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle(0, color = '#FFA500') -->
+<!-- ``` -->
+
+<!-- ] -->
+
+<!-- .less-right[ -->
+
+<!-- .hi-orange[Rows] represent .hi-orange[observations]. -->
+
+<!-- .hi-green[Columns] represent .hi-green[variables]. -->
+
+<!-- Each .hi-purple[value] is associated with an .hi-orange[observation] and a .hi-green[variable]. -->
+
+<!-- ] -->
+
+<!-- --- -->
+<!-- # Cross Sectional Data -->
+
+<!-- .hi-purple[Sample of individuals from a population at a point in time.] -->
+
+<!-- Ideally, collected using __random sampling__. -->
+
+<!-- - Random sampling .mono[+] sufficient sample size .mono[=] representative sample.  -->
+
+<!-- - Random sampling simplifies data analysis, but non-random samples are common (and difficult to work with). -->
+
+<!-- Used extensively in applied microeconomics.<sup>*</sup> -->
+
+<!-- __Main focus of this course.__ -->
+
+<!-- .footnote[ -->
+<!-- <sup>*</sup> Applied microeconomics .mono[=] Labor, health, education, public finance, development, industrial organization, and urban economics. -->
+<!-- ] -->
+
+<!-- --- -->
+<!-- # Cross Sectional Data -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- data(wage1) -->
+<!-- wage1 <- select(wage1, wage, educ, tenure, female, nonwhite) %>%  -->
+<!--   mutate(wage = round(wage, 2)) -->
+<!-- DT::datatable( -->
+<!--   wage1, -->
+<!--   caption = c("Sample of US workers (Current Population Survey, 1976)"), -->
+<!--   colnames = c('<span style="color: #7CAE96 !important">Wage</span>', '<span style="color: #7CAE96 !important">Education</span>', '<span style="color: #7CAE96 !important">Tenure</span>', '<span style="color: #7CAE96 !important">Female?</span>', '<span style="color: #7CAE96 !important">Non-white?</span>'), -->
+<!--   fillContainer = FALSE, options = list(pageLength = 6, lengthChange = FALSE, searching = FALSE), escape = FALSE) %>%  -->
+<!--   DT::formatStyle('wage', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('educ', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('tenure', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('female', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('nonwhite', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle(0, color = '#FFA500') -->
+<!-- ``` -->
+
+<!-- --- -->
+<!-- # Time Series Data -->
+
+<!-- .hi-purple[Observations of variables over time.] -->
+
+<!-- - Quarterly US GDP -->
+<!-- - Annual US infant mortality rates -->
+<!-- - Daily Amazon stock prices -->
+
+<!-- Complication: Observations are not independent draws. -->
+
+<!-- - GDP this quarter highly related to GDP last quarter. -->
+
+<!-- Used extensively in empirical macroeconomics. -->
+
+<!-- Requires more-advanced methods (EC 421 and EC 422). -->
+
+<!-- --- -->
+<!-- # Time Series Data -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- data(StrikeNb) -->
+<!-- StrikeNb <- select(StrikeNb, time, strikes, output) -->
+<!-- DT::datatable( -->
+<!--   StrikeNb, -->
+<!--   caption = c("Number of US manufacturing strikes per month (Jan. 1968 to Dec. 1976)"), -->
+<!--   colnames = c('<span style="color: #7CAE96 !important">Period</span>', '<span style="color: #7CAE96 !important">Strikes</span>', '<span style="color: #7CAE96 !important">Output</span>'), -->
+<!--   fillContainer = FALSE, options = list(pageLength = 6, lengthChange = FALSE, searching = FALSE), escape = FALSE) %>%  -->
+<!--   DT::formatStyle('time', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('strikes', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('output', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle(0, color = '#FFA500') -->
+<!-- ``` -->
+
+<!-- --- -->
+<!-- # Pooled Cross Sectional Data -->
+
+<!-- .hi-purple[Cross sections from different points in time.] -->
+
+<!-- Useful for studying policy changes and relationship that change over time. -->
+
+<!-- Requires more-advanced methods (EC 421 and many 400-level applied micro classes). -->
+
+<!-- --- -->
+<!-- # Pooled Cross Sectional Data -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- data('fertil1') -->
+<!-- fertil1 <- select(fertil1, year, educ, age, kids, black) -->
+<!-- DT::datatable( -->
+<!--   fertil1, -->
+<!--   caption = c("Sample of US women (General Social Survey, 1972 to 1984)"), -->
+<!--   colnames = c('<span style="color: #7CAE96 !important">Year</span>', '<span style="color: #7CAE96 !important">Education</span>', '<span style="color: #7CAE96 !important">Age</span>', '<span style="color: #7CAE96 !important">Children</span>', '<span style="color: #7CAE96 !important">Black?</span>'), -->
+<!--   fillContainer = FALSE, options = list(pageLength = 6, lengthChange = FALSE, searching = FALSE), escape = FALSE) %>%  -->
+<!--   DT::formatStyle('year', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('educ', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('age', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('kids', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('black', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle(0, color = '#FFA500') -->
+<!-- ``` -->
+
+<!-- --- -->
+<!-- # Panel or Longitudinal Data -->
+
+<!-- .hi-purple[Time series for each cross-sectional unit.] -->
+
+<!-- - Example: daily attendance data for a sample of students. -->
+
+<!-- Difficult to collect, but useful for causal identification. -->
+
+<!-- - Can control for _unobserved_ characteristics. -->
+
+<!-- Requires more-advanced methods (EC 421 and many 400-level applied micro classes). -->
+
+<!-- --- -->
+<!-- # Panel or Longitudinal Data -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- data(Males) -->
+<!-- Males <- select(Males, nr, year, exper, wage, union) %>%  -->
+<!--   mutate(wage = round(wage, 2)) -->
+<!-- DT::datatable( -->
+<!--   Males, -->
+<!--   caption = c("Panel of US workers (National Longitudinal Survey of Youth, 1980 to 1987)"), -->
+<!--   colnames = c('<span style="color: #7CAE96 !important">ID</span>', '<span style="color: #7CAE96 !important">Year</span>', '<span style="color: #7CAE96 !important">Experience</span>', '<span style="color: #7CAE96 !important">log(Wage)</span>', '<span style="color: #7CAE96 !important">Union</span>'), -->
+<!--   fillContainer = FALSE, options = list(pageLength = 6, lengthChange = FALSE, searching = FALSE), escape = FALSE) %>%  -->
+<!--   DT::formatStyle('nr', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('year', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('exper', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('union', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle('wage', color = '#6A5ACD') %>%  -->
+<!--   DT::formatStyle(0, color = '#FFA500') -->
+<!-- ``` -->
