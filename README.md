@@ -5,16 +5,14 @@ Welcome to the course GitHub page for **EC 320: Introduction to Econometrics** (
 - Instructor: [Kyle Raze](https://kyleraze.com)
 - GE (grader): Youssef Ait Benasser
 - GE (lab): Saurabh Gupta 
-- [Syllabus](Syllabus/syllabus.pdf)
+- [Syllabus](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Syllabus/syllabus.pdf)
 
 ## Lectures
 
 The .html versions of the lecture slides allow you to view animations and interactive features, provided that you have an internet connection. The .pdf slides don't require an internet connection, but they cannot render the animations or interactive features.
 
-### Lecture 01: []() What is Econometrics?
-
-Links: []
+1. **What is Econometrics?** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.pdf)
 
 ## Other Content
 
-For lab documents, problem sets, and other materials, see Canvas.
+For supplemental lecture documents, lab documents, problem sets, and other materials, see Canvas.
