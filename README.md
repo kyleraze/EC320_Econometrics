@@ -9,7 +9,7 @@ Welcome to the course GitHub page for **EC 320: Introduction to Econometrics** (
 
 ## Lectures
 
-The .html versions of the lecture slides allow you to view animations and interactive features, provided that you have an internet connection. The .pdf slides don't require an internet connection, but they cannot render the animations or interactive features.
+The .html versions of the lecture slides allow you to view animations and interactive features, provided that you have an internet connection. The .pdf slides don't require an internet connection, but they cannot display the animations or interactive features.
 
 1. **What is Econometrics?** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.pdf)
 
