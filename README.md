@@ -19,9 +19,9 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 ## Labs
 
-1. **Introduction to .mono[R]** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
+1. **Introduction to `R`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
 
-2. **Introduction to the .mono[tidyverse]** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse_data.csv)
+2. **Introduction to the `tidyverse`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse_data.csv)
 
 
 ## Other Content
