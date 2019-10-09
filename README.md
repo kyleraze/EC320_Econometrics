@@ -15,7 +15,15 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 2. **Statistics Review I** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/02-Statistics_Review/02-Statistics_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/02-Statistics_Review/02-Statistics_Review.pdf)
 
+3. **Statistics Review II** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/03-Statistics_Review/03-Statistics_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/03-Statistics_Review/03-Statistics_Review.pdf)
+
+## Labs
+
+1. **Introduction to .mono[R]** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
+
+2. **Introduction to the .mono[tidyverse]** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse_data.csv)
+
 
 ## Other Content
 
-For supplemental lecture documents, lab documents, problem sets, and other materials, see Canvas.
+For supplemental lecture documents, problem sets, and other materials, see Canvas.

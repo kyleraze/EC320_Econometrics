@@ -1,0 +1,970 @@
+stname,year,deaths,population,division,region,stabbr,poverty_rate,unemployment_rate
+Alabama,1999,169,4430143,East South Central,South,AL,15.2,4.7
+Alaska,1999,46,624781,Pacific,West,AK,7.6,6.5
+Arizona,1999,511,5023824,Mountain,West,AZ,12.2,4.4
+Arkansas,1999,113,2651860,West South Central,South,AR,14.7,4.6
+California,1999,2662,33499204,Pacific,West,CA,14,5.2
+Colorado,1999,349,4226018,Mountain,West,CO,8.5,3.1
+Connecticut,1999,310,3386401,New England,Northeast,CT,7.2,2.9
+Delaware,1999,50,774990,South Atlantic,South,DE,10.4,3.4
+District of Columbia,1999,48,570220,South Atlantic,South,DC,14.7,6.4
+Florida,1999,997,15759421,South Atlantic,South,FL,12.4,3.9
+Georgia,1999,283,8045966,South Atlantic,South,GA,12.8,3.9
+Hawaii,1999,80,1210300,Pacific,West,HI,10.8,5.4
+Idaho,1999,64,1275675,Mountain,West,ID,14.1,4.9
+Illinois,1999,825,12359023,East North Central,Midwest,IL,9.9,4.4
+Indiana,1999,191,6044972,East North Central,Midwest,IN,6.7,3
+Iowa,1999,53,2917637,West North Central,Midwest,IA,7.4,2.6
+Kansas,1999,89,2678340,West North Central,Midwest,KS,12.3,3.3
+Kentucky,1999,197,4018053,East South Central,South,KY,12.1,4.5
+Louisiana,1999,188,4460814,West South Central,South,LA,19.2,5.1
+Maine,1999,67,1266808,New England,Northeast,ME,10.6,4
+Maryland,1999,629,5254511,South Atlantic,South,MD,7.3,3.6
+Massachusetts,1999,488,6317345,New England,Northeast,MA,11.8,3.2
+Michigan,1999,460,9897117,East North Central,Midwest,MI,9.7,3.7
+Minnesota,1999,136,4873481,West North Central,Midwest,MN,7.3,2.8
+Mississippi,1999,87,2828412,East South Central,South,MS,16.2,5.1
+Missouri,1999,276,5561950,West North Central,Midwest,MO,11.7,3.3
+Montana,1999,41,897511,Mountain,West,MT,15.8,5.3
+Nebraska,1999,39,1704765,West North Central,Midwest,NE,11,2.8
+Nevada,1999,227,1934719,Mountain,West,NV,11.3,4
+New Hampshire,1999,54,1222015,New England,Northeast,NH,7.6,2.7
+New Jersey,1999,557,8359593,Middle Atlantic,Northeast,NJ,7.8,4.5
+New Mexico,1999,266,1808082,Mountain,West,NM,20.9,5.6
+New York,1999,959,18882726,Middle Atlantic,Northeast,NY,14.2,5.2
+North Carolina,1999,366,7949362,South Atlantic,South,NC,13.8,3.2
+North Dakota,1999,12,644259,West North Central,Midwest,ND,13.1,3.3
+Ohio,1999,467,11335457,East North Central,Midwest,OH,12,4.3
+Oklahoma,1999,178,3437148,West South Central,South,OK,12.8,3.5
+Oregon,1999,210,3393941,Pacific,West,OR,12.6,5.5
+Pennsylvania,1999,990,12263805,Middle Atlantic,Northeast,PA,9.3,4.4
+Rhode Island,1999,58,1040402,New England,Northeast,RI,10,4.2
+South Carolina,1999,147,3974684,South Atlantic,South,SC,11.7,4.3
+South Dakota,1999,17,750417,West North Central,Midwest,SD,7.7,2.7
+Tennessee,1999,344,5638708,East South Central,South,TN,11.9,4
+Texas,1999,1087,20558220,West South Central,South,TX,15.2,4.7
+Utah,1999,205,2203483,Mountain,West,UT,5.7,3.5
+Vermont,1999,29,604687,New England,Northeast,VT,9.6,3
+Virginia,1999,366,7000176,South Atlantic,South,VA,7.9,2.7
+Washington,1999,555,5842565,Pacific,West,WA,9.6,4.9
+West Virginia,1999,75,1811801,South Atlantic,South,WV,15.7,6.5
+Wisconsin,1999,212,5332666,East North Central,Midwest,WI,8.6,3.1
+Wyoming,1999,20,491780,Mountain,West,WY,11.6,4.6
+Alabama,2000,197,4451687,East South Central,South,AL,13.3,4.6
+Alaska,2000,48,627428,Pacific,West,AK,7.6,6.4
+Arizona,2000,522,5166810,Mountain,West,AZ,11.7,4
+Arkansas,2000,140,2678217,West South Central,South,AR,16.5,4.3
+California,2000,1941,33998767,Pacific,West,CA,12.7,4.9
+Colorado,2000,352,4327788,Mountain,West,CO,9.8,2.8
+Connecticut,2000,320,3411714,New England,Northeast,CT,7.7,2.4
+Delaware,2000,55,786404,South Atlantic,South,DE,8.4,3.7
+District of Columbia,2000,76,571723,South Atlantic,South,DC,15.2,5.6
+Florida,2000,1159,16047246,South Atlantic,South,FL,11,3.7
+Georgia,2000,364,8230053,South Atlantic,South,GA,12.1,3.6
+Hawaii,2000,63,1211479,Pacific,West,HI,8.9,4.2
+Idaho,2000,64,1299474,Mountain,West,ID,12.5,4.7
+Illinois,2000,868,12437888,East North Central,Midwest,IL,10.7,4.3
+Indiana,2000,214,6091392,East North Central,Midwest,IN,8.5,3.1
+Iowa,2000,73,2928046,West North Central,Midwest,IA,8.3,2.6
+Kansas,2000,103,2692681,West North Central,Midwest,KS,8,3.6
+Kentucky,2000,241,4048831,East South Central,South,KY,12.6,4.2
+Louisiana,2000,248,4468879,West South Central,South,LA,17.2,5.3
+Maine,2000,61,1277179,New England,Northeast,ME,10.1,3.4
+Maryland,2000,623,5310451,South Atlantic,South,MD,7.4,3.6
+Massachusetts,2000,463,6362583,New England,Northeast,MA,9.8,2.7
+Michigan,2000,561,9955146,East North Central,Midwest,MI,9.9,3.6
+Minnesota,2000,130,4933787,West North Central,Midwest,MN,5.7,3.2
+Mississippi,2000,114,2848293,East South Central,South,MS,14.9,5.4
+Missouri,2000,303,5605868,West North Central,Midwest,MO,9.2,3.6
+Montana,2000,41,903283,Mountain,West,MT,14.1,5
+Nebraska,2000,46,1713194,West North Central,Midwest,NE,8.6,2.8
+Nevada,2000,273,2018244,Mountain,West,NV,8.8,4.2
+New Hampshire,2000,45,1240361,New England,Northeast,NH,4.5,2.7
+New Jersey,2000,643,8430913,Middle Atlantic,Northeast,NJ,7.3,3.7
+New Mexico,2000,271,1820704,Mountain,West,NM,17.5,4.9
+New York,2000,767,18998429,Middle Atlantic,Northeast,NY,13.9,4.5
+North Carolina,2000,491,8078824,South Atlantic,South,NC,12.5,3.7
+North Dakota,2000,14,641183,West North Central,Midwest,ND,10.4,3
+Ohio,2000,563,11363719,East North Central,Midwest,OH,10,4
+Oklahoma,2000,237,3453861,West South Central,South,OK,14.9,3
+Oregon,2000,208,3430828,Pacific,West,OR,10.9,5.1
+Pennsylvania,2000,1147,12285041,Middle Atlantic,Northeast,PA,8.6,4.1
+Rhode Island,2000,74,1050725,New England,Northeast,RI,10.2,4.1
+South Carolina,2000,258,4023396,South Atlantic,South,SC,11.1,3.8
+South Dakota,2000,20,755657,West North Central,Midwest,SD,10.7,2.5
+Tennessee,2000,397,5703094,East South Central,South,TN,13.5,3.9
+Texas,2000,1021,20946049,West South Central,South,TX,15.5,4.3
+Utah,2000,210,2244210,Mountain,West,UT,7.6,3.3
+Vermont,2000,36,609876,New England,Northeast,VT,10,2.8
+Virginia,2000,411,7104354,South Atlantic,South,VA,8.3,2.3
+Washington,2000,556,5911104,Pacific,West,WA,10.8,5.2
+West Virginia,2000,113,1806977,South Atlantic,South,WV,14.7,5.5
+Wisconsin,2000,248,5374133,East North Central,Midwest,WI,9.3,3.5
+Wyoming,2000,22,493963,Mountain,West,WY,10.8,3.9
+Alabama,2001,216,4467634,East South Central,South,AL,15.9,5.1
+Alaska,2001,62,633714,Pacific,West,AK,8.5,6.4
+Arizona,2001,552,5273477,Mountain,West,AZ,14.6,4.8
+Arkansas,2001,126,2691571,West South Central,South,AR,17.8,5
+California,2001,1226,34479458,Pacific,West,CA,12.6,5.4
+Colorado,2001,411,4425687,Mountain,West,CO,8.7,3.8
+Connecticut,2001,307,3432835,New England,Northeast,CT,7.3,3.1
+Delaware,2001,64,795699,South Atlantic,South,DE,6.7,3.5
+District of Columbia,2001,93,574504,South Atlantic,South,DC,18.2,6.3
+Florida,2001,1746,16356966,South Atlantic,South,FL,12.7,4.7
+Georgia,2001,511,8377038,South Atlantic,South,GA,12.9,4
+Hawaii,2001,77,1225948,Pacific,West,HI,11.4,4.5
+Idaho,2001,98,1319962,Mountain,West,ID,11.5,5.1
+Illinois,2001,892,12488445,East North Central,Midwest,IL,10.1,5.3
+Indiana,2001,283,6127760,East North Central,Midwest,IN,8.5,4.2
+Iowa,2001,87,2931997,West North Central,Midwest,IA,7.4,3.3
+Kansas,2001,138,2702162,West North Central,Midwest,KS,10.1,4.2
+Kentucky,2001,345,4068132,East South Central,South,KY,12.6,5.2
+Louisiana,2001,265,4477875,West South Central,South,LA,16.2,5.7
+Maine,2001,85,1285692,New England,Northeast,ME,10.3,3.8
+Maryland,2001,639,5374691,South Atlantic,South,MD,7.2,4
+Massachusetts,2001,689,6397634,New England,Northeast,MA,8.9,3.7
+Michigan,2001,621,9991120,East North Central,Midwest,MI,9.4,5.2
+Minnesota,2001,185,4982796,West North Central,Midwest,MN,7.4,3.8
+Mississippi,2001,169,2852994,East South Central,South,MS,19.3,5.5
+Missouri,2001,351,5641142,West North Central,Midwest,MO,9.7,4.6
+Montana,2001,56,906961,Mountain,West,MT,13.3,4.5
+Nebraska,2001,66,1719836,West North Central,Midwest,NE,9.4,3.1
+Nevada,2001,261,2098399,Mountain,West,NV,7.1,5.2
+New Hampshire,2001,79,1255517,New England,Northeast,NH,6.5,3.4
+New Jersey,2001,705,8492671,Middle Atlantic,Northeast,NJ,8.1,4.3
+New Mexico,2001,258,1831690,Mountain,West,NM,18,4.9
+New York,2001,1079,19082838,Middle Atlantic,Northeast,NY,14.2,4.8
+North Carolina,2001,551,8210122,South Atlantic,South,NC,12.5,5.5
+North Dakota,2001,14,639062,West North Central,Midwest,ND,13.8,2.9
+Ohio,2001,737,11387404,East North Central,Midwest,OH,10.5,4.3
+Oklahoma,2001,269,3467100,West South Central,South,OK,15.1,3.7
+Oregon,2001,241,3467937,Pacific,West,OR,11.8,6.4
+Pennsylvania,2001,958,12298970,Middle Atlantic,Northeast,PA,9.6,4.8
+Rhode Island,2001,110,1057142,New England,Northeast,RI,9.6,4.6
+South Carolina,2001,242,4064995,South Atlantic,South,SC,15.1,5.2
+South Dakota,2001,24,757972,West North Central,Midwest,SD,8.4,3.1
+Tennessee,2001,424,5750789,East South Central,South,TN,14.1,4.6
+Texas,2001,1374,21319622,West South Central,South,TX,14.9,5
+Utah,2001,209,2283715,Mountain,West,UT,10.5,4.4
+Vermont,2001,44,612223,New England,Northeast,VT,9.7,3.3
+Virginia,2001,459,7198362,South Atlantic,South,VA,8,3.2
+Washington,2001,499,5985722,Pacific,West,WA,10.7,6.3
+West Virginia,2001,206,1801481,South Atlantic,South,WV,16.4,5
+Wisconsin,2001,269,5406835,East North Central,Midwest,WI,7.9,4.5
+Wyoming,2001,22,494657,Mountain,West,WY,8.7,3.8
+Alabama,2002,211,4480089,East South Central,South,AL,14.5,5.9
+Alaska,2002,84,642337,Pacific,West,AK,8.8,7.3
+Arizona,2002,624,5396255,Mountain,West,AZ,13.5,6.1
+Arkansas,2002,176,2705927,West South Central,South,AR,19.8,5.5
+California,2002,2975,34871843,Pacific,West,CA,13.1,6.7
+Colorado,2002,448,4490406,Mountain,West,CO,9.8,5.5
+Connecticut,2002,354,3458749,New England,Northeast,CT,8.3,4.3
+Delaware,2002,84,806169,South Atlantic,South,DE,9.1,4
+District of Columbia,2002,61,573158,South Atlantic,South,DC,17,6.4
+Florida,2002,1927,16689370,South Atlantic,South,FL,12.6,5.6
+Georgia,2002,563,8508256,South Atlantic,South,GA,11.2,5
+Hawaii,2002,77,1239613,Pacific,West,HI,11.3,4.2
+Idaho,2002,117,1340372,Mountain,West,ID,11.3,5.6
+Illinois,2002,986,12525556,East North Central,Midwest,IL,12.8,6.5
+Indiana,2002,293,6155967,East North Central,Midwest,IN,9.1,5.2
+Iowa,2002,91,2934234,West North Central,Midwest,IA,9.2,4
+Kansas,2002,170,2713535,West North Central,Midwest,KS,10.1,5.1
+Kentucky,2002,426,4089875,East South Central,South,KY,14.2,5.7
+Louisiana,2002,365,4497267,West South Central,South,LA,17.5,6.1
+Maine,2002,139,1295960,New England,Northeast,ME,13.4,4.3
+Maryland,2002,723,5440389,South Atlantic,South,MD,7.4,4.4
+Massachusetts,2002,705,6417206,New England,Northeast,MA,10,5.3
+Michigan,2002,751,10015710,East North Central,Midwest,MI,11.6,6.3
+Minnesota,2002,201,5018935,West North Central,Midwest,MN,6.5,4.5
+Mississippi,2002,183,2858681,East South Central,South,MS,18.4,6.6
+Missouri,2002,416,5674825,West North Central,Midwest,MO,9.9,5.4
+Montana,2002,78,911667,Mountain,West,MT,13.5,4.4
+Nebraska,2002,66,1728292,West North Central,Midwest,NE,10.6,3.6
+Nevada,2002,323,2173791,Mountain,West,NV,8.9,5.6
+New Hampshire,2002,111,1269089,New England,Northeast,NH,5.8,4.5
+New Jersey,2002,813,8552643,Middle Atlantic,Northeast,NJ,7.9,5.8
+New Mexico,2002,287,1855309,Mountain,West,NM,17.9,5.5
+New York,2002,923,19137800,Middle Atlantic,Northeast,NY,14,6.1
+North Carolina,2002,647,8326201,South Atlantic,South,NC,14.3,6.6
+North Dakota,2002,17,638168,West North Central,Midwest,ND,11.6,3.7
+Ohio,2002,931,11407889,East North Central,Midwest,OH,9.8,5.7
+Oklahoma,2002,240,3489080,West South Central,South,OK,14.1,4.7
+Oregon,2002,318,3513424,Pacific,West,OR,10.9,7.5
+Pennsylvania,2002,1097,12331031,Middle Atlantic,Northeast,PA,9.5,5.6
+Rhode Island,2002,99,1065995,New England,Northeast,RI,11,5
+South Carolina,2002,217,4107795,South Atlantic,South,SC,14.3,5.8
+South Dakota,2002,22,760020,West North Central,Midwest,SD,11.5,3.2
+Tennessee,2002,491,5795918,East South Central,South,TN,14.8,5.2
+Texas,2002,1598,21690325,West South Central,South,TX,15.6,6.4
+Utah,2002,288,2324815,Mountain,West,UT,9.9,5.8
+Vermont,2002,47,615442,New England,Northeast,VT,9.9,4
+Virginia,2002,509,7286873,South Atlantic,South,VA,9.9,4.2
+Washington,2002,643,6052349,Pacific,West,WA,11,7.4
+West Virginia,2002,229,1805414,South Atlantic,South,WV,16.8,5.9
+Wisconsin,2002,340,5445162,East North Central,Midwest,WI,8.6,5.4
+Wyoming,2002,34,500017,Mountain,West,WY,9,4
+Alabama,2003,197,4503491,East South Central,South,AL,15,6
+Alaska,2003,83,648414,Pacific,West,AK,9.6,7.8
+Arizona,2003,674,5510364,Mountain,West,AZ,13.5,5.7
+Arkansas,2003,184,2724816,West South Central,South,AR,17.8,5.9
+California,2003,3108,35253159,Pacific,West,CA,13.1,6.8
+Colorado,2003,502,4528732,Mountain,West,CO,9.7,6
+Connecticut,2003,307,3484336,New England,Northeast,CT,8.1,5.4
+Delaware,2003,77,818003,South Atlantic,South,DE,7.3,4.3
+District of Columbia,2003,103,568502,South Atlantic,South,DC,16.8,6.8
+Florida,2003,2054,17004085,South Atlantic,South,FL,12.7,5.2
+Georgia,2003,607,8622793,South Atlantic,South,GA,11.9,4.8
+Hawaii,2003,92,1251154,Pacific,West,HI,9.3,4.1
+Idaho,2003,102,1363380,Mountain,West,ID,10.2,5.6
+Illinois,2003,847,12556006,East North Central,Midwest,IL,12.6,6.8
+Indiana,2003,434,6196638,East North Central,Midwest,IN,9.9,5.3
+Iowa,2003,96,2941999,West North Central,Midwest,IA,8.9,4.5
+Kansas,2003,188,2723004,West North Central,Midwest,KS,10.8,5.5
+Kentucky,2003,560,4117170,East South Central,South,KY,14.4,6.1
+Louisiana,2003,536,4521042,West South Central,South,LA,17,6.4
+Maine,2003,133,1306513,New England,Northeast,ME,11.6,5
+Maryland,2003,779,5496269,South Atlantic,South,MD,8.6,4.4
+Massachusetts,2003,823,6422565,New England,Northeast,MA,10.3,5.7
+Michigan,2003,761,10041152,East North Central,Midwest,MI,11.4,7.2
+Minnesota,2003,246,5053572,West North Central,Midwest,MN,7.4,4.9
+Mississippi,2003,207,2868312,East South Central,South,MS,16,6.3
+Missouri,2003,522,5709403,West North Central,Midwest,MO,10.7,5.6
+Montana,2003,93,919630,Mountain,West,MT,15.1,4.7
+Nebraska,2003,55,1738643,West North Central,Midwest,NE,9.8,3.9
+Nevada,2003,342,2248850,Mountain,West,NV,10.9,5.1
+New Hampshire,2003,127,1279840,New England,Northeast,NH,5.8,4.3
+New Jersey,2003,721,8601402,Middle Atlantic,Northeast,NJ,8.6,5.8
+New Mexico,2003,358,1877574,Mountain,West,NM,18.1,5.9
+New York,2003,964,19175939,Middle Atlantic,Northeast,NY,14.3,6.4
+North Carolina,2003,762,8422501,South Atlantic,South,NC,15.7,6.4
+North Dakota,2003,22,638817,West North Central,Midwest,ND,9.7,3.7
+Ohio,2003,775,11434788,East North Central,Midwest,OH,10.9,6.2
+Oklahoma,2003,400,3504892,West South Central,South,OK,12.8,5.5
+Oregon,2003,355,3547376,Pacific,West,OR,12.5,8.1
+Pennsylvania,2003,1381,12374658,Middle Atlantic,Northeast,PA,10.5,5.7
+Rhode Island,2003,146,1071342,New England,Northeast,RI,11.5,5.3
+South Carolina,2003,287,4150297,South Atlantic,South,SC,12.7,6.9
+South Dakota,2003,24,763729,West North Central,Midwest,SD,12.7,3.5
+Tennessee,2003,662,5847812,East South Central,South,TN,14,5.6
+Texas,2003,1753,22030931,West South Central,South,TX,17,6.7
+Utah,2003,353,2360137,Mountain,West,UT,9.1,5.6
+Vermont,2003,65,617858,New England,Northeast,VT,8.5,4.3
+Virginia,2003,547,7366977,South Atlantic,South,VA,10,4.1
+Washington,2003,696,6104115,Pacific,West,WA,12.6,7.4
+West Virginia,2003,262,1812295,South Atlantic,South,WV,17.4,6
+Wisconsin,2003,383,5479203,East North Central,Midwest,WI,9.8,5.7
+Wyoming,2003,30,503453,Mountain,West,WY,9.8,4.3
+Alabama,2004,283,4530729,East South Central,South,AL,16.9,5.7
+Alaska,2004,86,659286,Pacific,West,AK,9.2,7.5
+Arizona,2004,744,5652404,Mountain,West,AZ,14.4,5
+Arkansas,2004,230,2749686,West South Central,South,AR,15.1,5.7
+California,2004,3125,35574576,Pacific,West,CA,13.3,6.2
+Colorado,2004,518,4575013,Mountain,West,CO,10,5.5
+Connecticut,2004,333,3496094,New England,Northeast,CT,10,5
+Delaware,2004,63,830803,South Atlantic,South,DE,9.1,4
+District of Columbia,2004,87,567754,South Atlantic,South,DC,16.7,7.8
+Florida,2004,2264,17415318,South Atlantic,South,FL,11.6,4.6
+Georgia,2004,666,8769252,South Atlantic,South,GA,13.1,4.8
+Hawaii,2004,103,1273569,Pacific,West,HI,8.4,3.4
+Idaho,2004,98,1391802,Mountain,West,ID,9.9,4.9
+Illinois,2004,1035,12589773,East North Central,Midwest,IL,12.2,6.2
+Indiana,2004,542,6233007,East North Central,Midwest,IN,11.6,5.4
+Iowa,2004,122,2953635,West North Central,Midwest,IA,10.8,4.5
+Kansas,2004,224,2734373,West North Central,Midwest,KS,11.4,5.5
+Kentucky,2004,526,4146101,East South Central,South,KY,17.7,5.4
+Louisiana,2004,539,4552238,West South Central,South,LA,16.7,5.9
+Maine,2004,140,1313688,New England,Northeast,ME,11.6,4.6
+Maryland,2004,676,5546935,South Atlantic,South,MD,9.8,4.3
+Massachusetts,2004,669,6412281,New England,Northeast,MA,9.2,5.1
+Michigan,2004,867,10055315,East North Central,Midwest,MI,13.3,7
+Minnesota,2004,250,5087713,West North Central,Midwest,MN,7,4.7
+Mississippi,2004,224,2889010,East South Central,South,MS,18.6,6.2
+Missouri,2004,548,5747741,West North Central,Midwest,MO,12.2,5.9
+Montana,2004,98,930009,Mountain,West,MT,14.1,4.8
+Nebraska,2004,59,1749370,West North Central,Midwest,NE,9.4,3.9
+Nevada,2004,380,2346222,Mountain,West,NV,10.9,4.3
+New Hampshire,2004,124,1290121,New England,Northeast,NH,5.4,3.8
+New Jersey,2004,590,8634561,Middle Atlantic,Northeast,NJ,8,4.8
+New Mexico,2004,314,1903808,Mountain,West,NM,16.5,5.5
+New York,2004,831,19171567,Middle Atlantic,Northeast,NY,15,5.8
+North Carolina,2004,854,8553152,South Atlantic,South,NC,14.6,5.5
+North Dakota,2004,17,644705,West North Central,Midwest,ND,9.7,3.4
+Ohio,2004,1136,11452251,East North Central,Midwest,OH,11.6,6.3
+Oklahoma,2004,476,3525233,West South Central,South,OK,10.8,4.9
+Oregon,2004,365,3569463,Pacific,West,OR,11.7,7.3
+Pennsylvania,2004,1544,12410722,Middle Atlantic,Northeast,PA,11.3,5.4
+Rhode Island,2004,106,1074579,New England,Northeast,RI,11.5,5.2
+South Carolina,2004,356,4210921,South Atlantic,South,SC,14.9,6.8
+South Dakota,2004,43,770396,West North Central,Midwest,SD,13.4,3.7
+Tennessee,2004,763,5910809,East South Central,South,TN,15.9,5.3
+Texas,2004,1813,22394023,West South Central,South,TX,16.5,5.9
+Utah,2004,358,2401580,Mountain,West,UT,9.9,5
+Vermont,2004,50,619920,New England,Northeast,VT,7.9,3.7
+Virginia,2004,558,7475575,South Atlantic,South,VA,9.3,3.8
+Washington,2004,811,6178645,Pacific,West,WA,11.5,6.3
+West Virginia,2004,333,1816438,South Atlantic,South,WV,14.2,5.3
+Wisconsin,2004,437,5514026,East North Central,Midwest,WI,12.3,5
+Wyoming,2004,46,509106,Mountain,West,WY,9.9,3.8
+Alabama,2005,283,4569805,East South Central,South,AL,16.7,4.5
+Alaska,2005,79,666946,Pacific,West,AK,10,6.9
+Arizona,2005,794,5839077,Mountain,West,AZ,15.2,4.7
+Arkansas,2005,269,2781097,West South Central,South,AR,13.8,5.2
+California,2005,3214,35827943,Pacific,West,CA,13.2,5.4
+Colorado,2005,608,4631888,Mountain,West,CO,11.4,5
+Connecticut,2005,295,3506956,New England,Northeast,CT,9.3,4.9
+Delaware,2005,62,845150,South Atlantic,South,DE,9.2,4.1
+District of Columbia,2005,77,567136,South Atlantic,South,DC,21.3,6.4
+Florida,2005,2371,17842038,South Atlantic,South,FL,11.1,3.7
+Georgia,2005,738,8925922,South Atlantic,South,GA,14.4,5.3
+Hawaii,2005,126,1292729,Pacific,West,HI,8.6,2.9
+Idaho,2005,109,1428241,Mountain,West,ID,9.9,4
+Illinois,2005,1067,12609903,East North Central,Midwest,IL,11.5,5.7
+Indiana,2005,610,6278616,East North Central,Midwest,IN,12.6,5.5
+Iowa,2005,141,2964454,West North Central,Midwest,IA,11.3,4.3
+Kansas,2005,241,2745299,West North Central,Midwest,KS,12.5,5
+Kentucky,2005,638,4182742,East South Central,South,KY,14.8,5.9
+Louisiana,2005,661,4576628,West South Central,South,LA,18.3,7.2
+Maine,2005,163,1318787,New England,Northeast,ME,12.6,4.9
+Maryland,2005,656,5592379,South Atlantic,South,MD,9.7,4.1
+Massachusetts,2005,780,6403290,New England,Northeast,MA,10.1,4.8
+Michigan,2005,985,10051137,East North Central,Midwest,MI,12,6.8
+Minnesota,2005,282,5119598,West North Central,Midwest,MN,8.1,4.1
+Mississippi,2005,248,2905943,East South Central,South,MS,20.1,7.5
+Missouri,2005,608,5790300,West North Central,Midwest,MO,11.6,5.4
+Montana,2005,96,940102,Mountain,West,MT,13.8,4.4
+Nebraska,2005,86,1761497,West North Central,Midwest,NE,9.5,3.8
+Nevada,2005,457,2432143,Mountain,West,NV,10.6,4.1
+New Hampshire,2005,142,1298492,New England,Northeast,NH,5.6,3.6
+New Jersey,2005,823,8651974,Middle Atlantic,Northeast,NJ,6.8,4.5
+New Mexico,2005,373,1932274,Mountain,West,NM,17.9,5.1
+New York,2005,944,19132610,Middle Atlantic,Northeast,NY,14.5,5
+North Carolina,2005,1000,8705407,South Atlantic,South,NC,13.1,5.2
+North Dakota,2005,12,646089,West North Central,Midwest,ND,11.2,3.4
+Ohio,2005,1243,11463320,East North Central,Midwest,OH,12.3,5.9
+Oklahoma,2005,478,3548597,West South Central,South,OK,15.6,4.5
+Oregon,2005,386,3613202,Pacific,West,OR,12,6.2
+Pennsylvania,2005,1613,12449990,Middle Atlantic,Northeast,PA,11.2,5
+Rhode Island,2005,156,1067916,New England,Northeast,RI,12.1,5
+South Carolina,2005,427,4270150,South Atlantic,South,SC,15,6.7
+South Dakota,2005,40,775493,West North Central,Midwest,SD,11.8,3.8
+Tennessee,2005,872,5991057,East South Central,South,TN,14.9,5.6
+Texas,2005,1910,22778123,West South Central,South,TX,16.2,5.4
+Utah,2005,438,2457719,Mountain,West,UT,9.2,4.1
+Vermont,2005,53,621215,New England,Northeast,VT,7.6,3.5
+Virginia,2005,581,7577105,South Atlantic,South,VA,9.2,3.6
+Washington,2005,850,6257305,Pacific,West,WA,10.2,5.6
+West Virginia,2005,184,1820492,South Atlantic,South,WV,15.4,5.1
+Wisconsin,2005,518,5546166,East North Central,Midwest,WI,10.2,4.7
+Wyoming,2005,26,514157,Mountain,West,WY,10.6,3.6
+Alabama,2006,398,4628981,East South Central,South,AL,14.3,4
+Alaska,2006,76,675302,Pacific,West,AK,8.9,6.6
+Arizona,2006,876,6029141,Mountain,West,AZ,14.4,4.2
+Arkansas,2006,285,2821761,West South Central,South,AR,17.7,5.2
+California,2006,3494,36021202,Pacific,West,CA,12.2,4.9
+Colorado,2006,627,4720423,Mountain,West,CO,9.7,4.3
+Connecticut,2006,407,3517460,New England,Northeast,CT,8,4.3
+Delaware,2006,78,859268,South Atlantic,South,DE,9.3,3.6
+District of Columbia,2006,101,570681,South Atlantic,South,DC,18.3,5.8
+Florida,2006,2591,18166990,South Atlantic,South,FL,11.5,3.2
+Georgia,2006,830,9155813,South Atlantic,South,GA,12.6,4.7
+Hawaii,2006,86,1309731,Pacific,West,HI,9.2,2.6
+Idaho,2006,130,1468669,Mountain,West,ID,9.5,3.5
+Illinois,2006,1369,12643955,East North Central,Midwest,IL,10.6,4.5
+Indiana,2006,736,6332669,East North Central,Midwest,IN,10.6,5
+Iowa,2006,187,2982644,West North Central,Midwest,IA,10.3,3.7
+Kansas,2006,257,2762931,West North Central,Midwest,KS,12.8,4.4
+Kentucky,2006,728,4219239,East South Central,South,KY,16.8,5.7
+Louisiana,2006,705,4302665,West South Central,South,LA,17,4.5
+Maine,2006,159,1323619,New England,Northeast,ME,10.2,4.6
+Maryland,2006,762,5627367,South Atlantic,South,MD,8.4,3.9
+Massachusetts,2006,970,6410084,New England,Northeast,MA,12,4.9
+Michigan,2006,1176,10036081,East North Central,Midwest,MI,13.3,7
+Minnesota,2006,311,5163555,West North Central,Midwest,MN,8.2,4
+Mississippi,2006,339,2904978,East South Central,South,MS,20.6,6.5
+Missouri,2006,743,5842704,West North Central,Midwest,MO,11.4,4.8
+Montana,2006,97,952692,Mountain,West,MT,13.5,3.5
+Nebraska,2006,91,1772693,West North Central,Midwest,NE,10.2,3.1
+Nevada,2006,461,2522658,Mountain,West,NV,9.5,4
+New Hampshire,2006,149,1308389,New England,Northeast,NH,5.4,3.4
+New Jersey,2006,847,8661679,Middle Atlantic,Northeast,NJ,8.8,4.7
+New Mexico,2006,418,1962137,Mountain,West,NM,16.9,4.2
+New York,2006,1680,19104631,Middle Atlantic,Northeast,NY,14,4.5
+North Carolina,2006,1059,8917270,South Atlantic,South,NC,13.8,4.7
+North Dakota,2006,14,649422,West North Central,Midwest,ND,11.4,3.2
+Ohio,2006,1515,11481213,East North Central,Midwest,OH,12.1,5.4
+Oklahoma,2006,563,3594090,West South Central,South,OK,15.2,4
+Oregon,2006,485,3670883,Pacific,West,OR,11.8,5.3
+Pennsylvania,2006,1638,12510809,Middle Atlantic,Northeast,PA,11.3,4.6
+Rhode Island,2006,175,1063096,New England,Northeast,RI,10.5,4.9
+South Carolina,2006,554,4357847,South Atlantic,South,SC,11.2,6.4
+South Dakota,2006,37,783033,West North Central,Midwest,SD,10.7,3.1
+Tennessee,2006,975,6088766,East South Central,South,TN,14.9,5.2
+Texas,2006,2191,23359580,West South Central,South,TX,16.4,4.9
+Utah,2006,444,2525507,Mountain,West,UT,9.3,3
+Vermont,2006,75,622892,New England,Northeast,VT,7.8,3.7
+Virginia,2006,629,7673725,South Atlantic,South,VA,8.6,3.1
+Washington,2006,897,6370753,Pacific,West,WA,8,5
+West Virginia,2006,362,1827912,South Atlantic,South,WV,15.3,4.9
+Wisconsin,2006,593,5577655,East North Central,Midwest,WI,10.1,4.7
+Wyoming,2006,55,522667,Mountain,West,WY,10,3.2
+Alabama,2007,511,4672840,East South Central,South,AL,14.5,4
+Alaska,2007,72,680300,Pacific,West,AK,7.6,6.3
+Arizona,2007,943,6167681,Mountain,West,AZ,14.3,3.9
+Arkansas,2007,301,2848650,West South Central,South,AR,13.8,5.3
+California,2007,3854,36250311,Pacific,West,CA,12.7,5.4
+Colorado,2007,734,4803868,Mountain,West,CO,9.8,3.7
+Connecticut,2007,433,3527270,New England,Northeast,CT,8.9,4.5
+Delaware,2007,97,871749,South Atlantic,South,DE,9.3,3.4
+District of Columbia,2007,61,574404,South Atlantic,South,DC,18,5.5
+Florida,2007,2794,18367842,South Atlantic,South,FL,12.5,4
+Georgia,2007,923,9349988,South Atlantic,South,GA,13.6,4.5
+Hawaii,2007,136,1315675,Pacific,West,HI,7.5,2.8
+Idaho,2007,126,1505105,Mountain,West,ID,9.9,3.1
+Illinois,2007,1192,12695866,East North Central,Midwest,IL,10,5
+Indiana,2007,781,6379599,East North Central,Midwest,IN,11.8,4.6
+Iowa,2007,203,2999212,West North Central,Midwest,IA,8.9,3.7
+Kansas,2007,270,2783785,West North Central,Midwest,KS,11.7,4.2
+Kentucky,2007,708,4256672,East South Central,South,KY,15.5,5.4
+Louisiana,2007,808,4375581,West South Central,South,LA,16.1,4.3
+Maine,2007,159,1327040,New England,Northeast,ME,10.9,4.7
+Maryland,2007,769,5653408,South Atlantic,South,MD,8.8,3.5
+Massachusetts,2007,922,6431559,New England,Northeast,MA,11.2,4.6
+Michigan,2007,1236,10001284,East North Central,Midwest,MI,10.8,7
+Minnesota,2007,341,5207203,West North Central,Midwest,MN,9.3,4.6
+Mississippi,2007,314,2928350,East South Central,South,MS,22.6,6.1
+Missouri,2007,714,5887612,West North Central,Midwest,MO,12.8,5.1
+Montana,2007,125,964706,Mountain,West,MT,13,3.6
+Nebraska,2007,80,1783440,West North Central,Midwest,NE,9.9,3
+Nevada,2007,499,2601072,Mountain,West,NV,9.7,4.5
+New Hampshire,2007,186,1312540,New England,Northeast,NH,5.8,3.5
+New Jersey,2007,727,8677885,Middle Atlantic,Northeast,NJ,8.7,4.3
+New Mexico,2007,462,1990070,Mountain,West,NM,14,3.8
+New York,2007,1708,19132335,Middle Atlantic,Northeast,NY,14.5,4.6
+North Carolina,2007,1084,9118037,South Atlantic,South,NC,15.5,4.7
+North Dakota,2007,32,652822,West North Central,Midwest,ND,9.3,3.1
+Ohio,2007,1592,11500468,East North Central,Midwest,OH,12.8,5.6
+Oklahoma,2007,666,3634349,West South Central,South,OK,13.4,4.1
+Oregon,2007,502,3722417,Pacific,West,OR,12.8,5.2
+Pennsylvania,2007,1733,12563937,Middle Atlantic,Northeast,PA,10.4,4.4
+Rhode Island,2007,135,1057315,New England,Northeast,RI,9.5,5.2
+South Carolina,2007,545,4444110,South Atlantic,South,SC,14.1,5.7
+South Dakota,2007,32,791623,West North Central,Midwest,SD,9.4,2.8
+Tennessee,2007,985,6175727,East South Central,South,TN,14.8,4.7
+Texas,2007,2194,23831983,West South Central,South,TX,16.5,4.3
+Utah,2007,511,2597746,Mountain,West,UT,9.6,2.6
+Vermont,2007,66,623481,New England,Northeast,VT,9.9,4
+Virginia,2007,700,7751000,South Atlantic,South,VA,8.6,3
+Washington,2007,962,6461587,Pacific,West,WA,10.2,4.7
+West Virginia,2007,397,1834052,South Atlantic,South,WV,14.8,4.6
+Wisconsin,2007,622,5610775,East North Central,Midwest,WI,11,4.9
+Wyoming,2007,63,534876,Mountain,West,WY,10.9,2.8
+Alabama,2008,607,4718206,East South Central,South,AL,14.3,5.7
+Alaska,2008,127,687455,Pacific,West,AK,8.2,6.7
+Arizona,2008,828,6280362,Mountain,West,AZ,18,6.2
+Arkansas,2008,360,2874554,West South Central,South,AR,15.3,5.5
+California,2008,3863,36604337,Pacific,West,CA,14.6,7.3
+Colorado,2008,749,4889730,Mountain,West,CO,11,4.8
+Connecticut,2008,386,3545579,New England,Northeast,CT,8.1,5.7
+Delaware,2008,124,883874,South Atlantic,South,DE,9.6,4.9
+District of Columbia,2008,56,580236,South Atlantic,South,DC,16.5,6.5
+Florida,2008,2963,18527305,South Atlantic,South,FL,13.1,6.3
+Georgia,2008,935,9504843,South Atlantic,South,GA,15.5,6.2
+Hawaii,2008,123,1332213,Pacific,West,HI,9.9,4.3
+Idaho,2008,146,1534320,Mountain,West,ID,12.2,5.1
+Illinois,2008,1353,12747038,East North Central,Midwest,IL,12.3,6.3
+Indiana,2008,830,6424806,East North Central,Midwest,IN,14.3,5.9
+Iowa,2008,209,3016734,West North Central,Midwest,IA,9.5,4.2
+Kansas,2008,219,2808076,West North Central,Midwest,KS,12.7,4.6
+Kentucky,2008,764,4289878,East South Central,South,KY,17.1,6.4
+Louisiana,2008,647,4435586,West South Central,South,LA,18.2,4.9
+Maine,2008,162,1330509,New England,Northeast,ME,12,5.5
+Maryland,2008,693,5684965,South Atlantic,South,MD,8.7,4.2
+Massachusetts,2008,786,6468967,New England,Northeast,MA,11.3,5.5
+Michigan,2008,1239,9946889,East North Central,Midwest,MI,13,8
+Minnesota,2008,384,5247018,West North Central,Midwest,MN,9.9,5.4
+Mississippi,2008,303,2947806,East South Central,South,MS,18.1,6.6
+Missouri,2008,765,5923916,West North Central,Midwest,MO,13.3,6.1
+Montana,2008,134,976415,Mountain,West,MT,12.9,5.1
+Nebraska,2008,94,1796378,West North Central,Midwest,NE,10.6,3.3
+Nevada,2008,519,2653630,Mountain,West,NV,10.8,6.7
+New Hampshire,2008,126,1315906,New England,Northeast,NH,7,3.9
+New Jersey,2008,702,8711090,Middle Atlantic,Northeast,NJ,9.2,5.3
+New Mexico,2008,518,2010662,Mountain,West,NM,19.3,4.5
+New York,2008,1691,19212436,Middle Atlantic,Northeast,NY,14.2,5.4
+North Carolina,2008,1196,9309449,South Atlantic,South,NC,13.9,6.1
+North Dakota,2008,46,657569,West North Central,Midwest,ND,11.8,3.2
+Ohio,2008,1733,11515391,East North Central,Midwest,OH,13.7,6.4
+Oklahoma,2008,564,3668976,West South Central,South,OK,13.6,3.7
+Oregon,2008,452,3768748,Pacific,West,OR,10.6,6.5
+Pennsylvania,2008,1850,12612285,Middle Atlantic,Northeast,PA,11,5.3
+Rhode Island,2008,185,1055003,New England,Northeast,RI,12.7,7.8
+South Carolina,2008,565,4528996,South Atlantic,South,SC,14,6.8
+South Dakota,2008,54,799124,West North Central,Midwest,SD,13.1,3.1
+Tennessee,2008,938,6247411,East South Central,South,TN,15,6.6
+Texas,2008,2053,24309039,West South Central,South,TX,15.9,4.8
+Utah,2008,468,2663029,Mountain,West,UT,7.6,3.6
+Vermont,2008,73,624151,New England,Northeast,VT,9,4.7
+Virginia,2008,718,7833496,South Atlantic,South,VA,10.3,3.9
+Washington,2008,1011,6562231,Pacific,West,WA,10.4,5.4
+West Virginia,2008,459,1840310,South Atlantic,South,WV,14.5,4.3
+Wisconsin,2008,606,5640996,East North Central,Midwest,WI,9.8,4.9
+Wyoming,2008,74,546043,Mountain,West,WY,10.1,3.1
+Alabama,2009,630,4757938,East South Central,South,AL,16.6,11
+Alaska,2009,131,698895,Pacific,West,AK,11.7,7.7
+Arizona,2009,1002,6343154,Mountain,West,AZ,21.2,9.9
+Arkansas,2009,351,2896843,West South Central,South,AR,18.9,7.8
+California,2009,4056,36961229,Pacific,West,CA,15.3,11.2
+Colorado,2009,769,4972195,Mountain,West,CO,12.3,7.3
+Connecticut,2009,393,3561807,New England,Northeast,CT,8.4,7.9
+Delaware,2009,136,891730,South Atlantic,South,DE,12.3,8.3
+District of Columbia,2009,26,592228,South Atlantic,South,DC,17.9,9.3
+Florida,2009,3092,18652644,South Atlantic,South,FL,14.6,10.4
+Georgia,2009,1007,9620846,South Atlantic,South,GA,18.4,9.9
+Hawaii,2009,136,1346717,Pacific,West,HI,12.5,7.2
+Idaho,2009,171,1554439,Mountain,West,ID,13.7,8.8
+Illinois,2009,1381,12796778,East North Central,Midwest,IL,13.2,10.2
+Indiana,2009,896,6459325,East North Central,Midwest,IN,16.1,10.3
+Iowa,2009,207,3032870,West North Central,Midwest,IA,10.7,6.4
+Kansas,2009,304,2832704,West North Central,Midwest,KS,13.7,6.9
+Kentucky,2009,769,4317074,East South Central,South,KY,17,10.3
+Louisiana,2009,584,4491648,West South Central,South,LA,14.3,6.8
+Maine,2009,173,1329590,New England,Northeast,ME,11.4,8.1
+Maryland,2009,743,5730388,South Atlantic,South,MD,9.6,7
+Massachusetts,2009,816,6517613,New England,Northeast,MA,10.8,8.1
+Michigan,2009,1429,9901591,East North Central,Midwest,MI,14,13.7
+Minnesota,2009,419,5281203,West North Central,Midwest,MN,11.1,7.8
+Mississippi,2009,323,2958774,East South Central,South,MS,23.1,9.5
+Missouri,2009,863,5961088,West North Central,Midwest,MO,15.5,9.3
+Montana,2009,142,983982,Mountain,West,MT,13.5,6.8
+Nebraska,2009,106,1812683,West North Central,Midwest,NE,9.9,4.6
+Nevada,2009,550,2684665,Mountain,West,NV,13,11.3
+New Hampshire,2009,168,1316102,New England,Northeast,NH,7.8,6.2
+New Jersey,2009,263,8755602,Middle Atlantic,Northeast,NJ,9.3,9.1
+New Mexico,2009,438,2036802,Mountain,West,NM,19.3,7.5
+New York,2009,1592,19307066,Middle Atlantic,Northeast,NY,15.8,8.3
+North Carolina,2009,1191,9449566,South Atlantic,South,NC,16.9,10.6
+North Dakota,2009,27,664968,West North Central,Midwest,ND,10.9,4.1
+Ohio,2009,1236,11528896,East North Central,Midwest,OH,13.3,10.3
+Oklahoma,2009,756,3717572,West South Central,South,OK,12.9,6.4
+Oregon,2009,501,3808600,Pacific,West,OR,13.4,11.3
+Pennsylvania,2009,1909,12666858,Middle Atlantic,Northeast,PA,11.1,8
+Rhode Island,2009,161,1053646,New England,Northeast,RI,13,11
+South Carolina,2009,615,4589872,South Atlantic,South,SC,13.7,11.2
+South Dakota,2009,49,807067,West North Central,Midwest,SD,14.1,4.9
+Tennessee,2009,962,6306019,East South Central,South,TN,16.5,10.5
+Texas,2009,2409,24801761,West South Central,South,TX,17.3,7.6
+Utah,2009,478,2723421,Mountain,West,UT,9.7,7.3
+Vermont,2009,55,624817,New England,Northeast,VT,9.4,6.6
+Virginia,2009,685,7925937,South Atlantic,South,VA,10.7,6.7
+Washington,2009,987,6667426,Pacific,West,WA,11.7,9.2
+West Virginia,2009,226,1847775,South Atlantic,South,WV,15.8,7.7
+Wisconsin,2009,631,5669264,East North Central,Midwest,WI,10.8,8.6
+Wyoming,2009,60,559851,Mountain,West,WY,9.2,6.3
+Alabama,2010,547,4780135,East South Central,South,AL,17.3,10.5
+Alaska,2010,83,710249,Pacific,West,AK,12.4,7.9
+Arizona,2010,1098,6392309,Mountain,West,AZ,18.6,10.4
+Arkansas,2010,350,2916031,West South Central,South,AR,15.5,8.2
+California,2010,4057,37254518,Pacific,West,CA,16.3,12.2
+Colorado,2010,654,5029325,Mountain,West,CO,12.2,8.7
+Connecticut,2010,363,3574114,New England,Northeast,CT,8.3,9.1
+Delaware,2010,145,897936,South Atlantic,South,DE,12.1,8.4
+District of Columbia,2010,78,601766,South Atlantic,South,DC,19.9,9.4
+Florida,2010,3061,18804594,South Atlantic,South,FL,16,11.1
+Georgia,2010,1054,9688690,South Atlantic,South,GA,18.7,10.5
+Hawaii,2010,151,1360301,Pacific,West,HI,12.1,6.9
+Idaho,2010,178,1567650,Mountain,West,ID,14,9
+Illinois,2010,1288,12831565,East North Central,Midwest,IL,14.1,10.4
+Indiana,2010,927,6484125,East North Central,Midwest,IN,16.3,10.4
+Iowa,2010,253,3046869,West North Central,Midwest,IA,10.3,6
+Kansas,2010,269,2853130,West North Central,Midwest,KS,14.3,7.1
+Kentucky,2010,1007,4339340,East South Central,South,KY,17.7,10.2
+Louisiana,2010,591,4533478,West South Central,South,LA,21.6,8
+Maine,2010,135,1328362,New England,Northeast,ME,12.5,8.1
+Maryland,2010,650,5773807,South Atlantic,South,MD,10.8,7.7
+Massachusetts,2010,738,6547808,New England,Northeast,MA,10.6,8.3
+Michigan,2010,1394,9884129,East North Central,Midwest,MI,15.5,12.6
+Minnesota,2010,397,5303924,West North Central,Midwest,MN,10.5,7.4
+Mississippi,2010,334,2968103,East South Central,South,MS,22.7,10.4
+Missouri,2010,998,5988925,West North Central,Midwest,MO,14.8,9.6
+Montana,2010,118,989414,Mountain,West,MT,14,7.3
+Nebraska,2010,117,1826327,West North Central,Midwest,NE,10.2,4.6
+Nevada,2010,578,2700691,Mountain,West,NV,16.4,13.5
+New Hampshire,2010,160,1316460,New England,Northeast,NH,6.6,5.8
+New Jersey,2010,868,8791953,Middle Atlantic,Northeast,NJ,10.7,9.5
+New Mexico,2010,478,2059207,Mountain,West,NM,18.6,8.1
+New York,2010,1557,19378110,Middle Atlantic,Northeast,NY,16,8.6
+North Carolina,2010,1093,9535721,South Atlantic,South,NC,17.4,10.9
+North Dakota,2010,23,672585,West North Central,Midwest,ND,12.2,3.8
+Ohio,2010,1835,11536730,East North Central,Midwest,OH,15.3,10.3
+Oklahoma,2010,717,3751598,West South Central,South,OK,16.3,6.8
+Oregon,2010,503,3831072,Pacific,West,OR,14.2,10.6
+Pennsylvania,2010,1916,12702857,Middle Atlantic,Northeast,PA,12.2,8.5
+Rhode Island,2010,167,1052945,New England,Northeast,RI,13.6,11.2
+South Carolina,2010,678,4625381,South Atlantic,South,SC,17,11.2
+South Dakota,2010,45,814197,West North Central,Midwest,SD,13.2,5
+Tennessee,2010,1080,6346295,East South Central,South,TN,16.7,9.7
+Texas,2010,2399,25146100,West South Central,South,TX,18.4,8.1
+Utah,2010,433,2763889,Mountain,West,UT,10,7.8
+Vermont,2010,63,625741,New England,Northeast,VT,10.8,6.1
+Virginia,2010,558,8001043,South Atlantic,South,VA,10.7,7.1
+Washington,2010,916,6724545,Pacific,West,WA,11.5,10
+West Virginia,2010,512,1853006,South Atlantic,South,WV,16.9,8.7
+Wisconsin,2010,630,5687288,East North Central,Midwest,WI,9.9,8.7
+Wyoming,2010,85,563767,Mountain,West,WY,9.6,6.4
+Alabama,2011,552,4798649,East South Central,South,AL,15.4,9.6
+Alaska,2011,107,722259,Pacific,West,AK,11.7,7.6
+Arizona,2011,1071,6465488,Mountain,West,AZ,17.2,9.5
+Arkansas,2011,355,2938640,West South Central,South,AR,18.7,8.3
+California,2011,4180,37672654,Pacific,West,CA,16.9,11.7
+Colorado,2011,843,5116411,Mountain,West,CO,13.2,8.4
+Connecticut,2011,402,3591927,New England,Northeast,CT,10.1,8.8
+Delaware,2011,160,907884,South Atlantic,South,DE,13.7,7.5
+District of Columbia,2011,86,620336,South Atlantic,South,DC,19.9,10.2
+Florida,2011,2918,19097369,South Atlantic,South,FL,14.9,10
+Georgia,2011,1058,9810595,South Atlantic,South,GA,18.4,10.2
+Hawaii,2011,180,1378323,Pacific,West,HI,12.1,6.8
+Idaho,2011,193,1583180,Mountain,West,ID,15.7,8.3
+Illinois,2011,1408,12862298,East North Central,Midwest,IL,14.2,9.7
+Indiana,2011,975,6515358,East North Central,Midwest,IN,15.6,9.1
+Iowa,2011,250,3063690,West North Central,Midwest,IA,10.4,5.5
+Kansas,2011,280,2868756,West North Central,Midwest,KS,14.3,6.5
+Kentucky,2011,1058,4368505,East South Central,South,KY,16,9.4
+Louisiana,2011,601,4574388,West South Central,South,LA,21.1,7.8
+Maine,2011,156,1327968,New England,Northeast,ME,13.4,7.9
+Maryland,2011,707,5843115,South Atlantic,South,MD,9.3,7.2
+Massachusetts,2011,857,6612178,New England,Northeast,MA,10.6,7.3
+Michigan,2011,1386,9876199,East North Central,Midwest,MI,15,10.4
+Minnesota,2011,511,5345967,West North Central,Midwest,MN,10,6.5
+Mississippi,2011,302,2977452,East South Central,South,MS,17.4,10
+Missouri,2011,963,6010280,West North Central,Midwest,MO,15.4,8.5
+Montana,2011,141,996866,Mountain,West,MT,16.5,6.9
+Nebraska,2011,129,1841641,West North Central,Midwest,NE,10.2,4.4
+Nevada,2011,639,2718170,Mountain,West,NV,15.5,13
+New Hampshire,2011,210,1318345,New England,Northeast,NH,7.6,5.4
+New Jersey,2011,1012,8844694,Middle Atlantic,Northeast,NJ,11.4,9.3
+New Mexico,2011,529,2077744,Mountain,West,NM,22.2,7.5
+New York,2011,1948,19526372,Middle Atlantic,Northeast,NY,16,8.3
+North Carolina,2011,1264,9662940,South Atlantic,South,NC,15.4,10.3
+North Dakota,2011,16,684830,West North Central,Midwest,ND,9.9,3.5
+Ohio,2011,2025,11543332,East North Central,Midwest,OH,15.1,8.8
+Oklahoma,2011,703,3785232,West South Central,South,OK,13.9,5.9
+Oregon,2011,532,3865845,Pacific,West,OR,14.4,9.5
+Pennsylvania,2011,2289,12742811,Middle Atlantic,Northeast,PA,12.6,7.9
+Rhode Island,2011,190,1052154,New England,Northeast,RI,13.4,11
+South Carolina,2011,618,4672744,South Atlantic,South,SC,19,10.6
+South Dakota,2011,57,823338,West North Central,Midwest,SD,14.5,4.7
+Tennessee,2011,1090,6396281,East South Central,South,TN,16.3,9
+Texas,2011,2589,25644424,West South Central,South,TX,17.4,7.8
+Utah,2011,504,2815430,Mountain,West,UT,11,6.7
+Vermont,2011,83,626210,New England,Northeast,VT,11.6,5.5
+Virginia,2011,798,8107548,South Atlantic,South,VA,11.4,6.6
+Washington,2011,997,6819155,Pacific,West,WA,12.5,9.3
+West Virginia,2011,635,1854891,South Atlantic,South,WV,17.5,8.1
+Wisconsin,2011,698,5705812,East North Central,Midwest,WI,13.1,7.8
+Wyoming,2011,85,567602,Mountain,West,WY,10.7,5.8
+Alabama,2012,562,4813946,East South Central,South,AL,16.2,8
+Alaska,2012,129,730825,Pacific,West,AK,10,7.1
+Arizona,2012,1134,6544211,Mountain,West,AZ,19,8.3
+Arkansas,2012,373,2949208,West South Central,South,AR,20.1,7.6
+California,2012,4040,38019006,Pacific,West,CA,15.9,10.4
+Colorado,2012,807,5186330,Mountain,West,CO,11.9,7.9
+Connecticut,2012,439,3597705,New England,Northeast,CT,10.3,8.3
+Delaware,2012,141,916868,South Atlantic,South,DE,13.5,7.2
+District of Columbia,2012,77,635630,South Atlantic,South,DC,18.4,9
+Florida,2012,2597,19341327,South Atlantic,South,FL,15.3,8.5
+Georgia,2012,1056,9911171,South Atlantic,South,GA,18.1,9.2
+Hawaii,2012,155,1392772,Pacific,West,HI,13.8,6
+Idaho,2012,181,1594673,Mountain,West,ID,14.4,7.2
+Illinois,2012,1628,12878494,East North Central,Midwest,IL,12.6,9
+Indiana,2012,1011,6535665,East North Central,Midwest,IN,15.2,8.3
+Iowa,2012,259,3074386,West North Central,Midwest,IA,10.3,5
+Kansas,2012,318,2885316,West North Central,Midwest,KS,14,5.7
+Kentucky,2012,1078,4383673,East South Central,South,KY,17.9,8.2
+Louisiana,2012,566,4602681,West South Central,South,LA,21.1,7.1
+Maine,2012,150,1328101,New England,Northeast,ME,12.8,7.5
+Maryland,2012,831,5891680,South Atlantic,South,MD,9.9,7
+Massachusetts,2012,859,6659627,New England,Northeast,MA,11.3,6.7
+Michigan,2012,1308,9886610,East North Central,Midwest,MI,13.7,9.1
+Minnesota,2012,482,5377695,West North Central,Midwest,MN,10,5.6
+Mississippi,2012,310,2982963,East South Central,South,MS,22,9
+Missouri,2012,942,6023267,West North Central,Midwest,MO,15.2,6.9
+Montana,2012,118,1003522,Mountain,West,MT,13.4,6
+Nebraska,2012,146,1854862,West North Central,Midwest,NE,12.2,4
+Nevada,2012,602,2752410,Mountain,West,NV,15.8,11.2
+New Hampshire,2012,173,1320923,New England,Northeast,NH,8.1,5.5
+New Jersey,2012,1222,8882095,Middle Atlantic,Northeast,NJ,9.3,9.3
+New Mexico,2012,492,2083590,Mountain,West,NM,20.4,7.1
+New York,2012,2106,19625409,Middle Atlantic,Northeast,NY,17.2,8.5
+North Carolina,2012,1298,9755299,South Atlantic,South,NC,17.2,9.3
+North Dakota,2012,21,701380,West North Central,Midwest,ND,11.4,3.1
+Ohio,2012,2125,11546969,East North Central,Midwest,OH,15.4,7.4
+Oklahoma,2012,771,3815298,West South Central,South,OK,18,5.2
+Oregon,2012,490,3893920,Pacific,West,OR,13.5,8.8
+Pennsylvania,2012,2365,12768034,Middle Atlantic,Northeast,PA,13.9,7.8
+Rhode Island,2012,196,1052761,New England,Northeast,RI,13.6,10.4
+South Carolina,2012,587,4719009,South Atlantic,South,SC,16.7,9.2
+South Dakota,2012,42,832576,West North Central,Midwest,SD,12.8,4.3
+Tennessee,2012,1131,6450632,East South Central,South,TN,18.6,7.8
+Texas,2012,2447,26078327,West South Central,South,TX,17,6.7
+Utah,2012,601,2854222,Mountain,West,UT,11,5.4
+Vermont,2012,70,625606,New England,Northeast,VT,11.2,5
+Virginia,2012,733,8188656,South Atlantic,South,VA,10.6,6.1
+Washington,2012,985,6890899,Pacific,West,WA,11.6,8.1
+West Virginia,2012,558,1855360,South Atlantic,South,WV,16.7,7.5
+Wisconsin,2012,692,5721075,East North Central,Midwest,WI,11.4,7
+Wyoming,2012,98,576608,Mountain,West,WY,9.6,5.3
+Alabama,2013,598,4827660,East South Central,South,AL,16.7,7.2
+Alaska,2013,105,736760,Pacific,West,AK,10.9,6.9
+Arizona,2013,1222,6616124,Mountain,West,AZ,20.2,7.7
+Arkansas,2013,319,2956780,West South Central,South,AR,17.1,7.3
+California,2013,4452,38347383,Pacific,West,CA,14.9,8.9
+Colorado,2013,846,5262556,Mountain,West,CO,10.6,6.8
+Connecticut,2013,582,3602470,New England,Northeast,CT,11.3,7.8
+Delaware,2013,166,925114,South Atlantic,South,DE,14,6.7
+District of Columbia,2013,102,650114,South Atlantic,South,DC,21.3,8.5
+Florida,2013,2474,19584927,South Atlantic,South,FL,14.9,7.2
+Georgia,2013,1098,9981773,South Atlantic,South,GA,16.3,8.2
+Hawaii,2013,158,1408038,Pacific,West,HI,11.1,4.9
+Idaho,2013,207,1610187,Mountain,West,ID,12.9,6.1
+Illinois,2013,1579,12890403,East North Central,Midwest,IL,13.3,9.1
+Indiana,2013,1064,6567484,East North Central,Midwest,IN,11.6,7.7
+Iowa,2013,275,3089876,West North Central,Midwest,IA,10.8,4.7
+Kansas,2013,331,2892900,West North Central,Midwest,KS,13.2,5.3
+Kentucky,2013,1019,4399121,East South Central,South,KY,20,8.1
+Louisiana,2013,809,4626795,West South Central,South,LA,19.2,6.7
+Maine,2013,174,1327975,New England,Northeast,ME,12.3,6.6
+Maryland,2013,892,5932654,South Atlantic,South,MD,10.3,6.6
+Massachusetts,2013,1081,6711138,New England,Northeast,MA,11.9,6.7
+Michigan,2013,1553,9899219,East North Central,Midwest,MI,14.5,8.8
+Minnesota,2013,523,5416074,West North Central,Midwest,MN,12,5
+Mississippi,2013,316,2987721,East South Central,South,MS,22.5,8.6
+Missouri,2013,1025,6041142,West North Central,Midwest,MO,13.7,6.7
+Montana,2013,137,1011921,Mountain,West,MT,14.5,5.4
+Nebraska,2013,117,1867414,West North Central,Midwest,NE,11,3.8
+Nevada,2013,614,2786547,Mountain,West,NV,17.4,9.6
+New Hampshire,2013,203,1322622,New England,Northeast,NH,9,5.1
+New Jersey,2013,1294,8913735,Middle Atlantic,Northeast,NJ,11.1,8.2
+New Mexico,2013,458,2085161,Mountain,West,NM,21.7,7
+New York,2013,2309,19712514,Middle Atlantic,Northeast,NY,14.5,7.7
+North Carolina,2013,1259,9849812,South Atlantic,South,NC,18.6,8
+North Dakota,2013,20,722908,West North Central,Midwest,ND,9.9,2.9
+Ohio,2013,2347,11567845,East North Central,Midwest,OH,13.7,7.5
+Oklahoma,2013,790,3849840,West South Central,South,OK,14,5.3
+Oregon,2013,455,3919664,Pacific,West,OR,15.1,7.9
+Pennsylvania,2013,2426,12778450,Middle Atlantic,Northeast,PA,12.4,7.4
+Rhode Island,2013,241,1052784,New England,Northeast,RI,13.5,9.2
+South Carolina,2013,620,4765862,South Atlantic,South,SC,15.9,7.6
+South Dakota,2013,55,842513,West North Central,Midwest,SD,10.3,3.8
+Tennessee,2013,1187,6490795,East South Central,South,TN,18.1,7.8
+Texas,2013,2446,26479279,West South Central,South,TX,16.8,6.2
+Utah,2013,594,2899961,Mountain,West,UT,8.3,4.6
+Vermont,2013,93,626044,New England,Northeast,VT,8.7,4.4
+Virginia,2013,854,8261689,South Atlantic,South,VA,10.4,5.7
+Washington,2013,969,6963410,Pacific,West,WA,12,7
+West Virginia,2013,570,1852333,South Atlantic,South,WV,17.3,6.8
+Wisconsin,2013,856,5736673,East North Central,Midwest,WI,11,6.7
+Wyoming,2013,98,582341,Mountain,West,WY,11.8,4.7
+Alabama,2014,723,4840037,East South Central,South,AL,17.8,6.8
+Alaska,2014,124,736759,Pacific,West,AK,11.9,6.8
+Arizona,2014,1211,6706435,Mountain,West,AZ,21.2,6.8
+Arkansas,2014,356,2964800,West South Central,South,AR,18.4,6.1
+California,2014,4521,38701278,Pacific,West,CA,15.8,7.5
+Colorado,2014,899,5342311,Mountain,West,CO,12.3,5
+Connecticut,2014,623,3600188,New England,Northeast,CT,8.6,6.6
+Delaware,2014,189,934805,South Atlantic,South,DE,11,5.7
+District of Columbia,2014,96,660797,South Atlantic,South,DC,19,7.8
+Florida,2014,2634,19897747,South Atlantic,South,FL,16.7,6.3
+Georgia,2014,1206,10083850,South Atlantic,South,GA,16.8,7.1
+Hawaii,2014,157,1417710,Pacific,West,HI,10.8,4.4
+Idaho,2014,212,1630391,Mountain,West,ID,12.4,4.9
+Illinois,2014,1705,12882438,East North Central,Midwest,IL,13.7,7.1
+Indiana,2014,1172,6593182,East North Central,Midwest,IN,14.6,5.9
+Iowa,2014,264,3105563,West North Central,Midwest,IA,10.3,4.3
+Kansas,2014,332,2899553,West North Central,Midwest,KS,12.1,4.5
+Kentucky,2014,1077,4410415,East South Central,South,KY,20,6.4
+Louisiana,2014,777,4648797,West South Central,South,LA,23.1,6.4
+Maine,2014,216,1328903,New England,Northeast,ME,14.6,5.6
+Maryland,2014,1070,5970245,South Atlantic,South,MD,9.8,5.8
+Massachusetts,2014,1289,6757925,New England,Northeast,MA,13.6,5.8
+Michigan,2014,1762,9914675,East North Central,Midwest,MI,14.8,7.3
+Minnesota,2014,517,5452649,West North Central,Midwest,MN,8.3,4.2
+Mississippi,2014,336,2988578,East South Central,South,MS,22.1,7.5
+Missouri,2014,1067,6058014,West North Central,Midwest,MO,10.4,6.1
+Montana,2014,125,1019931,Mountain,West,MT,12,4.7
+Nebraska,2014,125,1880920,West North Central,Midwest,NE,11.8,3.3
+Nevada,2014,545,2831730,Mountain,West,NV,17,7.9
+New Hampshire,2014,334,1328684,New England,Northeast,NH,7.2,4.3
+New Jersey,2014,1253,8943010,Middle Atlantic,Northeast,NJ,11.3,6.7
+New Mexico,2014,547,2083207,Mountain,West,NM,20,6.7
+New York,2014,2300,19773580,Middle Atlantic,Northeast,NY,14,6.3
+North Carolina,2014,1358,9941160,South Atlantic,South,NC,17.1,6.3
+North Dakota,2014,43,738658,West North Central,Midwest,ND,9.7,2.7
+Ohio,2014,2744,11593741,East North Central,Midwest,OH,15.6,5.8
+Oklahoma,2014,777,3875008,West South Central,South,OK,17.3,4.5
+Oregon,2014,522,3960673,Pacific,West,OR,14.4,6.8
+Pennsylvania,2014,2732,12790341,Middle Atlantic,Northeast,PA,12.5,5.8
+Rhode Island,2014,247,1054782,New England,Northeast,RI,11.3,7.7
+South Carolina,2014,701,4824758,South Atlantic,South,SC,16.5,6.4
+South Dakota,2014,63,849455,West North Central,Midwest,SD,12.8,3.4
+Tennessee,2014,1269,6540007,East South Central,South,TN,17.3,6.5
+Texas,2014,2601,26954436,West South Central,South,TX,16.4,5.1
+Utah,2014,603,2938671,Mountain,West,UT,10.2,3.8
+Vermont,2014,83,625665,New England,Northeast,VT,9.3,4
+Virginia,2014,980,8316902,South Atlantic,South,VA,10.2,5.2
+Washington,2014,979,7046931,Pacific,West,WA,12,6.1
+West Virginia,2014,627,1847624,South Atlantic,South,WV,20.6,6.6
+Wisconsin,2014,853,5751272,East North Central,Midwest,WI,10.9,5.4
+Wyoming,2014,109,583334,Mountain,West,WY,9.7,4.2
+Alabama,2015,736,4850858,East South Central,South,AL,16.3,6.1
+Alaska,2015,122,737979,Pacific,West,AK,9.2,6.4
+Arizona,2015,1274,6802262,Mountain,West,AZ,17.2,6
+Arkansas,2015,392,2975626,West South Central,South,AR,16.1,5.1
+California,2015,4659,39032444,Pacific,West,CA,13.9,6.2
+Colorado,2015,869,5440445,Mountain,West,CO,9.9,3.9
+Connecticut,2015,800,3593862,New England,Northeast,CT,9.1,5.7
+Delaware,2015,198,944107,South Atlantic,South,DE,11.1,4.8
+District of Columbia,2015,125,672736,South Atlantic,South,DC,16.6,6.9
+Florida,2015,3228,20268567,South Atlantic,South,FL,16.2,5.4
+Georgia,2015,1302,10199533,South Atlantic,South,GA,18.1,6
+Hawaii,2015,169,1426320,Pacific,West,HI,10.9,3.6
+Idaho,2015,218,1649324,Mountain,West,ID,12.3,4.2
+Illinois,2015,1835,12862051,East North Central,Midwest,IL,10.9,5.9
+Indiana,2015,1245,6610596,East North Central,Midwest,IN,13.5,4.8
+Iowa,2015,309,3118473,West North Central,Midwest,IA,10.4,3.8
+Kansas,2015,329,2905789,West North Central,Midwest,KS,14.2,4.2
+Kentucky,2015,1273,4422057,East South Central,South,KY,19.5,5.3
+Louisiana,2015,861,4671211,West South Central,South,LA,18.6,6.3
+Maine,2015,269,1327787,New England,Northeast,ME,12.3,4.4
+Maryland,2015,1285,6000561,South Atlantic,South,MD,9.6,5.1
+Massachusetts,2015,1724,6794002,New England,Northeast,MA,11.5,4.9
+Michigan,2015,1980,9918170,East North Central,Midwest,MI,12.8,5.4
+Minnesota,2015,581,5483238,West North Central,Midwest,MN,7.8,3.7
+Mississippi,2015,351,2985297,East South Central,South,MS,19.1,6.4
+Missouri,2015,1066,6072640,West North Central,Midwest,MO,9.8,5
+Montana,2015,138,1028317,Mountain,West,MT,11.9,4.2
+Nebraska,2015,126,1893564,West North Central,Midwest,NE,10.3,3
+Nevada,2015,619,2883057,Mountain,West,NV,13,6.8
+New Hampshire,2015,422,1330134,New England,Northeast,NH,7.3,3.4
+New Jersey,2015,1454,8960001,Middle Atlantic,Northeast,NJ,11.2,5.8
+New Mexico,2015,501,2082264,Mountain,West,NM,19.7,6.6
+New York,2015,2754,19819347,Middle Atlantic,Northeast,NY,14.2,5.3
+North Carolina,2015,1567,10041769,South Atlantic,South,NC,15.3,5.8
+North Dakota,2015,61,754859,West North Central,Midwest,ND,10.7,2.8
+Ohio,2015,3310,11606027,East North Central,Midwest,OH,13.6,4.9
+Oklahoma,2015,725,3904353,West South Central,South,OK,14.2,4.4
+Oregon,2015,505,4016537,Pacific,West,OR,11.9,5.6
+Pennsylvania,2015,3264,12791124,Middle Atlantic,Northeast,PA,12.3,5.3
+Rhode Island,2015,310,1055916,New England,Northeast,RI,11.8,6
+South Carolina,2015,761,4892423,South Atlantic,South,SC,14.3,6
+South Dakota,2015,65,854036,West North Central,Midwest,SD,13.9,3.1
+Tennessee,2015,1457,6590726,East South Central,South,TN,14.7,5.6
+Texas,2015,2588,27454880,West South Central,South,TX,14.7,4.5
+Utah,2015,646,2984917,Mountain,West,UT,9.3,3.6
+Vermont,2015,99,624455,New England,Northeast,VT,10.7,3.6
+Virginia,2015,1039,8366767,South Atlantic,South,VA,10.9,4.5
+Washington,2015,1094,7152818,Pacific,West,WA,11.4,5.6
+West Virginia,2015,725,1839767,South Atlantic,South,WV,14.5,6.8
+Wisconsin,2015,878,5759744,East North Central,Midwest,WI,11.4,4.6
+Wyoming,2015,96,586102,Mountain,West,WY,9.8,4.2
+Alabama,2016,756,4860545,East South Central,South,AL,16.2,6
+Alaska,2016,128,741522,Pacific,West,AK,12.6,6.6
+Arizona,2016,1382,6908642,Mountain,West,AZ,16.1,5.3
+Arkansas,2016,401,2988231,West South Central,South,AR,16,4
+California,2016,4654,39296476,Pacific,West,CA,13.9,5.4
+Colorado,2016,942,5530105,Mountain,West,CO,8.5,3.3
+Connecticut,2016,971,3587685,New England,Northeast,CT,9.8,5.1
+Delaware,2016,282,952698,South Atlantic,South,DE,11.6,4.4
+District of Columbia,2016,269,684336,South Atlantic,South,DC,16.3,6
+Florida,2016,4728,20656589,South Atlantic,South,FL,13,4.9
+Georgia,2016,1394,10313620,South Atlantic,South,GA,15.4,5.4
+Hawaii,2016,191,1428683,Pacific,West,HI,9.3,3
+Idaho,2016,243,1680026,Mountain,West,ID,11.1,3.8
+Illinois,2016,2411,12835726,East North Central,Midwest,IL,12.1,5.9
+Indiana,2016,1526,6634007,East North Central,Midwest,IN,11.8,4.4
+Iowa,2016,314,3130869,West North Central,Midwest,IA,9.8,3.7
+Kansas,2016,313,2907731,West North Central,Midwest,KS,11.2,4.2
+Kentucky,2016,1419,4436113,East South Central,South,KY,15.2,5
+Louisiana,2016,996,4686157,West South Central,South,LA,20.2,6.1
+Maine,2016,353,1330232,New England,Northeast,ME,12.7,3.9
+Maryland,2016,2044,6024752,South Atlantic,South,MD,7.1,4.3
+Massachusetts,2016,2227,6823721,New England,Northeast,MA,9.6,3.7
+Michigan,2016,2347,9933445,East North Central,Midwest,MI,11.1,4.9
+Minnesota,2016,672,5525050,West North Central,Midwest,MN,8.7,3.9
+Mississippi,2016,352,2985415,East South Central,South,MS,21.1,5.8
+Missouri,2016,1371,6091176,West North Central,Midwest,MO,13,4.5
+Montana,2016,119,1038656,Mountain,West,MT,11.7,4.1
+Nebraska,2016,120,1907603,West North Central,Midwest,NE,9.6,3.2
+Nevada,2016,665,2939254,Mountain,West,NV,10.1,5.7
+New Hampshire,2016,481,1335015,New England,Northeast,NH,6.4,2.8
+New Jersey,2016,2056,8978416,Middle Atlantic,Northeast,NJ,9.4,5
+New Mexico,2016,500,2085432,Mountain,West,NM,17.8,6.7
+New York,2016,3638,19836286,Middle Atlantic,Northeast,NY,11.9,4.8
+North Carolina,2016,1956,10156689,South Atlantic,South,NC,13.6,5.1
+North Dakota,2016,77,755548,West North Central,Midwest,ND,11.1,3.2
+Ohio,2016,4329,11622554,East North Central,Midwest,OH,13.7,4.9
+Oklahoma,2016,813,3921207,West South Central,South,OK,14.6,4.9
+Oregon,2016,506,4085989,Pacific,West,OR,11.8,4.9
+Pennsylvania,2016,4627,12787085,Middle Atlantic,Northeast,PA,11.1,5.4
+Rhode Island,2016,326,1057566,New England,Northeast,RI,11.4,5.3
+South Carolina,2016,879,4959822,South Atlantic,South,SC,14.1,4.8
+South Dakota,2016,69,861542,West North Central,Midwest,SD,14.5,2.8
+Tennessee,2016,1630,6649404,East South Central,South,TN,14.9,4.8
+Texas,2016,2831,27904862,West South Central,South,TX,13.8,4.6
+Utah,2016,635,3044321,Mountain,West,UT,8.6,3.4
+Vermont,2016,125,623354,New England,Northeast,VT,9.6,3.3
+Virginia,2016,1405,8414380,South Atlantic,South,VA,11.4,4
+Washington,2016,1102,7280934,Pacific,West,WA,11,5.4
+West Virginia,2016,884,1828637,South Atlantic,South,WV,18,6
+Wisconsin,2016,1074,5772917,East North Central,Midwest,WI,10.7,4.1
+Wyoming,2016,99,584910,Mountain,West,WY,10.9,5.3
+Alabama,2017,835,4874747,East South Central,South,AL,15,4.4
+Alaska,2017,147,739795,Pacific,West,AK,14.4,7.2
+Arizona,2017,1532,7016270,Mountain,West,AZ,13.2,4.9
+Arkansas,2017,446,3004279,West South Central,South,AR,14.8,3.7
+California,2017,4868,39536653,Pacific,West,CA,12.4,4.8
+Colorado,2017,1015,5607154,Mountain,West,CO,7.7,2.8
+Connecticut,2017,1072,3588184,New England,Northeast,CT,10.9,4.7
+Delaware,2017,338,961939,South Atlantic,South,DE,9.2,4.6
+District of Columbia,2017,310,693972,South Atlantic,South,DC,13.6,6.1
+Florida,2017,5088,20984400,South Atlantic,South,FL,13.7,4.2
+Georgia,2017,1537,10429379,South Atlantic,South,GA,13.3,4.7
+Hawaii,2017,203,1427538,Pacific,West,HI,10.3,2.4
+Idaho,2017,236,1716943,Mountain,West,ID,11.7,3.2
+Illinois,2017,2778,12802023,East North Central,Midwest,IL,10.9,5
+Indiana,2017,1852,6666818,East North Central,Midwest,IN,11.4,3.5
+Iowa,2017,341,3145711,West North Central,Midwest,IA,9.1,3.1
+Kansas,2017,333,2913123,West North Central,Midwest,KS,14.7,3.6
+Kentucky,2017,1566,4454189,East South Central,South,KY,14.4,4.9
+Louisiana,2017,1108,4684333,West South Central,South,LA,21.4,5.1
+Maine,2017,424,1335907,New England,Northeast,ME,12,3.3
+Maryland,2017,2247,6052177,South Atlantic,South,MD,7.8,4.1
+Massachusetts,2017,2168,6859819,New England,Northeast,MA,10.6,3.7
+Michigan,2017,2694,9962311,East North Central,Midwest,MI,12.7,4.6
+Minnesota,2017,733,5576606,West North Central,Midwest,MN,9.2,3.5
+Mississippi,2017,354,2984100,East South Central,South,MS,18.3,5.1
+Missouri,2017,1367,6113532,West North Central,Midwest,MO,11.1,3.8
+Montana,2017,119,1050493,Mountain,West,MT,9.7,4
+Nebraska,2017,152,1920076,West North Central,Midwest,NE,10.4,2.9
+Nevada,2017,676,2998039,Mountain,West,NV,13.7,5
+New Hampshire,2017,467,1342795,New England,Northeast,NH,6.6,2.7
+New Jersey,2017,2685,9005644,Middle Atlantic,Northeast,NJ,8.6,4.6
+New Mexico,2017,493,2088070,Mountain,West,NM,18.6,6.2
+New York,2017,3921,19849399,Middle Atlantic,Northeast,NY,13.4,4.7
+North Carolina,2017,2414,10273419,South Atlantic,South,NC,14.5,4.6
+North Dakota,2017,68,755393,West North Central,Midwest,ND,11.3,2.6
+Ohio,2017,5111,11658609,East North Central,Midwest,OH,12.7,5
+Oklahoma,2017,775,3930864,West South Central,South,OK,12.6,4.3
+Oregon,2017,530,4142776,Pacific,West,OR,10.2,4.1
+Pennsylvania,2017,5388,12805537,Middle Atlantic,Northeast,PA,11.2,4.9
+Rhode Island,2017,320,1059639,New England,Northeast,RI,12.2,4.5
+South Carolina,2017,1008,5024369,South Atlantic,South,SC,15.6,4.3
+South Dakota,2017,73,869666,West North Central,Midwest,SD,10.4,3.3
+Tennessee,2017,1776,6715984,East South Central,South,TN,11.5,3.7
+Texas,2017,2989,28304596,West South Central,South,TX,13.4,4.3
+Utah,2017,650,3101833,Mountain,West,UT,8.6,3.2
+Vermont,2017,134,623657,New England,Northeast,VT,10.2,3
+Virginia,2017,1507,8470020,South Atlantic,South,VA,10.3,3.8
+Washington,2017,1169,7405743,Pacific,West,WA,9.9,4.8
+West Virginia,2017,974,1815857,South Atlantic,South,WV,17.3,5.2
+Wisconsin,2017,1177,5795483,East North Central,Midwest,WI,9.5,3.3
+Wyoming,2017,69,579315,Mountain,West,WY,12.4,4.2

@@ -1,0 +1,990 @@
+Sex,Race,State,Ethnicity,Age Group,First Year,Last Year,Cause of Death,Year,Deaths,Population,Crude Rate
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,1999,169,4430143,3.81
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,1999,46,624781,7.36
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,1999,511,5023824,10.17
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,1999,113,2651860,4.26
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,1999,2662,33499204,7.95
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,1999,349,4226018,8.26
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,1999,310,3386401,9.15
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,1999,50,774990,6.45
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,1999,48,570220,8.42
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,1999,997,15759421,6.33
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,1999,283,8045966,3.52
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,1999,80,1210300,6.61
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,1999,64,1275675,5.02
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,1999,825,12359023,6.68
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,1999,191,6044972,3.16
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,1999,53,2917637,1.82
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,1999,89,2678340,3.32
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,1999,197,4018053,4.9
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,1999,188,4460814,4.21
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,1999,67,1266808,5.29
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,1999,629,5254511,11.97
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,1999,488,6317345,7.72
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,1999,460,9897117,4.65
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,1999,136,4873481,2.79
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,1999,87,2828412,3.08
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,1999,276,5561950,4.96
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,1999,41,897511,4.57
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,1999,39,1704765,2.29
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,1999,227,1934719,11.73
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,1999,54,1222015,4.42
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,1999,557,8359593,6.66
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,1999,266,1808082,14.71
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,1999,959,18882726,5.08
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,1999,366,7949362,4.6
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,1999,12,644259,1.86
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,1999,467,11335457,4.12
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,1999,178,3437148,5.18
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,1999,210,3393941,6.19
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,1999,990,12263805,8.07
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,1999,58,1040402,5.57
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,1999,147,3974684,3.7
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,1999,17,750417,2.27
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,1999,344,5638708,6.1
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,1999,1087,20558220,5.29
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,1999,205,2203483,9.3
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,1999,29,604687,4.8
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,1999,366,7000176,5.23
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,1999,555,5842565,9.5
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,1999,75,1811801,4.14
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,1999,212,5332666,3.98
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,1999,20,491780,4.07
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,1999,16849,279040238,6.04
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2000,197,4451687,4.43
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2000,48,627428,7.65
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2000,522,5166810,10.1
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2000,140,2678217,5.23
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2000,1941,33998767,5.71
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2000,352,4327788,8.13
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2000,320,3411714,9.38
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2000,55,786404,6.99
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2000,76,571723,13.29
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2000,1159,16047246,7.22
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2000,364,8230053,4.42
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2000,63,1211479,5.2
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2000,64,1299474,4.93
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2000,868,12437888,6.98
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2000,214,6091392,3.51
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2000,73,2928046,2.49
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2000,103,2692681,3.83
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2000,241,4048831,5.95
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2000,248,4468879,5.55
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2000,61,1277179,4.78
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2000,623,5310451,11.73
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2000,463,6362583,7.28
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2000,561,9955146,5.64
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2000,130,4933787,2.63
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2000,114,2848293,4
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2000,303,5605868,5.41
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2000,41,903283,4.54
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2000,46,1713194,2.69
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2000,273,2018244,13.53
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2000,45,1240361,3.63
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2000,643,8430913,7.63
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2000,271,1820704,14.88
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2000,767,18998429,4.04
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2000,491,8078824,6.08
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2000,14,641183,2.18
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2000,563,11363719,4.95
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2000,237,3453861,6.86
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2000,208,3430828,6.06
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2000,1147,12285041,9.34
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2000,74,1050725,7.04
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2000,258,4023396,6.41
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2000,20,755657,2.65
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2000,397,5703094,6.96
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2000,1021,20946049,4.87
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2000,210,2244210,9.36
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2000,36,609876,5.9
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2000,411,7104354,5.79
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2000,556,5911104,9.41
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2000,113,1806977,6.25
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2000,248,5374133,4.61
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2000,22,493963,4.45
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2000,17415,282171936,6.17
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2001,216,4467634,4.83
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2001,62,633714,9.78
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2001,552,5273477,10.47
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2001,126,2691571,4.68
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2001,1226,34479458,3.56
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2001,411,4425687,9.29
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2001,307,3432835,8.94
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2001,64,795699,8.04
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2001,93,574504,16.19
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2001,1746,16356966,10.67
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2001,511,8377038,6.1
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2001,77,1225948,6.28
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2001,98,1319962,7.42
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2001,892,12488445,7.14
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2001,283,6127760,4.62
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2001,87,2931997,2.97
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2001,138,2702162,5.11
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2001,345,4068132,8.48
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2001,265,4477875,5.92
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2001,85,1285692,6.61
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2001,639,5374691,11.89
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2001,689,6397634,10.77
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2001,621,9991120,6.22
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2001,185,4982796,3.71
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2001,169,2852994,5.92
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2001,351,5641142,6.22
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2001,56,906961,6.17
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2001,66,1719836,3.84
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2001,261,2098399,12.44
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2001,79,1255517,6.29
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2001,705,8492671,8.3
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2001,258,1831690,14.09
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2001,1079,19082838,5.65
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2001,551,8210122,6.71
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2001,14,639062,2.19
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2001,737,11387404,6.47
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2001,269,3467100,7.76
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2001,241,3467937,6.95
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2001,958,12298970,7.79
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2001,110,1057142,10.41
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2001,242,4064995,5.95
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2001,24,757972,3.17
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2001,424,5750789,7.37
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2001,1374,21319622,6.44
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2001,209,2283715,9.15
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2001,44,612223,7.19
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2001,459,7198362,6.38
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2001,499,5985722,8.34
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2001,206,1801481,11.44
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2001,269,5406835,4.98
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2001,22,494657,4.45
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2001,19394,284968955,6.81
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2002,211,4480089,4.71
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2002,84,642337,13.08
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2002,624,5396255,11.56
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2002,176,2705927,6.5
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2002,2975,34871843,8.53
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2002,448,4490406,9.98
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2002,354,3458749,10.23
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2002,84,806169,10.42
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2002,61,573158,10.64
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2002,1927,16689370,11.55
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2002,563,8508256,6.62
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2002,77,1239613,6.21
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2002,117,1340372,8.73
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2002,986,12525556,7.87
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2002,293,6155967,4.76
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2002,91,2934234,3.1
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2002,170,2713535,6.26
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2002,426,4089875,10.42
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2002,365,4497267,8.12
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2002,139,1295960,10.73
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2002,723,5440389,13.29
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2002,705,6417206,10.99
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2002,751,10015710,7.5
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2002,201,5018935,4
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2002,183,2858681,6.4
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2002,416,5674825,7.33
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2002,78,911667,8.56
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2002,66,1728292,3.82
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2002,323,2173791,14.86
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2002,111,1269089,8.75
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2002,813,8552643,9.51
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2002,287,1855309,15.47
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2002,923,19137800,4.82
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2002,647,8326201,7.77
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2002,17,638168,2.66
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2002,931,11407889,8.16
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2002,240,3489080,6.88
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2002,318,3513424,9.05
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2002,1097,12331031,8.9
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2002,99,1065995,9.29
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2002,217,4107795,5.28
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2002,22,760020,2.89
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2002,491,5795918,8.47
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2002,1598,21690325,7.37
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2002,288,2324815,12.39
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2002,47,615442,7.64
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2002,509,7286873,6.99
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2002,643,6052349,10.62
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2002,229,1805414,12.68
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2002,340,5445162,6.24
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2002,34,500017,6.8
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2002,23518,287625193,8.18
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2003,197,4503491,4.37
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2003,83,648414,12.8
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2003,674,5510364,12.23
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2003,184,2724816,6.75
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2003,3108,35253159,8.82
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2003,502,4528732,11.08
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2003,307,3484336,8.81
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2003,77,818003,9.41
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2003,103,568502,18.12
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2003,2054,17004085,12.08
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2003,607,8622793,7.04
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2003,92,1251154,7.35
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2003,102,1363380,7.48
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2003,847,12556006,6.75
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2003,434,6196638,7
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2003,96,2941999,3.26
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2003,188,2723004,6.9
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2003,560,4117170,13.6
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2003,536,4521042,11.86
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2003,133,1306513,10.18
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2003,779,5496269,14.17
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2003,823,6422565,12.81
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2003,761,10041152,7.58
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2003,246,5053572,4.87
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2003,207,2868312,7.22
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2003,522,5709403,9.14
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2003,93,919630,10.11
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2003,55,1738643,3.16
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2003,342,2248850,15.21
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2003,127,1279840,9.92
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2003,721,8601402,8.38
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2003,358,1877574,19.07
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2003,964,19175939,5.03
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2003,762,8422501,9.05
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2003,22,638817,3.44
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2003,775,11434788,6.78
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2003,400,3504892,11.41
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2003,355,3547376,10.01
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2003,1381,12374658,11.16
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2003,146,1071342,13.63
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2003,287,4150297,6.92
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2003,24,763729,3.14
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2003,662,5847812,11.32
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2003,1753,22030931,7.96
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2003,353,2360137,14.96
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2003,65,617858,10.52
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2003,547,7366977,7.43
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2003,696,6104115,11.4
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2003,262,1812295,14.46
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2003,383,5479203,6.99
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2003,30,503453,5.96
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2003,25785,290107933,8.89
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2004,283,4530729,6.25
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2004,86,659286,13.04
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2004,744,5652404,13.16
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2004,230,2749686,8.36
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2004,3125,35574576,8.78
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2004,518,4575013,11.32
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2004,333,3496094,9.52
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2004,63,830803,7.58
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2004,87,567754,15.32
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2004,2264,17415318,13
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2004,666,8769252,7.59
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2004,103,1273569,8.09
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2004,98,1391802,7.04
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2004,1035,12589773,8.22
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2004,542,6233007,8.7
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2004,122,2953635,4.13
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2004,224,2734373,8.19
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2004,526,4146101,12.69
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2004,539,4552238,11.84
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2004,140,1313688,10.66
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2004,676,5546935,12.19
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2004,669,6412281,10.43
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2004,867,10055315,8.62
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2004,250,5087713,4.91
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2004,224,2889010,7.75
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2004,548,5747741,9.53
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2004,98,930009,10.54
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2004,59,1749370,3.37
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2004,380,2346222,16.2
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2004,124,1290121,9.61
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2004,590,8634561,6.83
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2004,314,1903808,16.49
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2004,831,19171567,4.33
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2004,854,8553152,9.98
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2004,17,644705,2.64
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2004,1136,11452251,9.92
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2004,476,3525233,13.5
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2004,365,3569463,10.23
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2004,1544,12410722,12.44
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2004,106,1074579,9.86
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2004,356,4210921,8.45
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2004,43,770396,5.58
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2004,763,5910809,12.91
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2004,1813,22394023,8.1
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2004,358,2401580,14.91
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2004,50,619920,8.07
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2004,558,7475575,7.46
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2004,811,6178645,13.13
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2004,333,1816438,18.33
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2004,437,5514026,7.93
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2004,46,509106,9.04
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2004,27424,292805298,9.37
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2005,283,4569805,6.19
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2005,79,666946,11.85
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2005,794,5839077,13.6
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2005,269,2781097,9.67
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2005,3214,35827943,8.97
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2005,608,4631888,13.13
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2005,295,3506956,8.41
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2005,62,845150,7.34
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2005,77,567136,13.58
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2005,2371,17842038,13.29
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2005,738,8925922,8.27
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2005,126,1292729,9.75
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2005,109,1428241,7.63
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2005,1067,12609903,8.46
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2005,610,6278616,9.72
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2005,141,2964454,4.76
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2005,241,2745299,8.78
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2005,638,4182742,15.25
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2005,661,4576628,14.44
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2005,163,1318787,12.36
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2005,656,5592379,11.73
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2005,780,6403290,12.18
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2005,985,10051137,9.8
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2005,282,5119598,5.51
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2005,248,2905943,8.53
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2005,608,5790300,10.5
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2005,96,940102,10.21
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2005,86,1761497,4.88
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2005,457,2432143,18.79
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2005,142,1298492,10.94
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2005,823,8651974,9.51
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2005,373,1932274,19.3
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2005,944,19132610,4.93
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2005,1000,8705407,11.49
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2005,12,646089,1.86
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2005,1243,11463320,10.84
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2005,478,3548597,13.47
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2005,386,3613202,10.68
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2005,1613,12449990,12.96
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2005,156,1067916,14.61
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2005,427,4270150,10
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2005,40,775493,5.16
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2005,872,5991057,14.56
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2005,1910,22778123,8.39
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2005,438,2457719,17.82
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2005,53,621215,8.53
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2005,581,7577105,7.67
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2005,850,6257305,13.58
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2005,184,1820492,10.11
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2005,518,5546166,9.34
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2005,26,514157,5.06
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2005,29813,295516599,10.09
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2006,398,4628981,8.6
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2006,76,675302,11.25
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2006,876,6029141,14.53
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2006,285,2821761,10.1
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2006,3494,36021202,9.7
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2006,627,4720423,13.28
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2006,407,3517460,11.57
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2006,78,859268,9.08
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2006,101,570681,17.7
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2006,2591,18166990,14.26
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2006,830,9155813,9.07
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2006,86,1309731,6.57
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2006,130,1468669,8.85
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2006,1369,12643955,10.83
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2006,736,6332669,11.62
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2006,187,2982644,6.27
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2006,257,2762931,9.3
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2006,728,4219239,17.25
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2006,705,4302665,16.39
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2006,159,1323619,12.01
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2006,762,5627367,13.54
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2006,970,6410084,15.13
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2006,1176,10036081,11.72
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2006,311,5163555,6.02
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2006,339,2904978,11.67
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2006,743,5842704,12.72
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2006,97,952692,10.18
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2006,91,1772693,5.13
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2006,461,2522658,18.27
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2006,149,1308389,11.39
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2006,847,8661679,9.78
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2006,418,1962137,21.3
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2006,1680,19104631,8.79
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2006,1059,8917270,11.88
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2006,14,649422,2.16
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2006,1515,11481213,13.2
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2006,563,3594090,15.66
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2006,485,3670883,13.21
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2006,1638,12510809,13.09
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2006,175,1063096,16.46
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2006,554,4357847,12.71
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2006,37,783033,4.73
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2006,975,6088766,16.01
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2006,2191,23359580,9.38
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2006,444,2525507,17.58
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2006,75,622892,12.04
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2006,629,7673725,8.2
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2006,897,6370753,14.08
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2006,362,1827912,19.8
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2006,593,5577655,10.63
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2006,55,522667,10.52
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2006,34425,298379912,11.54
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2007,511,4672840,10.94
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2007,72,680300,10.58
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2007,943,6167681,15.29
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2007,301,2848650,10.57
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2007,3854,36250311,10.63
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2007,734,4803868,15.28
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2007,433,3527270,12.28
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2007,97,871749,11.13
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2007,61,574404,10.62
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2007,2794,18367842,15.21
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2007,923,9349988,9.87
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2007,136,1315675,10.34
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2007,126,1505105,8.37
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2007,1192,12695866,9.39
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2007,781,6379599,12.24
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2007,203,2999212,6.77
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2007,270,2783785,9.7
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2007,708,4256672,16.63
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2007,808,4375581,18.47
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2007,159,1327040,11.98
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2007,769,5653408,13.6
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2007,922,6431559,14.34
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2007,1236,10001284,12.36
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2007,341,5207203,6.55
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2007,314,2928350,10.72
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2007,714,5887612,12.13
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2007,125,964706,12.96
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2007,80,1783440,4.49
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2007,499,2601072,19.18
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2007,186,1312540,14.17
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2007,727,8677885,8.38
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2007,462,1990070,23.22
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2007,1708,19132335,8.93
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2007,1084,9118037,11.89
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2007,32,652822,4.9
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2007,1592,11500468,13.84
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2007,666,3634349,18.33
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2007,502,3722417,13.49
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2007,1733,12563937,13.79
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2007,135,1057315,12.77
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2007,545,4444110,12.26
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2007,32,791623,4.04
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2007,985,6175727,15.95
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2007,2194,23831983,9.21
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2007,511,2597746,19.67
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2007,66,623481,10.59
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2007,700,7751000,9.03
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2007,962,6461587,14.89
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2007,397,1834052,21.65
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2007,622,5610775,11.09
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2007,63,534876,11.78
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2007,36010,301231207,11.95
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2008,607,4718206,12.87
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2008,127,687455,18.47
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2008,828,6280362,13.18
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2008,360,2874554,12.52
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2008,3863,36604337,10.55
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2008,749,4889730,15.32
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2008,386,3545579,10.89
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2008,124,883874,14.03
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2008,56,580236,9.65
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2008,2963,18527305,15.99
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2008,935,9504843,9.84
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2008,123,1332213,9.23
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2008,146,1534320,9.52
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2008,1353,12747038,10.61
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2008,830,6424806,12.92
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2008,209,3016734,6.93
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2008,219,2808076,7.8
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2008,764,4289878,17.81
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2008,647,4435586,14.59
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2008,162,1330509,12.18
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2008,693,5684965,12.19
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2008,786,6468967,12.15
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2008,1239,9946889,12.46
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2008,384,5247018,7.32
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2008,303,2947806,10.28
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2008,765,5923916,12.91
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2008,134,976415,13.72
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2008,94,1796378,5.23
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2008,519,2653630,19.56
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2008,126,1315906,9.58
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2008,702,8711090,8.06
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2008,518,2010662,25.76
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2008,1691,19212436,8.8
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2008,1196,9309449,12.85
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2008,46,657569,7
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2008,1733,11515391,15.05
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2008,564,3668976,15.37
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2008,452,3768748,11.99
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2008,1850,12612285,14.67
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2008,185,1055003,17.54
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2008,565,4528996,12.48
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2008,54,799124,6.76
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2008,938,6247411,15.01
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2008,2053,24309039,8.45
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2008,468,2663029,17.57
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2008,73,624151,11.7
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2008,718,7833496,9.17
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2008,1011,6562231,15.41
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2008,459,1840310,24.94
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2008,606,5640996,10.74
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2008,74,546043,13.55
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2008,36450,304093966,11.99
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2009,630,4757938,13.24
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2009,131,698895,18.74
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2009,1002,6343154,15.8
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2009,351,2896843,12.12
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2009,4056,36961229,10.97
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2009,769,4972195,15.47
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2009,393,3561807,11.03
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2009,136,891730,15.25
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2009,26,592228,4.39
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2009,3092,18652644,16.58
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2009,1007,9620846,10.47
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2009,136,1346717,10.1
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2009,171,1554439,11
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2009,1381,12796778,10.79
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2009,896,6459325,13.87
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2009,207,3032870,6.83
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2009,304,2832704,10.73
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2009,769,4317074,17.81
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2009,584,4491648,13
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2009,173,1329590,13.01
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2009,743,5730388,12.97
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2009,816,6517613,12.52
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2009,1429,9901591,14.43
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2009,419,5281203,7.93
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2009,323,2958774,10.92
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2009,863,5961088,14.48
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2009,142,983982,14.43
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2009,106,1812683,5.85
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2009,550,2684665,20.49
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2009,168,1316102,12.76
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2009,263,8755602,3
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2009,438,2036802,21.5
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2009,1592,19307066,8.25
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2009,1191,9449566,12.6
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2009,27,664968,4.06
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2009,1236,11528896,10.72
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2009,756,3717572,20.34
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2009,501,3808600,13.15
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2009,1909,12666858,15.07
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2009,161,1053646,15.28
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2009,615,4589872,13.4
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2009,49,807067,6.07
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2009,962,6306019,15.26
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2009,2409,24801761,9.71
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2009,478,2723421,17.55
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2009,55,624817,8.8
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2009,685,7925937,8.64
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2009,987,6667426,14.8
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2009,226,1847775,12.23
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2009,631,5669264,11.13
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2009,60,559851,10.72
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2009,37004,306771529,12.06
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2010,547,4780135,11.44
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2010,83,710249,11.69
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2010,1098,6392309,17.18
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2010,350,2916031,12
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2010,4057,37254518,10.89
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2010,654,5029325,13
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2010,363,3574114,10.16
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2010,145,897936,16.15
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2010,78,601766,12.96
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2010,3061,18804594,16.28
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2010,1054,9688690,10.88
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2010,151,1360301,11.1
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2010,178,1567650,11.35
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2010,1288,12831565,10.04
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2010,927,6484125,14.3
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2010,253,3046869,8.3
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2010,269,2853130,9.43
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2010,1007,4339340,23.21
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2010,591,4533478,13.04
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2010,135,1328362,10.16
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2010,650,5773807,11.26
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2010,738,6547808,11.27
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2010,1394,9884129,14.1
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2010,397,5303924,7.49
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2010,334,2968103,11.25
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2010,998,5988925,16.66
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2010,118,989414,11.93
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2010,117,1826327,6.41
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2010,578,2700691,21.4
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2010,160,1316460,12.15
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2010,868,8791953,9.87
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2010,478,2059207,23.21
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2010,1557,19378110,8.03
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2010,1093,9535721,11.46
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2010,23,672585,3.42
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2010,1835,11536730,15.91
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2010,717,3751598,19.11
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2010,503,3831072,13.13
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2010,1916,12702857,15.08
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2010,167,1052945,15.86
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2010,678,4625381,14.66
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2010,45,814197,5.53
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2010,1080,6346295,17.02
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2010,2399,25146100,9.54
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2010,433,2763889,15.67
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2010,63,625741,10.07
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2010,558,8001043,6.97
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2010,916,6724545,13.62
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2010,512,1853006,27.63
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2010,630,5687288,11.08
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2010,85,563767,15.08
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2010,38329,308758105,12.41
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2011,552,4798649,11.5
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2011,107,722259,14.81
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2011,1071,6465488,16.56
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2011,355,2938640,12.08
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2011,4180,37672654,11.1
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2011,843,5116411,16.48
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2011,402,3591927,11.19
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2011,160,907884,17.62
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2011,86,620336,13.86
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2011,2918,19097369,15.28
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2011,1058,9810595,10.78
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2011,180,1378323,13.06
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2011,193,1583180,12.19
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2011,1408,12862298,10.95
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2011,975,6515358,14.96
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2011,250,3063690,8.16
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2011,280,2868756,9.76
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2011,1058,4368505,24.22
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2011,601,4574388,13.14
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2011,156,1327968,11.75
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2011,707,5843115,12.1
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2011,857,6612178,12.96
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2011,1386,9876199,14.03
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2011,511,5345967,9.56
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2011,302,2977452,10.14
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2011,963,6010280,16.02
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2011,141,996866,14.14
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2011,129,1841641,7
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2011,639,2718170,23.51
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2011,210,1318345,15.93
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2011,1012,8844694,11.44
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2011,529,2077744,25.46
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2011,1948,19526372,9.98
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2011,1264,9662940,13.08
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2011,16,684830,2.34
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2011,2025,11543332,17.54
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2011,703,3785232,18.57
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2011,532,3865845,13.76
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2011,2289,12742811,17.96
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2011,190,1052154,18.06
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2011,618,4672744,13.23
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2011,57,823338,6.92
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2011,1090,6396281,17.04
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2011,2589,25644424,10.1
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2011,504,2815430,17.9
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2011,83,626210,13.25
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2011,798,8107548,9.84
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2011,997,6819155,14.62
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2011,635,1854891,34.23
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2011,698,5705812,12.23
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2011,85,567602,14.98
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2011,41340,311644280,13.27
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2012,562,4813946,11.67
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2012,129,730825,17.65
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2012,1134,6544211,17.33
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2012,373,2949208,12.65
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2012,4040,38019006,10.63
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2012,807,5186330,15.56
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2012,439,3597705,12.2
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2012,141,916868,15.38
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2012,77,635630,12.11
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2012,2597,19341327,13.43
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2012,1056,9911171,10.65
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2012,155,1392772,11.13
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2012,181,1594673,11.35
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2012,1628,12878494,12.64
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2012,1011,6535665,15.47
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2012,259,3074386,8.42
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2012,318,2885316,11.02
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2012,1078,4383673,24.59
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2012,566,4602681,12.3
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2012,150,1328101,11.29
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2012,831,5891680,14.1
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2012,859,6659627,12.9
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2012,1308,9886610,13.23
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2012,482,5377695,8.96
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2012,310,2982963,10.39
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2012,942,6023267,15.64
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2012,118,1003522,11.76
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2012,146,1854862,7.87
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2012,602,2752410,21.87
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2012,173,1320923,13.1
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2012,1222,8882095,13.76
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2012,492,2083590,23.61
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2012,2106,19625409,10.73
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2012,1298,9755299,13.31
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2012,21,701380,2.99
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2012,2125,11546969,18.4
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2012,771,3815298,20.21
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2012,490,3893920,12.58
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2012,2365,12768034,18.52
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2012,196,1052761,18.62
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2012,587,4719009,12.44
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2012,42,832576,5.04
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2012,1131,6450632,17.53
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2012,2447,26078327,9.38
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2012,601,2854222,21.06
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2012,70,625606,11.19
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2012,733,8188656,8.95
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2012,985,6890899,14.29
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2012,558,1855360,30.08
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2012,692,5721075,12.1
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2012,98,576608,17
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2012,41502,313993272,13.22
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2013,598,4827660,12.39
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2013,105,736760,14.25
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2013,1222,6616124,18.47
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2013,319,2956780,10.79
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2013,4452,38347383,11.61
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2013,846,5262556,16.08
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2013,582,3602470,16.16
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2013,166,925114,17.94
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2013,102,650114,15.69
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2013,2474,19584927,12.63
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2013,1098,9981773,11
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2013,158,1408038,11.22
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2013,207,1610187,12.86
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2013,1579,12890403,12.25
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2013,1064,6567484,16.2
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2013,275,3089876,8.9
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2013,331,2892900,11.44
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2013,1019,4399121,23.16
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2013,809,4626795,17.49
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2013,174,1327975,13.1
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2013,892,5932654,15.04
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2013,1081,6711138,16.11
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2013,1553,9899219,15.69
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2013,523,5416074,9.66
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2013,316,2987721,10.58
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2013,1025,6041142,16.97
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2013,137,1011921,13.54
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2013,117,1867414,6.27
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2013,614,2786547,22.03
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2013,203,1322622,15.35
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2013,1294,8913735,14.52
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2013,458,2085161,21.96
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2013,2309,19712514,11.71
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2013,1259,9849812,12.78
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2013,20,722908,2.77
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2013,2347,11567845,20.29
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2013,790,3849840,20.52
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2013,455,3919664,11.61
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2013,2426,12778450,18.99
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2013,241,1052784,22.89
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2013,620,4765862,13.01
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2013,55,842513,6.53
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2013,1187,6490795,18.29
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2013,2446,26479279,9.24
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2013,594,2899961,20.48
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2013,93,626044,14.86
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2013,854,8261689,10.34
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2013,969,6963410,13.92
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2013,570,1852333,30.77
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2013,856,5736673,14.92
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2013,98,582341,16.83
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2013,43982,316234505,13.91
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2014,723,4840037,14.94
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2014,124,736759,16.83
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2014,1211,6706435,18.06
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2014,356,2964800,12.01
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2014,4521,38701278,11.68
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2014,899,5342311,16.83
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2014,623,3600188,17.3
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2014,189,934805,20.22
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2014,96,660797,14.53
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2014,2634,19897747,13.24
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2014,1206,10083850,11.96
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2014,157,1417710,11.07
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2014,212,1630391,13
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2014,1705,12882438,13.24
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2014,1172,6593182,17.78
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2014,264,3105563,8.5
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2014,332,2899553,11.45
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2014,1077,4410415,24.42
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2014,777,4648797,16.71
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2014,216,1328903,16.25
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2014,1070,5970245,17.92
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2014,1289,6757925,19.07
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2014,1762,9914675,17.77
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2014,517,5452649,9.48
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2014,336,2988578,11.24
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2014,1067,6058014,17.61
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2014,125,1019931,12.26
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2014,125,1880920,6.65
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2014,545,2831730,19.25
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2014,334,1328684,25.14
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2014,1253,8943010,14.01
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2014,547,2083207,26.26
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2014,2300,19773580,11.63
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2014,1358,9941160,13.66
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2014,43,738658,5.82
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2014,2744,11593741,23.67
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2014,777,3875008,20.05
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2014,522,3960673,13.18
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2014,2732,12790341,21.36
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2014,247,1054782,23.42
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2014,701,4824758,14.53
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2014,63,849455,7.42
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2014,1269,6540007,19.4
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2014,2601,26954436,9.65
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2014,603,2938671,20.52
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2014,83,625665,13.27
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2014,980,8316902,11.78
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2014,979,7046931,13.89
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2014,627,1847624,33.94
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2014,853,5751272,14.83
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2014,109,583334,18.69
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2014,47055,318622525,14.77
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2015,736,4850858,15.17
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2015,122,737979,16.53
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2015,1274,6802262,18.73
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2015,392,2975626,13.17
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2015,4659,39032444,11.94
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2015,869,5440445,15.97
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2015,800,3593862,22.26
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2015,198,944107,20.97
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2015,125,672736,18.58
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2015,3228,20268567,15.93
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2015,1302,10199533,12.77
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2015,169,1426320,11.85
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2015,218,1649324,13.22
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2015,1835,12862051,14.27
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2015,1245,6610596,18.83
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2015,309,3118473,9.91
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2015,329,2905789,11.32
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2015,1273,4422057,28.79
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2015,861,4671211,18.43
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2015,269,1327787,20.26
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2015,1285,6000561,21.41
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2015,1724,6794002,25.38
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2015,1980,9918170,19.96
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2015,581,5483238,10.6
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2015,351,2985297,11.76
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2015,1066,6072640,17.55
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2015,138,1028317,13.42
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2015,126,1893564,6.65
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2015,619,2883057,21.47
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2015,422,1330134,31.73
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2015,1454,8960001,16.23
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2015,501,2082264,24.06
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2015,2754,19819347,13.9
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2015,1567,10041769,15.6
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2015,61,754859,8.08
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2015,3310,11606027,28.52
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2015,725,3904353,18.57
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2015,505,4016537,12.57
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2015,3264,12791124,25.52
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2015,310,1055916,29.36
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2015,761,4892423,15.55
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2015,65,854036,7.61
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2015,1457,6590726,22.11
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2015,2588,27454880,9.43
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2015,646,2984917,21.64
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2015,99,624455,15.85
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2015,1039,8366767,12.42
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2015,1094,7152818,15.29
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2015,725,1839767,39.41
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2015,878,5759744,15.24
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2015,96,586102,16.38
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2015,52404,321039839,16.32
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2016,756,4860545,15.55
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2016,128,741522,17.26
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2016,1382,6908642,20
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2016,401,2988231,13.42
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2016,4654,39296476,11.84
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2016,942,5530105,17.03
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2016,971,3587685,27.06
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2016,282,952698,29.6
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2016,269,684336,39.31
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2016,4728,20656589,22.89
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2016,1394,10313620,13.52
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2016,191,1428683,13.37
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2016,243,1680026,14.46
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2016,2411,12835726,18.78
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2016,1526,6634007,23
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2016,314,3130869,10.03
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2016,313,2907731,10.76
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2016,1419,4436113,31.99
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2016,996,4686157,21.25
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2016,353,1330232,26.54
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2016,2044,6024752,33.93
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2016,2227,6823721,32.64
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2016,2347,9933445,23.63
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2016,672,5525050,12.16
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2016,352,2985415,11.79
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2016,1371,6091176,22.51
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2016,119,1038656,11.46
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2016,120,1907603,6.29
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2016,665,2939254,22.62
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2016,481,1335015,36.03
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2016,2056,8978416,22.9
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2016,500,2085432,23.98
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2016,3638,19836286,18.34
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2016,1956,10156689,19.26
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2016,77,755548,10.19
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2016,4329,11622554,37.25
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2016,813,3921207,20.73
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2016,506,4085989,12.38
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2016,4627,12787085,36.18
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2016,326,1057566,30.83
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2016,879,4959822,17.72
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2016,69,861542,8.01
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2016,1630,6649404,24.51
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2016,2831,27904862,10.15
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2016,635,3044321,20.86
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2016,125,623354,20.05
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2016,1405,8414380,16.7
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2016,1102,7280934,15.14
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2016,884,1828637,48.34
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2016,1074,5772917,18.6
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2016,99,584910,16.93
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2016,63632,323405935,19.68
+Both Sexes,All Races,Alabama,Both,All Ages,1999,2017,Drug Poisoning,2017,835,4874747,17.13
+Both Sexes,All Races,Alaska,Both,All Ages,1999,2017,Drug Poisoning,2017,147,739795,19.87
+Both Sexes,All Races,Arizona,Both,All Ages,1999,2017,Drug Poisoning,2017,1532,7016270,21.83
+Both Sexes,All Races,Arkansas,Both,All Ages,1999,2017,Drug Poisoning,2017,446,3004279,14.85
+Both Sexes,All Races,California,Both,All Ages,1999,2017,Drug Poisoning,2017,4868,39536653,12.31
+Both Sexes,All Races,Colorado,Both,All Ages,1999,2017,Drug Poisoning,2017,1015,5607154,18.1
+Both Sexes,All Races,Connecticut,Both,All Ages,1999,2017,Drug Poisoning,2017,1072,3588184,29.88
+Both Sexes,All Races,Delaware,Both,All Ages,1999,2017,Drug Poisoning,2017,338,961939,35.14
+Both Sexes,All Races,District of Columbia,Both,All Ages,1999,2017,Drug Poisoning,2017,310,693972,44.67
+Both Sexes,All Races,Florida,Both,All Ages,1999,2017,Drug Poisoning,2017,5088,20984400,24.25
+Both Sexes,All Races,Georgia,Both,All Ages,1999,2017,Drug Poisoning,2017,1537,10429379,14.74
+Both Sexes,All Races,Hawaii,Both,All Ages,1999,2017,Drug Poisoning,2017,203,1427538,14.22
+Both Sexes,All Races,Idaho,Both,All Ages,1999,2017,Drug Poisoning,2017,236,1716943,13.75
+Both Sexes,All Races,Illinois,Both,All Ages,1999,2017,Drug Poisoning,2017,2778,12802023,21.7
+Both Sexes,All Races,Indiana,Both,All Ages,1999,2017,Drug Poisoning,2017,1852,6666818,27.78
+Both Sexes,All Races,Iowa,Both,All Ages,1999,2017,Drug Poisoning,2017,341,3145711,10.84
+Both Sexes,All Races,Kansas,Both,All Ages,1999,2017,Drug Poisoning,2017,333,2913123,11.43
+Both Sexes,All Races,Kentucky,Both,All Ages,1999,2017,Drug Poisoning,2017,1566,4454189,35.16
+Both Sexes,All Races,Louisiana,Both,All Ages,1999,2017,Drug Poisoning,2017,1108,4684333,23.65
+Both Sexes,All Races,Maine,Both,All Ages,1999,2017,Drug Poisoning,2017,424,1335907,31.74
+Both Sexes,All Races,Maryland,Both,All Ages,1999,2017,Drug Poisoning,2017,2247,6052177,37.13
+Both Sexes,All Races,Massachusetts,Both,All Ages,1999,2017,Drug Poisoning,2017,2168,6859819,31.6
+Both Sexes,All Races,Michigan,Both,All Ages,1999,2017,Drug Poisoning,2017,2694,9962311,27.04
+Both Sexes,All Races,Minnesota,Both,All Ages,1999,2017,Drug Poisoning,2017,733,5576606,13.14
+Both Sexes,All Races,Mississippi,Both,All Ages,1999,2017,Drug Poisoning,2017,354,2984100,11.86
+Both Sexes,All Races,Missouri,Both,All Ages,1999,2017,Drug Poisoning,2017,1367,6113532,22.36
+Both Sexes,All Races,Montana,Both,All Ages,1999,2017,Drug Poisoning,2017,119,1050493,11.33
+Both Sexes,All Races,Nebraska,Both,All Ages,1999,2017,Drug Poisoning,2017,152,1920076,7.92
+Both Sexes,All Races,Nevada,Both,All Ages,1999,2017,Drug Poisoning,2017,676,2998039,22.55
+Both Sexes,All Races,New Hampshire,Both,All Ages,1999,2017,Drug Poisoning,2017,467,1342795,34.78
+Both Sexes,All Races,New Jersey,Both,All Ages,1999,2017,Drug Poisoning,2017,2685,9005644,29.81
+Both Sexes,All Races,New Mexico,Both,All Ages,1999,2017,Drug Poisoning,2017,493,2088070,23.61
+Both Sexes,All Races,New York,Both,All Ages,1999,2017,Drug Poisoning,2017,3921,19849399,19.75
+Both Sexes,All Races,North Carolina,Both,All Ages,1999,2017,Drug Poisoning,2017,2414,10273419,23.5
+Both Sexes,All Races,North Dakota,Both,All Ages,1999,2017,Drug Poisoning,2017,68,755393,9
+Both Sexes,All Races,Ohio,Both,All Ages,1999,2017,Drug Poisoning,2017,5111,11658609,43.84
+Both Sexes,All Races,Oklahoma,Both,All Ages,1999,2017,Drug Poisoning,2017,775,3930864,19.72
+Both Sexes,All Races,Oregon,Both,All Ages,1999,2017,Drug Poisoning,2017,530,4142776,12.79
+Both Sexes,All Races,Pennsylvania,Both,All Ages,1999,2017,Drug Poisoning,2017,5388,12805537,42.08
+Both Sexes,All Races,Rhode Island,Both,All Ages,1999,2017,Drug Poisoning,2017,320,1059639,30.2
+Both Sexes,All Races,South Carolina,Both,All Ages,1999,2017,Drug Poisoning,2017,1008,5024369,20.06
+Both Sexes,All Races,South Dakota,Both,All Ages,1999,2017,Drug Poisoning,2017,73,869666,8.39
+Both Sexes,All Races,Tennessee,Both,All Ages,1999,2017,Drug Poisoning,2017,1776,6715984,26.44
+Both Sexes,All Races,Texas,Both,All Ages,1999,2017,Drug Poisoning,2017,2989,28304596,10.56
+Both Sexes,All Races,Utah,Both,All Ages,1999,2017,Drug Poisoning,2017,650,3101833,20.96
+Both Sexes,All Races,Vermont,Both,All Ages,1999,2017,Drug Poisoning,2017,134,623657,21.49
+Both Sexes,All Races,Virginia,Both,All Ages,1999,2017,Drug Poisoning,2017,1507,8470020,17.79
+Both Sexes,All Races,Washington,Both,All Ages,1999,2017,Drug Poisoning,2017,1169,7405743,15.79
+Both Sexes,All Races,West Virginia,Both,All Ages,1999,2017,Drug Poisoning,2017,974,1815857,53.64
+Both Sexes,All Races,Wisconsin,Both,All Ages,1999,2017,Drug Poisoning,2017,1177,5795483,20.31
+Both Sexes,All Races,Wyoming,Both,All Ages,1999,2017,Drug Poisoning,2017,69,579315,11.91
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,2017,70237,325719178,21.56
+Both Sexes,All Races,,Both,All Ages,1999,2017,Drug Poisoning,,702568,5762130405,12.19

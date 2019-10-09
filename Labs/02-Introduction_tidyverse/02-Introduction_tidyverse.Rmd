@@ -1,0 +1,262 @@
+---
+title: "Introduction to the Tidyverse"
+author: | 
+        | Kyle Raze, Youssef Ait Benasser, & Saurabh Gupta
+        | EC 320: Introduction to Econometrics
+        | University of Oregon
+date: "Fall 2019"
+output: 
+  html_document:
+    theme: flatly  
+    highlight: tango
+    includes:
+      after_body: footer.html
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+      
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, warning = F, message = F, cache = F)
+```
+
+## The `tidyverse`
+
+The `tidyverse` is a powerful collection of packages that facilitate data wrangling and visualization. Today you will use various `tidyverse` functions to describe drug overdoses in the US between 1999 and 2017.
+
+### Load the `tidyverse`
+
+Use the `p_load` function to install and load the `tidyverse`:
+
+```{r}
+library(pacman)
+p_load(tidyverse)
+```
+
+## Data
+
+The data file is `02-Introduction_tidyverse_data.csv`. You can find it on Canvas under `Files` then `Labs`. Download the file and save it somewhere on your computer.[^file] 
+
+[^file]: **Unsolicited life advice:** You should make an `EC_320` folder where you can store your work in one place. Also, you should pick file and folder names without spaces. Why? R often chokes on spaces in file names when loading data. In place of spaces, you can use underscores (`_`) or dashes (`-`).
+
+The data include drug overdose deaths from the [CDC](https://www.cdc.gov/drugoverdose/data/index.html) and poverty and unemployment rates from the [University of Kentucky Poverty Research Center](http://ukcpr.org/resources/national-welfare-data). 
+
+### Import data
+
+Import the data using `read_csv`:
+
+```{r}
+state_data <- read_csv("02-Introduction_tidyverse_data.csv")
+```
+
+You can preview the structure of the data with `glimpse`:
+
+```{r}
+glimpse(state_data)
+```
+
+### Wrangling data
+
+The `glimpse` output shows that drug overdose deaths (`deaths`) are counts. Use the `mutate` function to create a new variable that expresses overdoses deaths as rates (deaths per 100,000 people):
+
+```{r}
+state_data <- state_data %>% 
+  mutate(death_rate = deaths/population*100000)
+```
+
+## Pipe operator 
+
+What's up with `%>%`? 
+
+- Called the "pipe operator."
+- Allows you to chain commands without having to make new objects.
+- You can think of `state_data %>% mutate(death_rate = deaths/population*100000)` as "take the object `state_data` and then give it to `mutate()`."
+- In English, `%>%` means *"and then."*
+
+## Summary statistics
+
+Summary statistics can give you a quick sense of the central tendency and spread of the variables in your data. Common summary statistics include the mean, median, min, max, and standard deviation. 
+
+- The mean describes the "typical" value of a variable.
+- Comparing the median to the mean can give you a rough sketch of the skew of a particular variable. For example, if the mean exceeds the median, then the frequency distribution of the variable may exhibit a relatively long right tail.
+- The min, max, and standard deviation describe the spread of a variable.
+
+You can produce summary statistics using the `summarize` function:
+
+```{r}
+# start with summary stats for overdose death rates
+state_data %>% 
+  summarize(min = min(death_rate),
+            max = max(death_rate),
+            median = median(death_rate),
+            mean = mean (death_rate),
+            sd = sd(death_rate))
+```
+
+What's the minimum overdose death rate? What's the maximum overdose death rate?
+
+### Writing a summary stats function
+
+The code above produces summary statistics for a single variable. It is common practice to generate summary stats for all of the numerical variables in your dataset. One way you could do this is to copy-paste the code above and replace `death_rate` a different a variable until you have summary stats for each variable. Generally speaking, this is bad practice. Constantly repeating yourself in your code can 1) propagate errors and 2) make it difficult to scale-up your code later (*e.g.,* including additional variables).
+
+For repetitive tasks, you can define functions:
+
+```{r}
+summ_fun <- function(x){
+  state_data %>% 
+  summarize(min = min(x),
+            max = max(x),
+            median = median(x),
+            mean = mean (x),
+            sd = sd(x))
+}
+```
+
+Functions require inputs. The `x` is the input to the function defined above. It serves as a placeholder for a variable name from `state_data`.
+
+You can use `summ_fun` to obtain summary statistics for each variable:
+
+```{r}
+summ_fun(state_data$death_rate)
+summ_fun(state_data$poverty_rate)
+summ_fun(state_data$unemployment_rate)
+summ_fun(state_data$population)
+summ_fun(state_data$year)
+```
+
+Putting `state_data$` before the variable name lets R know where to look for the variable. For example, `state_data$death_rate` says *"hey R, look for `death_rate` inside the object `state_data`."*
+
+## Plotting
+
+### Overdose deaths over time
+
+How have overdose death rates changes over time in each state?
+
+You can make a time series plot using `ggplot` with `geom_line`:
+
+```{r}
+state_data %>% 
+  ggplot(aes(x = year, y = death_rate)) +
+  geom_line()
+```
+
+Okay. Something didn't quite work. It looks like `ggplot` connected all the dots when you wanted it to connect the dots by state. You can fix this with the `group` argument in `aes`:
+
+```{r}
+state_data %>% 
+  ggplot(aes(x = year, y = death_rate, group = stname)) +
+  geom_line()
+```
+
+While the plot looks like spaghetti, you can see that drug overdose death rates increase over time. There is an especially pronounced increase in a handful of states starting around 2010. What do you think is driving these increases?
+
+To get a better sense of where these changes are happening, you can facet your plot by region using `facet_wrap()`:
+
+```{r}
+state_data %>% 
+  ggplot(aes(x = year, y = death_rate, group = stname)) +
+  geom_line() +
+  facet_wrap(~division)
+```
+
+`division` refers to [census divisions](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf).
+
+To change the axis labels and add a title, add `labs()` to your `ggplot`:
+
+```{r}
+state_data %>% 
+  ggplot(aes(x = year, y = death_rate, group = stname)) +
+  geom_line() +
+  facet_wrap(~division) + 
+  labs(title = "Can you spot the opioid crisis?", x = "Year", y = "Drug Overdose Death Rate (per 100,000)")
+```
+
+You can change the appearance of your plot by specifying a [theme](https://ggplot2.tidyverse.org/reference/ggtheme.html):
+
+```{r}
+state_data %>% 
+  ggplot(aes(x = year, y = death_rate, group = stname)) +
+  geom_line() +
+  facet_wrap(~division) + 
+  labs(title = "Can you spot the opioid crisis?", x = "Year", y = "Drug Overdose Death Rate (per 100,000)") +
+  theme_bw()
+```
+
+What about national trends? To examine national overdose death rates over time, you can aggregate he state data using `group_by` and `summarize`:
+
+```{r}
+state_data %>% 
+  group_by(year) %>% 
+  summarize(death_rate = weighted.mean(x = death_rate, w = population)) %>% 
+  ggplot(aes(x = year, y = death_rate)) +
+  geom_line() +
+  labs(title = "Can you spot the opioid crisis?", x = "Year", y = "Drug Overdose Death Rate (per 100,000)") +
+  theme_bw()
+```
+
+### Bivariate relationships
+
+Do overdoses correlate with economic conditions?
+
+```{r}
+state_data %>% 
+  ggplot(aes(x = poverty_rate, y = death_rate)) +
+  geom_point() +
+  labs(title = "Deaths of despair?", x = "Poverty Rate (%)", y = "Drug Overdose Death Rate (per 100,000)") +
+  theme_bw()
+```
+
+```{r}
+state_data %>% 
+  ggplot(aes(x = unemployment_rate, y = death_rate)) +
+  geom_point() +
+  labs(title = "Deaths of despair?", x = "Unemployment Rate (%)", y = "Drug Overdose Death Rate (per 100,000)") +
+  theme_bw()
+```
+
+You can calculate correlation coefficients using `cor`:
+
+```{r}
+cor(state_data$death_rate, state_data$poverty_rate)
+cor(state_data$death_rate, state_data$unemployment_rate)
+```
+
+Are the correlations between economic conditions and overdose deaths positive or negative? How strong are the correlations? Are they relatively strong? Relatively weak?
+
+There are some pitfalls to examining bivariate relationships with data from several different years. You will learn about these in EC 421. For now, you can sidestep some of these issues by focusing your attention on the most recent year in the sample period. Using the `filter` function, you can restrict the sample to observations from 2017:
+
+```{r}
+state_data_2017 <- state_data %>% 
+  filter(year == 2017)
+```
+
+Note the use of `==` instead of `=`. `==` is for logical comparisons while `=` for assignment.[^assignment]
+
+[^assignment]: Some people use `=` as an alternative to the assignment operator `<-`. If you want, you can too. Just be consistent.
+
+```{r}
+state_data_2017 %>% 
+  ggplot(aes(x = poverty_rate, y = death_rate)) +
+  geom_point() +
+  labs(title = "Deaths of despair?", x = "Poverty Rate (%)", y = "Drug Overdose Death Rate (per 100,000)", caption = "Note: 2017 data only.") +
+  theme_bw() 
+```
+
+```{r}
+state_data_2017 %>% 
+  ggplot(aes(x = unemployment_rate, y = death_rate)) +
+  geom_point() +
+  labs(title = "Deaths of despair?", x = "Unemployment Rate (%)", y = "Drug Overdose Death Rate (per 100,000)", caption = "Note: 2017 data only.") +
+  theme_bw()
+```
+
+```{r}
+cor(state_data_2017$death_rate, state_data_2017$poverty_rate)
+cor(state_data_2017$death_rate, state_data_2017$unemployment_rate)
+```
+
+Do the correlations change when you restrict the sample to 2017?
+
+In case you were wondering, the deaths of despair explanation for the opioid crisis [doesn't really hold up to closer scrutiny](https://www.nber.org/papers/w24188).

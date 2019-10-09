@@ -1,0 +1,158 @@
+---
+title: "Introduction to R"
+author: | 
+        | Kyle Raze, Youssef Ait Benasser, & Saurabh Gupta
+        | EC 320: Introduction to Econometrics
+        | University of Oregon
+date: "Fall 2019"
+output: 
+  html_document:
+    theme: flatly  
+    includes:
+      after_body: footer.html
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+      
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, warning = F, message = F, cache = T)
+```
+
+## Installation
+
+Having R and R Studio on your laptop will allow you to work on problem sets and explore the magnificent functionality of R outside the lab. R is the language and R Studio helps us interact with R. It is important that you **install R before you install R Studio.**
+
+### Install R
+
+In your web browser, go to [r-project.org](https://www.r-project.org) and then click [download R](https://cran.r-project.org/mirrors.html). At this point, you'll be directed to a page with a list of institutions that host the Comprehensive R Archive Network (CRAN). The idea is to pick an institution near you. Scroll down to USA and click the link for either [UC Berkeley](https://cran.cnr.berkeley.edu) or [OSU](https://ftp.osuosl.org/pub/cran/). The choice is arbitrary, but you can maintain a Beaver-free machine by picking Berkeley. Also, the Ducks play Cal this week. Know your enemy.
+
+**Windows Instructions:** If you have a Windows machine, click `Download R for Windows` then `install R for the first time` then `Download R 3.6.1 for Windows`. To complete installation, run the `.exe` file you downloaded.
+
+**Mac Instructions:** If you have a Mac, click `Download R for (Mac) OS X` then `R-3.6.1.pkg` under "latest release." To complete installation, run the `.pkg` file you downloaded.
+
+**Linux Instructions:** If you run a Linux distro, note that installation instructions vary by distro. That said, you probably know what you're doing.
+
+### Install R Studio
+
+In your web browser, go to [rstudio.com/products/rstudio/](https://rstudio.com/products/rstudio/), scroll down to R Studio Desktop, and then click [Download RStudio Desktop](https://rstudio.com/products/rstudio/download/) under "Open Source Edition." Scroll down to "Installers for Supported Platforms" and click the link that corresponds with your operating system. To complete installation, run the installer you downloaded.
+
+## R Basics
+
+### Using the console
+
+When you open R Studio for the first time, you should notice three panels. The large panel to the left is the **console**. This is where you run code that tells R what to do. You can also use the console as a calculator. For example, if you type `5+5*2-1` in the console and hit `Enter`, then R will return
+```{r, echo = FALSE}
+5+5*2-1
+```
+in the console. 
+
+### Everything is an object
+
+The upper-right panel is the **global environment**. This is where R Studio stores datasets, user-defined functions, and other **objects**. 
+
+To define an object, you use the **assignment operator** `<-`.[^assignment] For example, suppose that you want to assign the number 5 to an object called `a`. In the console, you would type
+```{r}
+a <- 5
+```
+which reads "`a` gets 5." When you execute this code (by hitting `Enter`), `a` will show up in the global environment. Hovering your cursor over `a` in the global environment tells you that `a` is a numeric object.
+
+[^assignment]: **Pro tip:** You can type the assignment operator with the keyboard shortcut `Alt` `-`.
+
+There are other kinds of objects, too. For example,
+```{r}
+b <- "I Love Metrics"
+```
+is a character object, and 
+```{r}
+mat <- matrix(c(1, 2, 3, 4),
+              nrow = 2)
+```
+is a matrix.
+
+One of the nice features of R is that it can store multiple objects at a time. This is especially useful for analyzing data in a `data.frame` object and then storing the results in another `data.frame` object. It is also useful for cleaning and merging data. You might think that the ability to store multiple datasets is a trivial feature, but many other statistics packages can't do this.[^stata]
+
+[^stata]: Reason #142 the economics department switched from Stata to R.
+
+### Packages
+
+R functions come in packages. When you open a fresh R session in R Studio, a number of packages come pre-loaded. These include packages with common math and statistics functions and are known collectively as "base R." Base R is wonderful, but non-default packages offer a great deal of flexibility and functionality. 
+
+**Install a package:** `install.packages("package.name.here")`
+
+- Replace `package.name.here` with the name of the package you want to install.
+- Make sure the name of the package is in quotes.
+- You only have to install a package once.
+
+Alternatively, you can click on the `Packages` tab of the bottom-right panel:
+
+![](rstudio-packages.gif)
+
+**Load a package:** `library(package.name.here)`
+
+- To use functions from a non-base package, you need to load the package at the beginning of each new R session.
+- Quotes around the package name are no longer needed.
+
+#### **`pacman`**
+
+We will often need to load several packages in a single session. One way to do this is to execute `library(package.1)`, then `library(package.2)`, then `library(package.3)`, and so forth. A less cumbersome way to load multiple packages is to use the `p_load` function from the `pacman` package. 
+
+- Use the instructions above to **install `pacman`**.
+- Load the `pacman` package with `library(pacman)`.
+- When you want to load additional packages, you can then execute `p_load(package.1, package.2, package.3)`.
+- **Added bonus:** `p_load` first checks to see if the packages are installed. If they aren't, then it will install them for you.
+
+### R scripts
+
+To produce reproducible[^reproducible] R code, it is best to use scripts. Open a new R script file with the `.R` extension by clicking `File` then `New File` then `R Script`. We will write our first script to generate a histogram and scatter plot using `ggplot2`.
+
+[^reproducible]: Reproducible = fewer headaches later.
+
+### `ggplot2`
+
+Start by writing code to install and load `ggplot2`.
+
+```{r}
+library(pacman)
+p_load(ggplot2)
+```
+
+- To execute *one line of your script*, click the line you want to run and then click `Run` at the upper-right corner of your R script. A quicker alternative is to click the line you want to run and then use the keyboard shortcut `Ctrl` `Enter`. 
+- To execute *the entire script*, click `Source` at the upper-right corner of your R script or use the keyboard shortcut `Ctrl` `Alt` `R`.
+
+**Aside:** It is useful to leave comments in your code to explain to your future self what your code is doing and why. You can leave a comment by typing a hash `#`:
+
+```{r}
+# This is a comment. R will ignore it.
+```
+
+Check out the example dataset `midwest` from `ggplot2`. You can view the first few rows of the dataset with variable names by using the `head` function.
+
+```{r}
+head(midwest)
+```
+
+Next, make a histogram of county poverty rates (measured by the variable `percbelowpoverty`) using the `ggplot` function. You will need to tell `ggplot` 
+
+- The name of the dataset.
+- The name of the variable.
+- The type of graph (in this case, `geom_histogram()`).
+
+```{r}
+ggplot(data = midwest, aes(x = percbelowpoverty)) + 
+  geom_histogram()
+```
+
+How many counties have poverty rates over 40 percent? What is the modal poverty rate?
+
+To visualize relationships between variables, you can make a scatter plot. Do poverty rates appear positively or negatively correlated with race, as measured by the variable `percblack`?
+
+```{r}
+ggplot(data = midwest, aes(x = percblack, y = percbelowpoverty)) + 
+  geom_point()
+```
+
+
+
