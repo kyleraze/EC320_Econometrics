@@ -1,0 +1,209 @@
+---
+title: "Non-Experimental Data"
+author: | 
+        | Kyle Raze, Youssef Ait Benasser, & Saurabh Gupta
+        | EC 320: Introduction to Econometrics
+        | University of Oregon
+date: "Fall 2019"
+output: 
+  html_document:
+    theme: flatly  
+    highlight: tango
+    includes:
+      after_body: footer.html
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+      
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, warning = F, message = F, cache = F)
+```
+
+## Current Population Survey
+
+Today you will investigate racial disparities in the labor market using data from the [Current Population Survey](https://www.census.gov/programs-surveys/cps.html) (CPS), a large survey administered by the [US Census Bureau](https://www.census.gov/en.html) and the [Bureau of Labor Statistics](https://www.bls.gov). The federal government uses the CPS to estimate the unemployment rate. Economists use the CPS to study a variety of topics in labor economics, including the effect of binding minimum wages, the gender pay gap, and returns to schooling. You will use a CPS sample of workers from Boston and Chicago to study employment patterns by race.
+
+## Preliminaries
+
+### Load packages
+
+Today you will use the packages [`broom`](https://cran.r-project.org/web/packages/broom/vignettes/broom.html) and [`stargazer`](https://cran.r-project.org/web/packages/stargazer/vignettes/stargazer.pdf) in addition to the `tidyverse`. `broom` has a useful function that summarizes regression results. `stargazer` produces formatted regression tables. 
+
+Use the `p_load` function to install and load the `tidyverse`, `broom`, and `stargazer`:
+
+```{r}
+library(pacman)
+p_load(tidyverse, broom, stargazer)
+```
+
+### Import data
+
+The data file is `03-Non_Experimental_Data_data.csv`. You can find it on Canvas under `Files` then `Labs`. Download the file and save it in your EC 320 folder.
+
+Import the data using `read_csv`:
+
+```{r}
+cps <- read_csv("03-Non_Experimental_Data_data.csv")
+```
+
+By looking at the dataset, you can see that most of the variables are binary: they take values of either 1 or 0.
+
+```{r}
+cps
+```
+
+For example, individuals with `employed == 1` have a job while those with `employed == 0` do not. 
+
+## Employment Rates
+
+**What percentage of individuals in the sample are employed?**
+
+The mean of a binary variable gives the fraction of observations with values equal to 1.
+
+```{r}
+mean(cps$employed)
+```
+
+Something went wrong. If you use the `summary` function, you'll see that there are missing values (`NA`s) of `employed`.
+
+```{r}
+summary(cps$employed)
+```
+
+When there are missing values, some functions, like `mean`, will return a missing value as output. To circumvent this, you can specify `na.rm = TRUE` in the `mean` function:
+
+```{r}
+mean(cps$employed, na.rm = TRUE)
+```
+
+The employment rate is 78 percent. 
+
+**What are the employment rates by race and gender?**
+
+```{r}
+cps %>% 
+  group_by(black, female) %>% 
+  summarize(employed = mean(employed, na.rm = TRUE))
+```
+
+You can see that the employment rate is 
+
+- 87 percent for white males (`black == 0` and `female == 0`)
+- 72 percent for white females (`black == 0` and `female == 1`)
+- 72 percent for black males (`black == 1` and `female == 0`)
+- 69 percent for black females (`black == 1` and `female == 1`).
+
+### Racial disparities
+
+**What is the average difference in employment status between black individuals and white individuals?**
+
+To find the difference, 
+
+1. Use the `filter` function to restrict the sample to one group (black or white)
+2. Use `mean` to calculate the group mean
+3. Repeat for the other group
+4. Take the difference in means.
+
+```{r}
+black_emp <- filter(cps, black == 1)$employed %>% 
+  mean(., na.rm = TRUE)
+
+white_emp <- filter(cps, black == 0)$employed %>% 
+  mean(., na.rm = TRUE)
+
+black_emp - white_emp
+```
+
+The employment rate is 9 percentage points lower for black individuals than for white individuals.
+
+**Does this mean that there is racial disparity?**
+
+Not yet. We still don't know if the difference is statistically significant. You can find out by conducting a $t$-test of the null hypothesis that the true difference-in-means is zero against the alternative hypothesis that the difference is nonzero.
+
+To conduct the test, you need to calculate the $t$-statistic for the difference-in-means, which is given by
+
+$$t = \dfrac{\overline{\text{Employed}}_\text{Black} - \overline{\text{Employed}}_\text{White}}{\sqrt{S^2_\text{Black}/n_\text{Black} + S^2_\text{White}/n_\text{White}}}$$.
+
+You can calculate the quantities you need for the $t$-stat using `mean`, `var`, and `nrow`:
+
+```{r}
+# black mean
+mean_b <- filter(cps, black == 1)$employed %>% 
+  mean(., na.rm = TRUE)
+
+# white mean
+mean_w <- filter(cps, black == 0)$employed %>% 
+  mean(., na.rm = TRUE)
+
+# black variance
+var_b <- filter(cps, black == 1)$employed %>% 
+  var(., na.rm = TRUE)
+
+# white variance
+var_w <- filter(cps, black == 0)$employed %>% 
+  var(., na.rm = TRUE)
+
+# number of black observations 
+# NOTE: !is.na(employed) removes the missing observations of employed
+n_b <- filter(cps, black == 1 & !is.na(employed)) %>% 
+  nrow()
+
+# number of white observations
+n_w <- filter(cps, black == 0 & !is.na(employed)) %>% 
+  nrow()
+
+# t-stat
+t_stat <- (mean_b - mean_w) / sqrt(var_b/n_b + var_w/n_w)
+t_stat
+```
+
+To conclude your test, compare your $t$-stat to 2 (an approximation for the critical value of $t$ in 5 percent test).[^later] If $|t| > 2$, then you can reject the null hypothesis. Your $t$-stat of -6.84 is certainly more extreme than 2, so you can reject the null hypothesis. This means that the difference in employment rates is statistically significant. There is a racial disparity in employment.
+
+[^later]: We'll unpack the details about hypothesis testing later in the course. For now, we'll rely on rules of thumb.
+
+### Discrimination?
+
+Does the disparity in employment rates provide causal evidence of racial discrimination in hiring? Does the comparison of employment rates by race hold all else constant? What else could explain the gap?
+
+## Regression-Adjusted Differences
+
+Linear regression models provide another way to investigate racial disparities. You can implement regressions in R with the `lm` function (`lm` stands for "linear model"). The first argument of the `lm` function is a formula separated by `~`, which you can think of as an "equals" sign. The outcome variable goes on the left side of `~` and the treatment variable goes on the right. The second argument of `lm` is the data you're using to estimate the model.
+
+```{r}
+reg1 <- lm(employed ~ black, data = cps)
+
+# view results
+tidy(reg1)
+```
+
+What does the coefficient on `black` tell you? How does it compare to the the difference-in-means you calculated earlier?
+
+**Can the gap be explained by differences in educational attainment across racial groups?**
+
+To address this question, you can estimate a new regression that includes controls for educational attainment.
+
+```{r}
+reg2 <- lm(employed ~ black + educ, data = cps)
+
+# view results
+tidy(reg2)
+```
+
+Adding the `educ` variable results in three new coefficients. Why? The `lm` function recognizes that `educ` is a categorical variable and responds by turning it into several dummy variables, one for each level of education. It happens to be the case that there are four levels of education in the data. For technical reasons we'll discuss later in the quarter, one of these levels gets absorbed by the intercept.
+
+How does the coefficient on `black` change when you add controls for education? To facilitate an easy-on-the-eyes comparison of your estimates, you can use `stargazer` to report both regressions side-by-side:
+
+```{r}
+stargazer(reg1, reg2, type = "text")
+```
+
+**Note:** If you omit `type = "text"`, then `stargazer` will output LaTeX code, which will look nasty.[^latex]
+
+[^latex]: [`LaTeX`](https://www.latex-project.org) (pronounced "lay-tech") is an open-source typesetting language that many economists (including your instructor and GEs) use instead of MS Word. It is especially useful for typing math.
+
+Does the new coefficient on `black` provide causal evidence of racial discrimination? What are some potential remaining sources of omitted-variable bias?
+
+In Problem Set 2, you will analyze an experimental dataset from an [influential study](https://www.aeaweb.org/articles?id=10.1257/0002828042002561) that provides causal evidence of racial discrimination in the labor market. The authors of the study control for many potential sources of omitted-variable bias by finding a way to *randomize* race. 

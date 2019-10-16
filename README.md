@@ -19,12 +19,15 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 4. **The Fundamental Problem of Econometrics** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/04-Fundamental_Econometric_Problem/04-Fundamental_Econometric_Problem.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/04-Fundamental_Econometric_Problem/04-Fundamental_Econometric_Problem.pdf)
 
+5. **Regression Logic** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/05-Regression_Logic/05-Regression_Logic.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/05-Regression_Logic/05-Regression_Logic.pdf)
+
 ## Labs
 
 1. **Introduction to `R`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
 
 2. **Introduction to the `tidyverse`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse_data.csv)
 
+3. **Regression Logic** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/03-Non_Experimental_Data/03-Non_Experimental_Data.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/03-Non_Experimental_Data/03-Non_Experimental_Data_data.csv)
 
 ## Other Content
 
