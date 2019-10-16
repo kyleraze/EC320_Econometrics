@@ -125,7 +125,7 @@ Not yet. We still don't know if the difference is statistically significant. You
 
 To conduct the test, you need to calculate the $t$-statistic for the difference-in-means, which is given by
 
-$$t = \dfrac{\overline{\text{Employed}}_\text{Black} - \overline{\text{Employed}}_\text{White}}{\sqrt{S^2_\text{Black}/n_\text{Black} + S^2_\text{White}/n_\text{White}}}$$.
+$$t = \dfrac{\overline{\text{Employed}}_\text{Black} - \overline{\text{Employed}}_\text{White}}{\sqrt{S^2_\text{Black}/n_\text{Black} + S^2_\text{White}/n_\text{White}}}.$$
 
 You can calculate the quantities you need for the $t$-stat using `mean`, `var`, and `nrow`:
 

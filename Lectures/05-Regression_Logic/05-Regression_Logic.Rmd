@@ -270,7 +270,7 @@ $$Y_i = \beta_0 + \beta_1 X_i + \beta_2 W_i + u_i$$
 
 - $W_i$ is a **control variable**.
 
-- By including $$W_i$$ in the regression, we can use OLS can difference out the confounding effect of $W$.
+- By including $W_i$ in the regression, we can use OLS can difference out the confounding effect of $W$.
 
 - **Note:** OLS doesn't care whether a right-hand side variable is a treatment or control variable, but we do.
 

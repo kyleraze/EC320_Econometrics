@@ -27,7 +27,7 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 2. **Introduction to the `tidyverse`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse_data.csv)
 
-3. **Regression Logic** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/03-Non_Experimental_Data/03-Non_Experimental_Data.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/03-Non_Experimental_Data/03-Non_Experimental_Data_data.csv)
+3. **Non-Experimental Data** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/03-Non_Experimental_Data/03-Non_Experimental_Data.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/03-Non_Experimental_Data/03-Non_Experimental_Data_data.csv)
 
 ## Other Content
 
