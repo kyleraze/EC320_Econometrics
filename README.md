@@ -21,6 +21,8 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 5. **Regression Logic** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/05-Regression_Logic/05-Regression_Logic.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/05-Regression_Logic/05-Regression_Logic.pdf)
 
+6. **Midterm Review** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/06-Midterm_Review/06-Midterm_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/06-Midterm_Review/06-Midterm_Review.pdf)
+
 ## Labs
 
 1. **Introduction to `R`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
