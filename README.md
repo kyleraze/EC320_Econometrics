@@ -23,6 +23,8 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 6. **Midterm Review** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/06-Midterm_Review/06-Midterm_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/06-Midterm_Review/06-Midterm_Review.pdf)
 
+7. **Simple Linear Regression: Estimation I** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.pdf) | [Handout](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-SLR_Estimation_handout.pdf)
+
 ## Labs
 
 1. **Introduction to `R`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
@@ -30,6 +32,8 @@ The .html versions of the lecture slides allow you to view animations and intera
 2. **Introduction to the `tidyverse`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/02-Introduction_tidyverse/02-Introduction_tidyverse_data.csv)
 
 3. **Non-Experimental Data** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/03-Non_Experimental_Data/03-Non_Experimental_Data.html) | [Data](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/03-Non_Experimental_Data/03-Non_Experimental_Data_data.csv)
+
+4. **Introduction to `R Markdown`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/04-Introduction_Rmarkdown/04-Introduction_Rmarkdown.html)
 
 ## Other Content
 
