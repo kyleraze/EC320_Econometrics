@@ -25,7 +25,7 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 7. **Simple Linear Regression: Estimation I** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.pdf) | [Handout](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-SLR_Estimation_handout.pdf)
 
-8. **Simple Linear Regression: Estimation II** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.pdf) | [Handout](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-SLR_Estimation_handout.pdf)
+8. **Simple Linear Regression: Estimation II** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.pdf)
 
 ## Labs
 
