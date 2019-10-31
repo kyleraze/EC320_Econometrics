@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572542840862.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3503201835",
+    "id" : "DA541126",
+    "lastKnownWriteTime" : 1572542912,
+    "last_content_update" : 1572542912882,
+    "path" : "~/GitHub/Intro_Econometrics_F19/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.Rmd",
+    "project_path" : "07-Simple_Linear_Regression_Estimation.Rmd",
+    "properties" : {
+        "cursorPosition" : "606,48",
+        "scrollLine" : "594"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
