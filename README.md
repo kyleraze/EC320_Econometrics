@@ -27,6 +27,8 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 8. **Simple Linear Regression: Estimation II** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.pdf)
 
+9. **Classical Assumptions** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/09-Classical_Assumptions/09-Classical_Assumptions.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/09-Classical_Assumptions/09-Classical_Assumptions.pdf)
+
 ## Labs
 
 1. **Introduction to `R`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
