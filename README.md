@@ -11,23 +11,23 @@ Welcome to the course GitHub page for **EC 320: Introduction to Econometrics** (
 
 The .html versions of the lecture slides allow you to view animations and interactive features, provided that you have an internet connection. The .pdf slides don't require an internet connection, but they cannot display the animations or interactive features.
 
-1. **What is Econometrics?** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.pdf)
+1. **What is Econometrics?** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/01-Introduction/01-Introduction.pdf)
 
 2. **Statistics Review I** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/02-Statistics_Review/02-Statistics_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/02-Statistics_Review/02-Statistics_Review.pdf)
 
-3. **Statistics Review II** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/03-Statistics_Review/03-Statistics_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/03-Statistics_Review/03-Statistics_Review.pdf)
+3. **Statistics Review II** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/03-Statistics_Review/03-Statistics_Review.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/03-Statistics_Review/03-Statistics_Review.pdf)
 
-4. **The Fundamental Problem of Econometrics** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/04-Fundamental_Econometric_Problem/04-Fundamental_Econometric_Problem.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/04-Fundamental_Econometric_Problem/04-Fundamental_Econometric_Problem.pdf)
+4. **The Fundamental Problem of Econometrics** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/04-Fundamental_Econometric_Problem/04-Fundamental_Econometric_Problem.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/04-Fundamental_Econometric_Problem/04-Fundamental_Econometric_Problem.pdf)
 
-5. **Regression Logic** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/05-Regression_Logic/05-Regression_Logic.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/05-Regression_Logic/05-Regression_Logic.pdf)
+5. **Regression Logic** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/05-Regression_Logic/05-Regression_Logic.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/05-Regression_Logic/05-Regression_Logic.pdf)
 
-6. **Midterm Review** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/06-Midterm_Review/06-Midterm_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/06-Midterm_Review/06-Midterm_Review.pdf)
+6. **Midterm Review** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/06-Midterm_Review/06-Midterm_Review.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/06-Midterm_Review/06-Midterm_Review.pdf)
 
-7. **Simple Linear Regression: Estimation I** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.pdf) | [Handout](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-SLR_Estimation_handout.pdf)
+7. **Simple Linear Regression: Estimation I** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/07-Simple_Linear_Regression_Estimation/07-Simple_Linear_Regression_Estimation.pdf) | [Handout](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/07-Simple_Linear_Regression_Estimation/07-SLR_Estimation_handout.pdf)
 
-8. **Simple Linear Regression: Estimation II** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.pdf)
+8. **Simple Linear Regression: Estimation II** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/08-Simple_Linear_Regression_Estimation/08-Simple_Linear_Regression_Estimation.pdf)
 
-9. **Classical Assumptions** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/09-Classical_Assumptions/09-Classical_Assumptions.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/09-Classical_Assumptions/09-Classical_Assumptions.pdf)
+9. **Classical Assumptions** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/09-Classical_Assumptions/09-Classical_Assumptions.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/09-Classical_Assumptions/09-Classical_Assumptions.pdf)
 
 ## Labs
 
