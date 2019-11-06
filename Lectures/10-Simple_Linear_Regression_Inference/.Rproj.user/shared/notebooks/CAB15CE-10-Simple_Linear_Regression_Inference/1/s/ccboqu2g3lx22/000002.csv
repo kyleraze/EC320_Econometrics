@@ -1,0 +1,4 @@
+"0","sim_df <- map_df(1:10, ~sim_ols(.x, size = n_s) %>% iteration = .x)
+"
+"2","Error: unexpected '=' in ""sim_df <- map_df(1:10, ~sim_ols(.x, size = n_s) %>% iteration =""
+"

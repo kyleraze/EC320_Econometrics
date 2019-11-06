@@ -221,7 +221,7 @@ The most important assumptions concern the error term $u_i$.
 
 --
 
-**Important:** An error $u_i$ and a residual $\hat{u_i}$ are related, but different.
+**Important:** An error $u_i$ and a residual $\hat{u}_i$ are related, but different.
 
 --
 
@@ -388,7 +388,7 @@ theme(axis.text.x = element_text(size = 40),
 
 ## Result
 
-**OLS is unbiased.**
+OLS is unbiased.
 
 ---
 # Linearity
@@ -680,7 +680,7 @@ $$\mathop{\text{Var}}(u|X) = \sigma^2.$$
 
 ## Example
 
-```{r, dev = "svg", echo = F, fig.height = 3.5}
+```{r, dev = "svg", echo = F, fig.height = 3.25}
 set.seed(12345)
 ggplot(data = tibble(
   x = runif(1e3, -3, 3),
