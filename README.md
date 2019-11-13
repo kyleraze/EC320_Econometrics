@@ -33,6 +33,9 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 11. **Multiple Linear Regression: Estimation** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/11-Multiple_Linear_Regression_Estimation/11-Multiple_Linear_Regression_Estimation.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/11-Multiple_Linear_Regression_Estimation/11-Multiple_Linear_Regression_Estimation.pdf)
 
+12. **Multiple Linear Regression: Inference** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/12-Multiple_Linear_Regression_Inference/12-Multiple_Linear_Regression_Inference.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/12-Multiple_Linear_Regression_Inference/12-Multiple_Linear_Regression_Inference.pdf)
+
+
 ## Labs
 
 1. **Introduction to `R`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
@@ -46,6 +49,8 @@ The .html versions of the lecture slides allow you to view animations and intera
 5. **Regression Analysis**
 
 6. **Hypothesis Testing**
+
+7. **Hypothesis Testing and Omitted-Variable Bias**
 
 ## Other Content
 
