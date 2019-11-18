@@ -1,0 +1,346 @@
+---
+title: "Midterm Review"
+subtitle: "EC 320: Introduction to Econometrics"
+author: "Kyle Raze"
+date: "Fall 2019"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'my-css.css']
+    # self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, middle
+
+```{r Setup, include = F}
+options(htmltools.dir.version = FALSE)
+library(pacman)
+# devtools::install_github("dill/emoGG")
+library(pacman)
+p_load(
+  broom, here, tidyverse,
+  emoGG, latex2exp, ggplot2, ggthemes, viridis, extrafont, gridExtra,
+  kableExtra,
+  data.table, dagitty, ggdag,
+  dplyr, gganimate,
+  lubridate,
+  magrittr, knitr, parallel
+)
+# Define colors
+red_pink <- "#e64173"
+met_slate <- "#23373b" # metropolis font color
+# Notes directory
+dir_slides <- "~/GitHub/EC320_Econometrics/Lectures/13-Midterm_Review/"
+# Knitr options
+opts_chunk$set(
+  comment = "#>",
+  fig.align = "center",
+  fig.height = 7,
+  fig.width = 10.5,
+  #dpi = 300,
+  #cache = T,
+  warning = F,
+  message = F
+)  
+theme_simple <- theme_bw() + theme(
+  axis.line = element_line(color = met_slate),
+  panel.grid = element_blank(),
+  rect = element_blank(),
+  strip.text = element_blank(),
+  text = element_text(family = "Fira Sans", color = met_slate, size = 14),
+  axis.text.x = element_text(size = 12),
+  axis.text.y = element_text(size = 12),
+  axis.ticks = element_blank(),
+  plot.title = element_blank(),
+  legend.position = "none"
+)
+theme_gif <- theme_bw() + theme(
+  axis.line = element_line(color = met_slate),
+  panel.grid = element_blank(),
+  rect = element_blank(),
+  strip.text = element_blank(),
+  text = element_text(family = "Fira Sans", color = met_slate, size = 14),
+  axis.text.x = element_text(size = 12),
+  axis.text.y = element_text(size = 12),
+  axis.ticks = element_blank()
+)
+```
+
+# Prologue
+
+---
+# Housekeeping
+
+Problem Set 4
+
+- Due tonight by 23:59 on Canvas
+
+Midterm 2 on Wednesday
+
+- .hi[You still have lab this week!]
+- [Maps!](https://socviz.co/maps.html#maps)
+
+Extended office hours 
+
+- Tomorrow 15:00 to 17:00
+- Room TBA
+
+---
+class: inverse, middle
+
+# Midterm II: The Weeds
+
+---
+# Midterm Topics
+
+.green[Anything from the lectures, labs, or problem sets] .hi-green[is fair game!]
+
+1. Simple Linear Regression: Estimation I & II
+
+2. Classical Assumptions
+
+3. Simple Linear Regression: Inference
+
+4. Multiple Linear Regression: Estimation
+
+5. Multiple Linear Regression: Inference
+
+6. Regressions in .mono[R]
+
+---
+# Midterm Topics
+
+## 1. Simple Linear Regression: Estimation
+
+OLS mechanics
+
+- How does OLS pick parameter estimates?
+- What properties are a direct consequence of OLS?
+- Residuals *v.s.* errors
+
+Coefficient interpretation (literal)
+
+---
+# Midterm Topics
+
+## 1. Simple Linear Regression: Estimation (cont.)
+
+Goodness of fit
+
+- $R^2$ interpretation (literal)
+- Understand $R^2$ derivation
+- Use and misuse of $R^2$
+
+OLS by hand
+
+- Estimate coefficients and calculate $R^2$.
+- Don't have to calculate standard errors by hand.
+
+---
+# Midterm Topics
+
+## 2. Classical Assumptions
+
+Six assumptions
+
+1. Linearity
+2. Sample variation/no perfect collinearity
+3. Random sampling
+4. Exogeneity
+5. Homoskedasticity
+6. Normality
+
+What do they buy?
+
+When are they satisfied? When are they violated? 
+
+---
+# Midterm Topics
+
+## 2. Classical Assumptions (cont.)
+
+**So what?**
+
+- Coefficient interpretation (substantive)
+- Hypothesis test validity.
+
+---
+# Midterm Topics
+
+## 3. Simple Linear Regression: Inference
+
+Making inferences about population parameters
+
+- Population *v.s.* sample
+- What do we mean by "statistical significance?"
+
+Hypothesis testing (*e.g.,* *t* tests)
+
+- Null hypotheses *v.s.* alternative hypotheses
+- Left-tailed, right-tailed, and two-tailed
+- Type I *v.s.* Type II error
+
+Confidence intervals
+
+---
+# Midterm Topics
+
+## 4. Multiple Linear Regression: Estimation
+
+OLS mechanics and properties
+
+Goodness of fit
+
+- $R^2$ interpretation (literal)
+- Know the behavior of $R^2$ as the number of explanatory variables increases.
+
+Make predictions for certain values of the explanatory values (*e.g.,* hedonic modeling)
+
+---
+# Midterm Topics
+
+## 4. Multiple Linear Regression: Estimation (cont.)
+
+Coefficient interpretation (literal and substantive)
+
+Omitted-variable bias
+
+- Know when omitting a variable causes bias.
+- Sign the bias.
+- Back out correlations between explanatory variables.
+
+---
+# Midterm Topics
+
+## 5. Multiple Linear Regression: Inference
+
+Confidence intervals and *t* tests 
+
+- Other than degrees of freedom, same as before.
+
+Multicollinearity
+
+- Standard errors depend on the overlapping variation between the explanatory variable.
+- More overlap $\implies$ bigger standard errors $\implies$ less likely to reject null hypothesis.
+
+Irrelevant variables
+
+--
+
+**No *F* tests on the midterm!** Stay tuned for the final. 
+
+---
+# Midterm Topics
+
+## 6. Regressions in .mono[R]
+
+Write the code that generates regression output
+
+- I provide the console or R Markdown output and the name of the data file.
+- You provide the code that loads the necessary packages, imports the data, runs regressions, and generates a table.
+- Write the code as if it's in a .mono[.R] script.
+
+---
+# Midterm Structure
+
+## Fill in the Blank
+
+- 10 blanks
+- 3 points per blank (30 points total)
+
+## True or False
+
+- 5 questions
+- 6 points per question (30 points total)
+- Brief explanations required for full credit
+
+## Free Response
+
+- 4 multi-part questions with varying numbers of points (140 points total)
+- Explanations required for full credit
+
+---
+# Midterm Protocol
+
+## Materials
+
+- Writing utensil
+- 3-inch-by-5-inch note card
+- Basic or scientific calculator (no graphing or programming capabilities)
+- .hi[Nothing else]
+
+## Procedure
+
+- **Randomized** seating chart .red[(penalty for non-compliance)]
+- 80 minutes from *"you may begin"* to *"pencils down"*
+- First 30 minutes: .hi[quiet period] (no questions, no getting up)
+- Last 50 minutes: ask lots of questions
+
+---
+class: inverse, middle
+
+# Practice
+
+---
+# Regression Table
+
+## Example: Final Grades
+
+Data on 680 students in an introductory microeconomics class.
+
+```{R, echo = F, escape = F}
+tab <- data.frame(
+  v1 = c("Intercept", "", "Classes Attended (%)", "", "HW Turned In (%)", "", "ACT Score", ""),
+  v2 = rbind(
+    c(22.7, 0.039, "", ""),
+    c("(0.877)", "(0.011)", "", "")
+  ) %>% as.vector(),
+  v3 = rbind(
+    c(21.8, 0.027, 0.022, ""),
+    c("(0.973)", "(0.014)", "(0.012)", "")
+  ) %>% as.vector(),
+  v4 = rbind(
+    c(-8.69, 0.041 , 0.023, 0.528),
+    c("(1.49)", "(0.013)", "(0.011)", "(0.048)")
+  ) %>% as.vector()
+) %>% kable(
+  escape = F,
+  col.names = c("Explanatory variable", "1", "2", "3"),
+  align = c("l", rep("c", 4)),
+  caption = "Outcome: Final Exam Score (%)"
+) %>%
+row_spec(1:8, color = met_slate) %>%
+row_spec(seq(2,8,2), color = "#c2bebe") %>%
+row_spec(1:8, extra_css = "line-height: 110%;") %>%
+column_spec(1, color = "black", italic = T)
+tab %>% column_spec(2, bold = T)
+```
+
+
+---
+count: false
+
+# Regression Table
+
+## Example: Final Grades
+
+Data on 680 students in an introductory microeconomics class.
+
+```{R, echo = F}
+tab %>% column_spec(3, bold = T)
+```
+
+---
+count: false
+
+# Regression Table
+
+## Example: Final Grades
+
+Data on 680 students in an introductory microeconomics class.
+
+```{R, echo = F}
+tab %>% column_spec(4, bold = T)
+```

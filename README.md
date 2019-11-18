@@ -35,6 +35,8 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 12. **Multiple Linear Regression: Inference** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/12-Multiple_Linear_Regression_Inference/12-Multiple_Linear_Regression_Inference.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/12-Multiple_Linear_Regression_Inference/12-Multiple_Linear_Regression_Inference.pdf)
 
+13. **Midterm Review** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/13-Midterm_Review/13-Midterm_Review.html) | [.pdf](https://github.com/kyleraze/EC320_Econometrics/raw/master/Lectures/13-Midterm_Review/13-Midterm_Review.pdf)
+
 
 ## Labs
 
