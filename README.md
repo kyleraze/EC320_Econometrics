@@ -54,6 +54,10 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 7. **Hypothesis Testing and Omitted-Variable Bias**
 
+8. **Maps with `ggplot2`!** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/08-Maps/08-Maps.html)
+
+9. **Happy Thanksgiving:** ***No lab*** 
+
 ## Other Content
 
 For supplemental lecture documents, problem sets, and other materials, see Canvas.
