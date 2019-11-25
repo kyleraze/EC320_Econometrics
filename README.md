@@ -37,6 +37,7 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 13. **Midterm Review** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/13-Midterm_Review/13-Midterm_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/13-Midterm_Review/13-Midterm_Review.pdf)
 
+14. **Categorical Variables** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/14-Categorical_Variables/14-Categorical_Variables.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/14-Categorical_Variables/14-Categorical_Variables.pdf)
 
 ## Labs
 
