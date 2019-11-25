@@ -1,0 +1,199 @@
+---
+title: "Maps with `ggplot2`!"
+author: | 
+        | Kyle Raze, Youssef Ait Benasser, & Saurabh Gupta
+        | EC 320: Introduction to Econometrics
+        | University of Oregon
+date: "Fall 2019"
+output: 
+  html_document:
+    theme: flatly  
+    highlight: tango
+    includes:
+      after_body: footer.html
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+      
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, warning = F, message = F, cache = T)
+```
+
+## Maps!
+
+Who doesn't love a nice-looking map?!
+
+Today you will create a map of the United States that describes geographic variation in social mobility. One concrete measure of social mobility is the fraction of people raised by low-income parents who go on to earn incomes in the top 20 percent of the national income distribution. You will use county-level data on this measure and other related variables from the [Opportunity Atlas](https://www.opportunityatlas.org/). 
+
+### Where is the land of opportunity?
+
+One version of the *American Dream* is that children grow up to do better than their parents. If by "better" we mean "earn more," then the American Dream isn't faring so well. Research by Harvard economist Raj Chetty and his team of researchers demonstrates that [social mobility has declined](https://www.nber.org/papers/w22910) in the United States over the last few decades. That said, there are areas of the country where high social mobility persists. Your task today is to identify those areas.
+
+## Step 1: Social Mobility Data
+
+Download the file `social_mobility.csv` from Canvas. 
+
+```{r data1}
+library(pacman)
+p_load(tidyverse)
+
+mobility <- read_csv("social_mobility.csv")
+
+# view the data
+head(mobility)
+```
+
+The data are based on detailed administrative records that follow 20 million Americans born between 1978 and 1983. To protect the identity of the individuals in the data, the Opportunity Atlas team aggregated the records to the county level. For each county, there are average adult outcomes for three discrete levels of parental income: low, middle, and high. The outcome variables include teenage birth rates, incarceration rates, high school graduation rates, household income, and the fraction of people who ended up in the top 20 percent of the income distribution.
+
+Consider the value of `hh_income_t20` for the first row. It tells you that 23.87 percent of the people who were raised by high-income parents in Autauga County, AL earned household incomes in the top 20 percent of the income distribution as adults.
+
+## Step 2: Map Data
+
+Before you can map the social mobility data, you need to retrieve map data. To do this, you will use the `maps` package. 
+
+```{r map_data1}
+p_load(maps)
+
+us_counties <- map_data("county")
+
+# view the data
+head(us_counties)
+```
+
+The `us_counties` data frame contains points that trace out US counties. You can visualize the data using `ggplot`. The `geom_polygon` function will plot the county borders.
+
+```{r map_data2}
+us_counties %>% 
+  ggplot(aes(x = long, y = lat, group = group, fill = region)) +
+  # tell ggplot what to do with the data
+  geom_polygon(color = "white", size = 0.1) + 
+  guides(fill = FALSE)
+```
+
+It's a start, but the Mercator projection isn't exactly the most visually pleasing. Use the Albers projection from the `mapproj` package instead.[^projections]
+
+[^projections]: **What's the deal with projections?** Imagine that you have a globe that shows the political boundaries of every country on earth. Your globe is perfect: it shows the exact relative geographic position of each country, the exact shape of each country, and the area of each country in exact proportions. If you were to cut your globe in half and flatten it on a table, you would necessarily distort the relative geographic position, shape, or areas of the countries on your globe. Any map of the earth is really a flattened globe that makes distortions. The way you flatten the globe is called a projection. There are many different projections that make trade-offs between various kinds of distortions. The Albers projection sacrifices geographic position (*e.g.,* the flat part of the US-Canada border is curved) in exchange for accurate shapes and minimal area distortions.
+
+```{r map_data3}
+p_load(mapproj)
+
+us_counties %>% 
+  ggplot(aes(x = long, y = lat, group = group, fill = region)) +
+  # tell ggplot what to do with the data
+  geom_polygon(color = "white", size = 0.1) + 
+  guides(fill = FALSE) +
+  # change the map projection
+  coord_map(projection = "albers", lat0 = 39, lat1 = 45)
+```
+
+## Step 3: Join Data
+
+You will join the election data with the map data using county FIPS codes.[^fips] 
+
+[^fips]: County FIPS codes provide a unique identifier for each county. There are FIPS codes for other geographies, too, such as states or metro areas. In case you were wondering, "FIPS" stands for Federal Information Processing Standards.
+
+### Preliminary steps: fetch FIPS codes
+
+However, the `us_counties` dataset does not include FIPS codes. To add them, import the `county.fips` dataset from the `maps` package.
+
+```{r merge1}
+fips <- get("county.fips")
+
+# view the data
+head(fips)
+```
+
+Next, you need to join `us_counties` with `fips`. To join two data frames, you need a common variable. Use the variable `polyname`. While this variable is not in the `us_counties` dataset, the components of the variable are (state name, county name). We can add `polyname` to `us_counties` using `mutate` and `paste`.
+
+```{r merge2}
+us_counties <- us_counties %>% 
+  mutate(polyname = paste(region, subregion, sep = ","))
+
+# take a peak
+head(us_counties)
+```
+
+Then you can add FIPS codes to `us_counties` by using the `left_join()` function.
+
+```{r merge3}
+us_counties <- left_join(us_counties, fips, by = "polyname")
+
+# take another peak
+head(us_counties)
+```
+
+### Make the join
+
+Use `left_join()` again to join the social mobility data with the map data.
+
+```{r merge4}
+mobility <- left_join(us_counties, mobility, by = "fips")
+```
+
+## Step 4: Social Mobility Map
+
+Now that the `mobility` dataset contains map data, you can map the social mobility data. Plot the fraction of low-income children who end up earning incomes in the top 20 percent of the income distribution (variable name: `hh_income_t20`; subset: `parent_inc == "Low"`).
+
+```{r map1}
+mobility %>% 
+  filter(parent_inc == "Low") %>% 
+  ggplot(aes(x = long, y = lat, group = group, fill = hh_income_t20)) +
+  geom_polygon(color = "white", size = 0.01) +
+  coord_map(projection = "albers", lat0 = 39, lat1 = 45) 
+```
+
+It's a start, but the colors don't look great and the axes clutter the map. 
+
+### A better-looking map
+
+To make a map that's easier on the eyes, you can use **1)** a color scheme from the `viridis` package, **2)** the `theme_map()` option from the `ggthemes` package, which removes unnecessary clutter from the plot, and **3)** add state borders.
+
+```{r map2}
+p_load(viridis, ggthemes)
+
+# data on state borders
+state_df <- map_data("state")
+
+mobility %>% 
+  filter(parent_inc == "Low") %>% 
+  ggplot(aes(x = long, y = lat, group = group, fill = hh_income_t20)) +
+  geom_polygon(color = "white", size = 0.01) +
+  coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
+  # use familiar colors and add titles and a caption
+  scale_fill_viridis(option = "inferno", na.value = "white") +
+  labs(title = "Where is the Land of Opportunity?", 
+       subtitle = "Fraction of low-income children earning top-20% incomes as adults", 
+       fill = NULL, 
+       caption = "Source: Opportunity Atlas.") +
+  # add state borders
+  geom_polygon(data = state_df, color = "white", fill = NA, size = 0.65) +
+  # remove clutter
+  theme_map() 
+```
+
+What do you see?
+
+## Your Turn
+
+Make a map using one of the other outcome variables in the `mobility` dataset. Your choices include:
+
+- `hh_income`: Average household income as adults.
+- `hs_grad`: Fraction who graduated high school.
+- `incarceration`: Fraction who went to prison.
+- `teen_birth`: Fraction who gave birth as a teenager.
+
+You can also examine other subsets of the data:
+
+- `parent_inc == "Middle"`.
+- `parent_inc == "High"`.
+
+Describe the data you mapped and make note of any interesting patterns that emerge. Does a story emerge from your map? Provide a discussion.
+
+One of the computational problems of Problem Set 5 will ask you to **1)** make a map using a **different variable** from `social_mobility.csv` (*i.e.,* not `hh_income_t20`) and **2)** describe the geographic patterns you observe.
+
+### Further reading
+
+This lab is based on [Chapter 7](https://socviz.co/maps.html#maps) of [Data Visualization](https://socviz.co/), a *free* ebook by Duke University sociologist Kieran Healy. If you want to hone your `ggplot` skills, I can't think of a better resource. The book features numerous hands-on examples for a variety of data visualizations. Chapter 7 focuses on maps, using US elections as a running example.
