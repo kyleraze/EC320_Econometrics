@@ -13,7 +13,7 @@
 }
 
 %% FONTS
-\usepackage{mathspec}
+\usepackage{fontspec}
 % See: https://tex.stackexchange.com/a/50593
 \setmainfont[
 BoldFont       = FiraSans-SemiBold.otf,
@@ -23,8 +23,10 @@ BoldItalicFont = FiraSans-SemiBoldItalic.otf
 \setmonofont[
 BoldFont       = FiraCode-Bold.ttf
 ]{FiraCode-Regular.ttf}
-\setmathfont(Greek){FiraSans-Italic.otf}
-\setmathfont(Latin,Digits){FiraMath-Regular.otf}
+%\textsc{\setmathfont(Greek){FiraSans-Italic.otf}
+%\setmathfont(Latin,Digits){FiraMath-Regular.otf}}
+\usepackage[mathrm=sym]{unicode-math}
+\setmathfont{Fira Math}
 \usepackage{marvosym} % For cool symbols.
 \usepackage{fontawesome} % Ditto
 %\usepackage{libertine}

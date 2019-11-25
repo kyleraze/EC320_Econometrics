@@ -31,7 +31,7 @@ data2 <- get(data(campus)) %>%
 red_pink <- "#e64173"
 met_slate <- "#23373b" # metropolis font color
 # Notes directory
-dir_slides <- "~/GitHub/EC320_Econometrics/Lectures/07-Simple_Linear_Regression_Estimation/"
+dir_slides <- "~/GitHub/Intro_Econometrics_F19/Lectures/07-Simple_Linear_Regression_Estimation/"
 # Knitr options
 opts_chunk$set(
   comment = "#>",
