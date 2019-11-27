@@ -39,6 +39,8 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 14. **Categorical Variables** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/14-Categorical_Variables/14-Categorical_Variables.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/14-Categorical_Variables/14-Categorical_Variables.pdf)
 
+15. **Interactive Relationships** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/15-Interactive_Relationships/15-Interactive_Relationships.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/15-Interactive_Relationships/15-Interactive_Relationships.pdf)
+
 ## Labs
 
 1. **Introduction to `R`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)
