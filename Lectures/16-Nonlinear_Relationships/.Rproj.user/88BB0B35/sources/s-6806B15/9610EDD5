@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1575323409206.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1984416168",
+    "id" : "9610EDD5",
+    "lastKnownWriteTime" : 1575323546,
+    "last_content_update" : 1575323546184,
+    "path" : "~/GitHub/Intro_Econometrics_F19/Lectures/16-Nonlinear_Relationships/16-Nonlinear_Relationships.Rmd",
+    "project_path" : "16-Nonlinear_Relationships.Rmd",
+    "properties" : {
+        "cursorPosition" : "441,37",
+        "ignored_words" : "capita,lm,Fira,darkslategrey,br,Anscombe's,css,fb,bb,meap,unbiasedness,cdot\n",
+        "last_setup_crc32" : "8581828Dfaf2e19a",
+        "scrollLine" : "438"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
