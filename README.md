@@ -41,6 +41,8 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 15. **Interactive Relationships** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/15-Interactive_Relationships/15-Interactive_Relationships.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/15-Interactive_Relationships/15-Interactive_Relationships.pdf)
 
+16. **Nonlinear Relationships** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/16-Nonlinear_Relationships/16-Nonlinear_Relationships.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/16-Nonlinear_Relationships/16-Nonlinear_Relationships.pdf)
+
 ## Labs
 
 1. **Introduction to `R`** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Labs/01-Introduction_R/01-Introduction_R.html)

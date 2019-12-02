@@ -1,0 +1,6 @@
+"0","# Plot"
+"0","ggplot(data = log_df, aes(x = log(y))) +"
+"0","geom_histogram(color = red_pink, fill = red_pink, alpha = 0.5) +"
+"0","xlab(""log(Y)"") +"
+"0","ylab(""Count"") +"
+"0","theme_pander(base_size = 17, base_family = ""Fira Sans"", fc = met_slate)"
