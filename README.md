@@ -43,6 +43,7 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 16. **Nonlinear Relationships** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/16-Nonlinear_Relationships/16-Nonlinear_Relationships.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/16-Nonlinear_Relationships/16-Nonlinear_Relationships.pdf)
 
+17. **Final Review** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/17-Final_Review/17-Final_Review.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/17-Final_Review/17-Final_Review.pdf)
 
 ## Labs
 

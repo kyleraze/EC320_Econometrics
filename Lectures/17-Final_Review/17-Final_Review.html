@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Final Review</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Kyle Raze" />
+    <link href="17-Final_Review_files/remark-css/default.css" rel="stylesheet" />
+    <link href="17-Final_Review_files/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="17-Final_Review_files/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <script src="17-Final_Review_files/kePrint/kePrint.js"></script>
+    <link rel="stylesheet" href="my-css.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Final Review
+## EC 320: Introduction to Econometrics
+### Kyle Raze
+### Fall 2019
+
+---
+
+class: inverse, middle
+
+
+
+# Prologue
+
+---
+# Housekeeping
+
+## Final Exam
+
+Tuesday, December 10 at 10:15am in Chapman 220.
+
+- Room open at 10:00am.
+
+## Problem Set 5
+
+Due Saturday, December 7 by 11:59pm.
+
+---
+# Housekeeping
+
+## Lab
+
+Additional review session.
+
+- Focus: coefficient interpretation.
+
+## Office hours
+
+Regular hours this week.
+
+Next week: extended office hours on Monday.
+
+- Times and locations TBA.
+
+---
+class: inverse, middle
+
+# Final Exam
+
+---
+# Final Exam Topics
+
+.green[Anything from the lectures, labs, or problem sets] .hi-green[is fair game!]
+
+1. Midterm Topics
+
+2. Multiple Linear Regression: Inference
+
+3. Categorical Variables
+
+4. Interactive Relationships
+
+5. Nonlinear Relationships
+
+---
+# Final Exam Topics
+
+## 1. Midterm Topics
+
+Making predictions using fitted regression model
+
+- *e.g.,* using a Hedonic model
+
+Goodness of fit
+
+Hypothesis testing
+
+--
+
+.pink[Omitted-variable bias]
+
+- Know when omitting a variable causes bias
+- Sign the bias
+- Back out correlations between explanatory variables
+- Provide examples of problematic omitted variables
+
+---
+# Final Exam Topics
+
+## 2. Multiple Linear Regression: Inference
+
+*F* tests (multiple parameters)
+
+- State null hypothesis
+- Identify restricted and unrestricted models
+- Calculate *F* statistic
+- Use table to find *F*.sub[*crit*]
+- *F* .mono[&gt;] *F*.sub[*crit*]?
+- State conclusion of the test
+
+*t* tests (single parameter)
+
+--
+
+**Q:** Which test should you choose? 
+
+--
+
+**A:** Depends on the null hypothesis!
+
+---
+# Final Exam Topics
+
+## 2. Multiple Linear Regression: Inference
+
+Confidence intervals
+
+- Formula, interpretation, and comparison of different intervals for the same coefficient
+
+--
+
+.pink[Proof:] Show that the *F* statistic formula containing *RSS* implies the *F* statistic formula containing *R*.super[*2*]
+
+- For practice, you can also prove that the second formula implies the first
+
+---
+# Final Exam Topics
+
+## 3. Categorical Variables
+
+How do you interpret coefficients on binary variables?
+
+- **Note:** Depends on the presence of interaction terms and whether the outcome variable is transformed
+
+Dummy variable trap
+
+What is the reference category?
+
+- How do you back out group-specific averages from a dummy variable regression?
+- How do coefficient estimates change when you change the reference category?
+
+---
+# Final Exam Topics
+
+## 4. Interactive Relationships
+
+How do you interpret interaction coefficients?
+
+- Binary `\(\times\)` binary
+- Binary `\(\times\)` continuous
+- Continuous `\(\times\)` continuous
+
+How does an interaction term change how you interpret the effect of the variable of interest on the outcome variable?
+
+- Marginal effects (partial derivative)
+
+---
+# Final Exam Topics
+
+## 5. Nonlinear Relationships
+
+Identify nonlinear models
+
+- OLS can handle nonlinear variables, but not nonlinear parameters
+
+Transform nonlinear models
+
+- Give OLS a chance
+
+---
+# Final Exam Topics
+
+## 5. Nonlinear Relationships
+
+How do you interpret coefficients in the presence of logarithmic transformations?
+
+- Level `\(Y\)`, level `\(X\)`
+- Level `\(Y\)`, log `\(X\)`
+- Log `\(Y\)`, level `\(X\)`
+- Log `\(Y\)`, log `\(X\)`
+
+--
+
+**Quadratic models:** interacting `\(X\)` with itself
+
+- Calculate marginal effects to understand how `\(X\)` affects `\(Y\)`
+
+---
+# Final Exam Structure
+
+## No Multiple Choice!
+
+--
+
+## No Fill-in the Blank!
+
+--
+
+## No True-False!
+
+--
+
+## Just Free Response
+
+- 8 multi-part questions with varying numbers of points (200 points total)
+- Explanations required for full credit
+
+---
+# Final Exam Protocol
+
+## Materials
+
+- Writing utensil
+- 3-inch-by-5-inch note card
+- Basic or scientific calculator (no graphing or programming capabilities)
+- .hi[Nothing else]
+
+## Procedure
+
+- **Randomized** seating chart .red[(penalty for non-compliance)]
+- 120 minutes from *"you may begin"* to *"pencils down"*
+- First 30 minutes: .hi[quiet period] (no questions, no getting up)
+- Last 90 minutes: ask lots of questions
+
+---
+class: inverse, middle
+
+# Practice
+
+---
+# .mono[gapminder] Package
+
+Data on population, GDP per capita, and life expectancy 
+
+Unit of observation: country-year 
+
+- All countries, every 5.super[th] year between 1957 and 2007
+
+
+```r
+p_load(gapminder)
+data &lt;- get('gapminder')
+head(data)
+```
+
+```
+#&gt; # A tibble: 6 x 6
+#&gt;   country     continent  year lifeExp      pop gdpPercap
+#&gt;   &lt;fct&gt;       &lt;fct&gt;     &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
+#&gt; 1 Afghanistan Asia       1952    28.8  8425333      779.
+#&gt; 2 Afghanistan Asia       1957    30.3  9240934      821.
+#&gt; 3 Afghanistan Asia       1962    32.0 10267083      853.
+#&gt; 4 Afghanistan Asia       1967    34.0 11537966      836.
+#&gt; 5 Afghanistan Asia       1972    36.1 13079460      740.
+#&gt; 6 Afghanistan Asia       1977    38.4 14880372      786.
+```
+
+---
+# GDP per Capita by Continent
+
+
+```r
+reg &lt;- lm(gdpPercap ~ continent, data = data)
+tidy(reg)
+```
+
+```
+#&gt; # A tibble: 5 x 5
+#&gt;   term              estimate std.error statistic  p.value
+#&gt;   &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+#&gt; 1 (Intercept)          2194.      347.      6.33 3.21e-10
+#&gt; 2 continentAmericas    4942.      609.      8.12 8.79e-16
+#&gt; 3 continentAsia        5708.      557.     10.3  5.43e-24
+#&gt; 4 continentEurope     12276.      573.     21.4  3.06e-90
+#&gt; 5 continentOceania    16428.     1802.      9.12 2.12e-19
+```
+
+```r
+nobs(reg)
+```
+
+```
+#&gt; [1] 1704
+```
+
+```r
+summary(reg)$r.squared
+```
+
+```
+#&gt; [1] 0.2295766
+```
+
+---
+# GDP per Capita by Continent
+
+
+```r
+reg2 &lt;- lm(log(gdpPercap) ~ continent, data = data)
+tidy(reg2)
+```
+
+```
+#&gt; # A tibble: 5 x 5
+#&gt;   term              estimate std.error statistic   p.value
+#&gt;   &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+#&gt; 1 (Intercept)          7.25     0.0373     195.  0.       
+#&gt; 2 continentAmericas    1.37     0.0654      20.9 1.48e- 86
+#&gt; 3 continentAsia        0.823    0.0598      13.8 5.59e- 41
+#&gt; 4 continentEurope      2.10     0.0616      34.0 5.40e-194
+#&gt; 5 continentOceania     2.53     0.194       13.1 2.93e- 37
+```
+
+```r
+nobs(reg2)
+```
+
+```
+#&gt; [1] 1704
+```
+
+```r
+summary(reg2)$r.squared
+```
+
+```
+#&gt; [1] 0.4390461
+```
+
+---
+# GDP per Capita by Continent
+
+
+```r
+data &lt;- data %&gt;% 
+  mutate(continent = ifelse(as.character(continent) %in% 
+                              c("Europe", "Americas", "Oceania"), 
+                            "The West",
+                            as.character(continent)))
+reg3 &lt;- lm(log(gdpPercap) ~ continent, data = data)
+tidy(reg3)
+```
+
+```
+#&gt; # A tibble: 3 x 5
+#&gt;   term              estimate std.error statistic   p.value
+#&gt;   &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+#&gt; 1 (Intercept)          7.25     0.0385     188.  0.       
+#&gt; 2 continentAsia        0.823    0.0618      13.3 1.24e- 38
+#&gt; 3 continentThe West    1.79     0.0532      33.7 8.19e-191
+```
+
+```r
+summary(reg3)$r.squared
+```
+
+```
+#&gt; [1] 0.4007156
+```
+
+---
+# GDP per Capita by Continent
+
+**Null hypothesis:** Europe, the Americas, and Oceania have the same average GDP per capita.
+
+--
+
+**Setup *F* Test**
+
+
+```r
+# restricted model: reg3
+# unrestricted model: reg2
+
+# get r-squared from restricted and unrestricted models
+r2_restrict &lt;- summary(reg3)$r.squared
+r2_unrestrict &lt;- summary(reg2)$r.squared
+
+# number of resrictions
+n_restrict &lt;- 2 
+
+# degrees of freedom in unrestricted model
+dof &lt;- summary(reg3)$df[2] 
+
+# significance level
+alpha &lt;- 0.01
+```
+
+---
+# GDP per Capita by Continent
+
+**Null hypothesis:** Europe, the Americas, and Oceania have the same average GDP per capita.
+
+**Conduct *F* Test**
+
+
+```r
+# calculate F stat:
+f_stat &lt;- ((r2_unrestrict - r2_restrict)/n_restrict)/((1 - r2_unrestrict)/dof) 
+
+# find critical value of F:
+f_crit &lt;- qf(1-alpha, n_restrict, dof)
+
+# reject null if:
+f_stat &gt; f_crit
+```
+
+```
+#&gt; [1] TRUE
+```
+
+--
+
+**Conclusion:** At least one of the continents in "The West" has a different average GDP per capita than the others.
+
+---
+class: white-slide
+.center[**Association of GDP per Capita with Life Expectancy**]
+&lt;table class="table" style="font-size: 18.2px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Life Expectancy &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Life Expectancy &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; log(Life Expectancy) &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; log(Life Expectancy) &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 6.42 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 5.69 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.112 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.111 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.183) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.325) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.004) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.006) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Americas &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 4.03 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.047 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.674) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.013) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Asia &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.561 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; -0.002 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.421) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.008) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Europe &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.614 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; -0.019 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.597) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.012) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Oceania &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 5.2 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.035 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (4.36) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.084) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; Continent Dummies? &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; Observations &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; R-Squared &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.71 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.665 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.669 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+class: white-slide
+.center[**Association of GDP per Capita with Life Expectancy**]
+&lt;table class="table" style="font-size: 18.2px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Life Expectancy &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Life Expectancy &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; log(Life Expectancy) &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; log(Life Expectancy) &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 6.42 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 5.69 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.112 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.111 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.183) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.325) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.004) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.006) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Americas &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 4.03 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.047 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.674) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.013) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Asia &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.561 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; -0.002 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.421) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.008) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Europe &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.614 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; -0.019 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.597) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.012) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Oceania &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 5.2 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.035 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (4.36) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.084) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; Continent Dummies? &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; Observations &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; R-Squared &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.71 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.665 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.669 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+class: white-slide
+.center[**Association of GDP per Capita with Life Expectancy**]
+&lt;table class="table" style="font-size: 18.2px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Life Expectancy &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Life Expectancy &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; log(Life Expectancy) &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; log(Life Expectancy) &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 6.42 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 5.69 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.112 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.111 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.183) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.325) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.004) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.006) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Americas &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 4.03 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.047 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.674) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.013) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Asia &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.561 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; -0.002 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.421) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.008) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Europe &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.614 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; -0.019 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.597) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.012) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Oceania &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 5.2 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.035 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (4.36) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.084) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; Continent Dummies? &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; Observations &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; R-Squared &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.71 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.665 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.669 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+class: white-slide
+.center[**Association of GDP per Capita with Life Expectancy**]
+&lt;table class="table" style="font-size: 18.2px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;  &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Life Expectancy &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Life Expectancy &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; log(Life Expectancy) &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; log(Life Expectancy) &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 6.42 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 5.69 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.112 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.111 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.183) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.325) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.004) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.006) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Americas &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 4.03 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.047 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.674) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.013) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Asia &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.561 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; -0.002 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.421) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.008) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Europe &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.614 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; -0.019 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (0.597) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.012) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; log(GDP/Capita) &lt;d7&gt; Oceania &lt;/d7&gt;
+&lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 5.2 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.035 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-style: italic;color: black !important;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt; (4.36) &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;color: #c2bebe !important;line-height: 110%;font-weight: bold;"&gt; (0.084) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; Continent Dummies? &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; Yes &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; Yes &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; Observations &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 1704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 1704 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;color: #23373b !important;line-height: 110%;font-style: italic;color: black !important;"&gt; R-Squared &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.704 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.71 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;"&gt; 0.665 &lt;/td&gt;
+   &lt;td style="text-align:center;color: #23373b !important;line-height: 110%;font-weight: bold;"&gt; 0.669 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
