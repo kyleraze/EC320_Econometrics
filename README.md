@@ -1,11 +1,13 @@
-# EC 320, Fall 2019
+# Introduction to Econometrics <img align="right" height="175" src="fig_venn.png">
 
-Welcome to the course GitHub page for **EC 320: Introduction to Econometrics** (Fall 2019) at the University of Oregon.
+Welcome to EC 320: Introduction to Econometrics (Fall 2019) at the University of Oregon.
 
 - Instructor: [Kyle Raze](https://kyleraze.com)
 - GE (grader): Youssef Ait Benasser
 - GE (lab): Saurabh Gupta 
 - [Syllabus](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Syllabus/syllabus.pdf)
+
+This course introduces the statistical techniques that help economists learn about the world using data. Using calculus and introductory statistics, students will cultivate a working understanding of the theory underpinning regression analysis&mdash;*how* it works, *why* it works, and *when it can lead us astray*. As the course progresses, students will apply the insights of theory to work with and learn from actual data using `R`, a statistical programming language. My goal is for students to leave the course with marketable skills in data analysis and&mdash;most importantly&mdash;a more sophisticated understanding of the notion that correlation does not necessarily imply causation.
 
 ## Lectures
 
@@ -65,6 +67,10 @@ The .html versions of the lecture slides allow you to view animations and intera
 
 9. **Happy Thanksgiving!** ***No lab*** 
 
-## Other Content
+## Other course content
 
-For supplemental lecture documents, problem sets, and other materials, see Canvas.
+For supplemental lecture documents, problem sets, and other materials, please see Canvas.
+
+## Resources
+
+I am indebted to [Ed Rubin](http://edrub.in/) (@edrubin) and [Simeon Minard](https://sites.google.com/view/simeonminard/home) for their generous contribution of course materials. I also source some material from [Nick Huntington-Klein](https://nickchk.com/) (@NickCH-K), who maintains a [trove of resources](https://nickchk.com/causalgraphs.html) for learning causal inference. If you're interested in learning more about econometrics, check out Ed's [introduction to econometrics](https://github.com/edrubin/EC421S19) course (EC 421, the next course in the econometrics sequence after EC 320) or Nick's course on [causality in economics](https://nickchk.com/econ305.html).
