@@ -11,7 +11,7 @@ This course introduces the statistical techniques that help economists learn abo
 
 ## Lectures
 
-The .html versions of the lecture slides allow you to view animations and interactive features, provided that you have an internet connection. The .pdf slides don't require an internet connection, but they cannot display the animations or interactive features.
+The HTML versions of the lecture slides allow you to view animations and interactive features, provided that you have an internet connection. The PDF slides don't require an internet connection, but they cannot display the animations or interactive features.
 
 1. **What is Econometrics?** <br> [.html](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.html) | [.pdf](https://raw.githack.com/kyleraze/EC320_Econometrics/master/Lectures/01-Introduction/01-Introduction.pdf)
 
@@ -73,4 +73,4 @@ For supplemental lecture documents, problem sets, and other materials, please se
 
 ## Resources
 
-I am indebted to [Ed Rubin](http://edrub.in/) ([@edrubin](https://github.com/edrubin)) and [Simeon Minard](https://sites.google.com/view/simeonminard/home) for their generous contribution of course materials. I also source some material from [Nick Huntington-Klein](https://nickchk.com/) ([@NickCH-K](https://github.com/NickCH-K)), who maintains a [trove of resources](https://nickchk.com/causalgraphs.html) for learning causal inference. If you're interested in learning more about econometrics, check out Ed's [introduction to econometrics](https://github.com/edrubin/EC421S19) course (EC 421, the next course in the econometrics sequence after EC 320) or Nick's course on [causality in economics](https://nickchk.com/econ305.html).
+I am indebted to [Ed Rubin](http://edrub.in/) ([@edrubin](https://github.com/edrubin)) and [Simeon Minard](https://sites.google.com/view/simeonminard/home) for their generous contributions of course materials. I also source some material from [Nick Huntington-Klein](https://nickchk.com/) ([@NickCH-K](https://github.com/NickCH-K)), who maintains a [trove of resources](https://nickchk.com/causalgraphs.html) for learning causal inference. If you're interested in learning more about econometrics, check out Ed's [introduction to econometrics](https://github.com/edrubin/EC421S19) course (EC 421, the next course in the econometrics sequence after EC 320) or Nick's course on [causality in economics](https://nickchk.com/econ305.html).
