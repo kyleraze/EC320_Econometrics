@@ -71,6 +71,6 @@ The HTML versions of the lecture slides allow you to view animations and interac
 
 For supplemental lecture documents, problem sets, and other materials, please see Canvas.
 
-## Resources
+## Contributors
 
-I am indebted to [Ed Rubin](http://edrub.in/) ([@edrubin](https://github.com/edrubin)) and [Simeon Minard](https://sites.google.com/view/simeonminard/home) for their generous contributions of course materials. I also source some material from [Nick Huntington-Klein](https://nickchk.com/) ([@NickCH-K](https://github.com/NickCH-K)), who maintains a [trove of resources](https://nickchk.com/causalgraphs.html) for learning causal inference. If you're interested in learning more about econometrics, check out Ed's [introduction to econometrics](https://github.com/edrubin/EC421S19) course (EC 421, the next course in the econometrics sequence after EC 320) or Nick's course on [causality in economics](https://nickchk.com/econ305.html).
+I am indebted to [Ed Rubin](http://edrub.in/) ([@edrubin](https://github.com/edrubin)) for his generous contribution of course materials. I also source some material from [Nick Huntington-Klein](https://nickchk.com/) ([@NickCH-K](https://github.com/NickCH-K)), who maintains a [trove of resources](https://nickchk.com/causalgraphs.html) for learning causal inference. 
